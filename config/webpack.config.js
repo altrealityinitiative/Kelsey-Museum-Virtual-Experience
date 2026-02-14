@@ -85,6 +85,7 @@ const config = {
         errors: true,
       },
     },
+    allowedHosts: ['.ngrok-free.dev']
   },
 }
 
