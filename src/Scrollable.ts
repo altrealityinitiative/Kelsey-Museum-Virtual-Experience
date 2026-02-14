@@ -46,7 +46,7 @@ ecs.registerComponent({
       let newTop = Number(containerUi.top) + deltaY * windowHeight;
       newTop = Math.min(newTop, 0);
       if (schema.maxScroll !== 0) {
-        newTop = Math.max(newTop, -schema.maxScroll);
+        newTop = Math.max(newTop, -schema.maxScroll + windowHeight);
       }
 
       ecs.Ui.set(world, component.eid, {
