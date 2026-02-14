@@ -1,0 +1,18 @@
+{
+  "imagePath": "image-targets/Coin_target_target.png",
+  "name": "Coin_target",
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 183,
+    "width": 1144,
+    "height": 1526,
+    "isRotated": false,
+    "originalWidth": 1512,
+    "originalHeight": 1526
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1760812829708,
+  "updated": 1760812829708
+}

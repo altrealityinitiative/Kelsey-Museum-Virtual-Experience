@@ -1,0 +1,18 @@
+{
+  "imagePath": "image-targets/0878_Inscription_target_target.jpeg",
+  "name": "0878_Inscription_target",
+  "type": "PLANAR",
+  "properties": {
+    "top": 120,
+    "left": 0,
+    "width": 1320,
+    "height": 1760,
+    "isRotated": true,
+    "originalWidth": 1320,
+    "originalHeight": 2000
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1762625611903,
+  "updated": 1762625724215
+}

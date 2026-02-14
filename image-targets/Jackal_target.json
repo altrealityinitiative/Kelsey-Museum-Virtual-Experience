@@ -1,0 +1,18 @@
+{
+  "imagePath": "image-targets/Jackal_target_target.png",
+  "name": "Jackal_target",
+  "type": "PLANAR",
+  "properties": {
+    "top": 154,
+    "left": 0,
+    "width": 988,
+    "height": 1317,
+    "isRotated": false,
+    "originalWidth": 988,
+    "originalHeight": 1626
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1760812801163,
+  "updated": 1760812801163
+}
