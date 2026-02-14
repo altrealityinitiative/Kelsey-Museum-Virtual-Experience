@@ -5098,58 +5098,6 @@
         "width": 16
       }
     },
-    "f7dc7496-4007-4a27-8ce7-f4a14cce0dcd": {
-      "components": {
-        "ed3e0061-166c-4b4b-9b69-2cca5719207a": {
-          "id": "ed3e0061-166c-4b4b-9b69-2cca5719207a",
-          "name": "tap-rotate",
-          "parameters": {
-            "camera": {
-              "type": "entity",
-              "id": "f59bcd7b-7820-4572-9521-53f5d52fcccc"
-            },
-            "objectEid": {
-              "type": "entity",
-              "id": "f7dc7496-4007-4a27-8ce7-f4a14cce0dcd"
-            },
-            "sensitivityX": 2000,
-            "sensitivityY": -3000
-          }
-        }
-      },
-      "geometry": null,
-      "gltfModel": {
-        "animationClip": "",
-        "loop": true,
-        "src": {
-          "type": "asset",
-          "asset": "assets/classic_6-sided_die.glb"
-        }
-      },
-      "id": "f7dc7496-4007-4a27-8ce7-f4a14cce0dcd",
-      "material": null,
-      "name": "die.glb",
-      "order": 4.7358067672213995,
-      "parentId": "0934003f-9710-4655-a0ff-525908e622e7",
-      "position": [
-        0,
-        3.6860232451990096,
-        0
-      ],
-      "rotation": [
-        0.008726535498373935,
-        0,
-        0,
-        0.9999619230641713
-      ],
-      "scale": [
-        75,
-        74.99999999999997,
-        75
-      ],
-      "disabled": true,
-      "hidden": true
-    },
     "f8c6d55b-e115-45cb-98fb-a6ffe2455a73": {
       "components": {},
       "geometry": null,
@@ -5549,7 +5497,7 @@
       "sky": {
         "type": "gradient",
         "colors": [
-          "#faf4d8",
+          "#000000",
           "#faf4d8"
         ]
       }
@@ -5627,6 +5575,5 @@
         ]
       }
     }
-  },
-  "historyVersion": "mlmpyzne"
+  }
 }
