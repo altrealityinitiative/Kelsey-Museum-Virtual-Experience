@@ -355,102 +355,6 @@
       "name": "Image",
       "order": 7.816105230822291
     },
-    "0157b467-8ca7-48e6-873f-adbb4247be10": {
-      "components": {},
-      "geometry": null,
-      "id": "0157b467-8ca7-48e6-873f-adbb4247be10",
-      "material": null,
-      "name": "Text (2)",
-      "order": 2,
-      "parentId": "7d4c6299-076c-43ae-806b-884c95c0870f",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "color": "#ffffff",
-        "fontSize": 16,
-        "height": 14,
-        "text": "Button",
-        "width": 50
-      }
-    },
-    "05d08a3a-180f-458d-8462-60650379ed49": {
-      "components": {
-        "dac58c4c-0de0-4de7-ada8-bbcc4222453e": {
-          "id": "dac58c4c-0de0-4de7-ada8-bbcc4222453e",
-          "name": "toggle-menu",
-          "parameters": {
-            "frame": {
-              "type": "entity",
-              "id": "c68d986c-e44a-48a5-8e8c-0069adcf6e44"
-            },
-            "menu": {
-              "type": "entity",
-              "id": "c68d986c-e44a-48a5-8e8c-0069adcf6e44"
-            }
-          }
-        }
-      },
-      "geometry": null,
-      "id": "05d08a3a-180f-458d-8462-60650379ed49",
-      "material": null,
-      "name": "MenuButton",
-      "order": 1.67352691796369,
-      "parentId": "c2e46824-5e37-4d4f-a29a-6076b407280c",
-      "position": [
-        -5.1419598618257325,
-        -4.511699915473589,
-        1.0246305423067779
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "alignItems": "flex-start",
-        "background": "#ad50ff",
-        "backgroundOpacity": 1,
-        "backgroundSize": "contain",
-        "borderRadius": 18,
-        "bottom": 10,
-        "flexDirection": "column-reverse",
-        "flexWrap": "nowrap",
-        "gap": "6",
-        "height": 36,
-        "justifyContent": "flex-end",
-        "left": 10,
-        "padding": "10",
-        "paddingBottom": "",
-        "paddingLeft": "",
-        "paddingRight": "",
-        "paddingTop": "",
-        "position": "absolute",
-        "right": 10,
-        "top": 10,
-        "type": "3d",
-        "width": 36
-      }
-    },
     "06b9df1e-793e-4242-b245-f50b0c5c5daf": {
       "components": {},
       "geometry": null,
@@ -481,38 +385,6 @@
         "height": 14,
         "text": "Front\n",
         "width": 50
-      }
-    },
-    "07be7650-89b4-498d-a229-3de16c542451": {
-      "components": {},
-      "geometry": null,
-      "id": "07be7650-89b4-498d-a229-3de16c542451",
-      "material": null,
-      "name": "Text",
-      "order": 1.378959505395729,
-      "parentId": "0d5e4f74-f8ec-46a8-bf70-e56f0937c776",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "color": "#ffffff",
-        "fontSize": 16,
-        "height": "90%",
-        "text": "Menu\n",
-        "width": "90%"
       }
     },
     "08aabc60-403e-4db6-b0b1-81ef110c9727": {
@@ -571,45 +443,6 @@
         1
       ]
     },
-    "09978742-1677-4901-a78e-ae77b5a4dc64": {
-      "components": {
-        "4e5b90dc-4234-402b-9b84-01f288bf8d64": {
-          "id": "4e5b90dc-4234-402b-9b84-01f288bf8d64",
-          "name": "tap-3D-scene-change",
-          "parameters": {
-            "targetScene": "Exhibit-Augustus"
-          }
-        }
-      },
-      "gltfModel": {
-        "animationClip": "",
-        "loop": true,
-        "src": {
-          "type": "asset",
-          "asset": "assets/Augustus_Head.glb"
-        }
-      },
-      "id": "09978742-1677-4901-a78e-ae77b5a4dc64",
-      "name": "Augustus_Head.glb",
-      "order": 5.203494837446132,
-      "parentId": "f8c6d55b-e115-45cb-98fb-a6ffe2455a73",
-      "position": [
-        0,
-        -0.07142857142857145,
-        0.42857142857142855
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        2,
-        2,
-        2
-      ]
-    },
     "0a169dc7-136b-41d5-b302-3d262553c7d8": {
       "components": {},
       "geometry": null,
@@ -641,47 +474,6 @@
         "text": "Front\n",
         "width": 50
       }
-    },
-    "0afa9db2-918a-4803-981b-127f375d2e76": {
-      "components": {
-        "e6877db4-2799-4ade-989c-ff0d1b2598d5": {
-          "id": "e6877db4-2799-4ade-989c-ff0d1b2598d5",
-          "name": "tap-3D-scene-change",
-          "parameters": {
-            "targetScene": "Exhibit-Inscription"
-          }
-        }
-      },
-      "geometry": null,
-      "gltfModel": {
-        "animationClip": "",
-        "loop": true,
-        "src": {
-          "type": "asset",
-          "asset": "assets/Inscription.glb"
-        }
-      },
-      "id": "0afa9db2-918a-4803-981b-127f375d2e76",
-      "material": null,
-      "name": "Inscription.glb",
-      "order": 9.486889008684418,
-      "parentId": "87ca4524-65ae-46e5-bc79-9130c88dfccb",
-      "position": [
-        0,
-        -0.0625,
-        0.25
-      ],
-      "rotation": [
-        0,
-        0.008726535498373936,
-        0,
-        0.9999619230641713
-      ],
-      "scale": [
-        2.5,
-        2.5,
-        2.5
-      ]
     },
     "0c38d047-7ec2-4d06-8f65-e84a794e702c": {
       "components": {
@@ -721,52 +513,6 @@
         2,
         2
       ]
-    },
-    "0d5e4f74-f8ec-46a8-bf70-e56f0937c776": {
-      "components": {
-        "d75f6996-e76e-45e8-9985-4ddf1c850783": {
-          "id": "d75f6996-e76e-45e8-9985-4ddf1c850783",
-          "name": "tap-UI-scene-change",
-          "parameters": {
-            "targetScene": "Menu"
-          }
-        }
-      },
-      "geometry": null,
-      "id": "0d5e4f74-f8ec-46a8-bf70-e56f0937c776",
-      "material": null,
-      "name": "Button",
-      "order": 11.23653947578783,
-      "parentId": "dade04e1-ba63-41cb-8062-582acc8262f0",
-      "position": [
-        24.181134387435275,
-        2.674482378754182,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "alignItems": "flex-end",
-        "background": "#ad50ff",
-        "backgroundOpacity": 1,
-        "borderRadius": 18,
-        "flexDirection": "row",
-        "gap": "6",
-        "height": "40%",
-        "justifyContent": "center",
-        "padding": "10",
-        "type": "overlay",
-        "width": "40%"
-      }
     },
     "0e63aba5-4448-45fd-bf5d-7a174d9e88ae": {
       "components": {
@@ -935,38 +681,6 @@
         "width": 50
       }
     },
-    "14072d36-6d87-4db3-a5c9-dd7233cbf34e": {
-      "components": {},
-      "geometry": null,
-      "id": "14072d36-6d87-4db3-a5c9-dd7233cbf34e",
-      "material": null,
-      "name": "Text",
-      "order": 1.4293417535457134,
-      "parentId": "dad6d5e1-4345-4eb8-a76e-bdfc765f9ecf",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "color": "#ffffff",
-        "fontSize": 16,
-        "height": 14,
-        "text": "Button",
-        "width": 50
-      }
-    },
     "180ed655-0130-4bae-9100-f29862925151": {
       "camera": {
         "type": "perspective",
@@ -1039,34 +753,6 @@
         "verticalTextAlign": "start",
         "width": "100%"
       }
-    },
-    "19f21fa9-a52a-482c-be8a-28d207e41049": {
-      "components": {},
-      "geometry": null,
-      "id": "19f21fa9-a52a-482c-be8a-28d207e41049",
-      "light": {
-        "type": "ambient"
-      },
-      "material": null,
-      "name": "Ambient Light",
-      "order": 1.3693970837878502,
-      "parentId": "fc8c4187-4ce5-42ae-aa6e-688ec6f66e1d",
-      "position": [
-        12.442772910072664,
-        1.6732270414834391,
-        5.828653099801106
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ]
     },
     "1cc07264-c66b-4cb5-b779-a8ab6debcb61": {
       "components": {
@@ -1228,7 +914,7 @@
       "order": 1.3693970837878502,
       "parentId": "20220416-071d-4dcf-b78f-26f25d2e77ba",
       "position": [
-        12.442772910072664,
+        14.880677201600166,
         1.6732270414834391,
         5.828653099801106
       ],
@@ -1320,7 +1006,7 @@
       "order": 8.622418327685462,
       "parentId": "20220416-071d-4dcf-b78f-26f25d2e77ba",
       "position": [
-        -30,
+        -25.532562522892462,
         3,
         0
       ],
@@ -1334,34 +1020,6 @@
         6,
         6,
         6
-      ]
-    },
-    "328fc08b-6fc9-4be2-8f73-686bc70a1b05": {
-      "components": {},
-      "geometry": null,
-      "id": "328fc08b-6fc9-4be2-8f73-686bc70a1b05",
-      "imageTarget": {
-        "name": "Coin_target"
-      },
-      "material": null,
-      "name": "Philip Image Target",
-      "order": 6.29627886384535,
-      "parentId": "fc8c4187-4ce5-42ae-aa6e-688ec6f66e1d",
-      "position": [
-        10,
-        4,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        8,
-        8,
-        8
       ]
     },
     "38417e98-05f6-4971-8b6a-c866e1431a98": {
@@ -1707,43 +1365,14 @@
       ],
       "ui": {
         "alignItems": "center",
-        "background": "#242c55",
-        "backgroundOpacity": 0.5,
+        "background": "#faf4d8",
+        "backgroundOpacity": 0.4,
         "flexDirection": "column-reverse",
         "height": "100%",
         "justifyContent": "flex-end",
         "type": "overlay",
         "width": "100%"
       }
-    },
-    "4b4b6cf3-4c8b-4f7a-b80c-94e3270200c3": {
-      "components": {},
-      "geometry": null,
-      "id": "4b4b6cf3-4c8b-4f7a-b80c-94e3270200c3",
-      "light": {
-        "intensity": 1,
-        "type": "directional"
-      },
-      "material": null,
-      "name": "Directional Light",
-      "order": 0.6007701192889999,
-      "parentId": "fc8c4187-4ce5-42ae-aa6e-688ec6f66e1d",
-      "position": [
-        -2.581316252566566,
-        0.9841097857903494,
-        5.924009291569237
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ]
     },
     "4dd2eb65-108e-4bf6-b9da-2d8b2992bb8f": {
       "components": {
@@ -1967,47 +1596,6 @@
         1,
         1,
         1
-      ]
-    },
-    "58950253-7d28-4fff-b890-74f54be4a46b": {
-      "components": {
-        "db82252f-367b-4795-87a9-606324844c57": {
-          "id": "db82252f-367b-4795-87a9-606324844c57",
-          "name": "tap-3D-scene-change",
-          "parameters": {
-            "targetScene": "Exhibit-Philip"
-          }
-        }
-      },
-      "geometry": null,
-      "gltfModel": {
-        "animationClip": "",
-        "loop": true,
-        "src": {
-          "type": "asset",
-          "asset": "assets/Philip_Coin.glb"
-        }
-      },
-      "id": "58950253-7d28-4fff-b890-74f54be4a46b",
-      "material": null,
-      "name": "Philip_Coin.glb",
-      "order": 8.118133461232466,
-      "parentId": "328fc08b-6fc9-4be2-8f73-686bc70a1b05",
-      "position": [
-        0,
-        -0.125,
-        0.25
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        37.5,
-        37.5,
-        37.5
       ]
     },
     "59e38afd-312b-440f-96fa-6d12632a2832": {
@@ -2521,41 +2109,6 @@
         "width": "45%"
       }
     },
-    "6f614221-efea-4176-b437-a1d7610697ce": {
-      "camera": {
-        "farClip": 2000,
-        "type": "perspective",
-        "xr": {
-          "xrCameraType": "3dOnly",
-          "phone": "3D",
-          "desktop": "3D",
-          "headset": "disabled"
-        }
-      },
-      "components": {},
-      "geometry": null,
-      "id": "6f614221-efea-4176-b437-a1d7610697ce",
-      "material": null,
-      "name": "Camera",
-      "order": -1.5151480941046733,
-      "parentId": "fc8c4187-4ce5-42ae-aa6e-688ec6f66e1d",
-      "position": [
-        28.367922343390333,
-        8.412817518338242,
-        13.874010921726754
-      ],
-      "rotation": [
-        0,
-        0.999963560578404,
-        0,
-        0.008536832864746297
-      ],
-      "scale": [
-        0.9999999999999989,
-        1,
-        0.9999999999999989
-      ]
-    },
     "707586fa-53a7-41dc-8e58-8ab0d648cae6": {
       "components": {},
       "geometry": null,
@@ -2600,7 +2153,7 @@
       "order": 5.260680849830642,
       "parentId": "20220416-071d-4dcf-b78f-26f25d2e77ba",
       "position": [
-        -20,
+        -16.645135166914045,
         3.4,
         0
       ],
@@ -2628,7 +2181,7 @@
       "order": 8.140391968112109,
       "parentId": "20220416-071d-4dcf-b78f-26f25d2e77ba",
       "position": [
-        0,
+        2.437904291527502,
         4,
         0
       ],
@@ -2642,39 +2195,6 @@
         8,
         8,
         8
-      ]
-    },
-    "7693a7c9-4839-4978-8796-6f78b72be3b6": {
-      "components": {},
-      "geometry": null,
-      "gltfModel": {
-        "animationClip": "",
-        "loop": true,
-        "src": {
-          "type": "asset",
-          "asset": "assets/0869_inscription_low.glb"
-        }
-      },
-      "id": "7693a7c9-4839-4978-8796-6f78b72be3b6",
-      "material": null,
-      "name": "0869_inscription_low.glb",
-      "order": 15.271118464303783,
-      "parentId": "ff46e3d3-36f8-493d-8547-9b559de02237",
-      "position": [
-        0.0010448370163116394,
-        -0.0012315056347264042,
-        0.27127284162047066
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        3.333333333333333,
-        3.333333333333333,
-        3.333333333333333
       ]
     },
     "787ce709-618d-4014-a8b5-78e6b45340e7": {
@@ -2819,81 +2339,6 @@
         "width": 100
       }
     },
-    "7d4c6299-076c-43ae-806b-884c95c0870f": {
-      "components": {},
-      "geometry": null,
-      "id": "7d4c6299-076c-43ae-806b-884c95c0870f",
-      "material": null,
-      "name": "Button (2)",
-      "order": 16.18985981784102,
-      "parentId": "c68d986c-e44a-48a5-8e8c-0069adcf6e44",
-      "position": [
-        -69.15525137679737,
-        -13.868288383621614,
-        -4.041549229550441
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "alignItems": "center",
-        "background": "#ad50ff",
-        "backgroundOpacity": 1,
-        "borderRadius": 18,
-        "bottom": "",
-        "flexDirection": "row",
-        "gap": "6",
-        "height": 36,
-        "justifyContent": "center",
-        "left": 10,
-        "padding": "10",
-        "position": "absolute",
-        "right": "",
-        "top": 193,
-        "type": "3d",
-        "width": 100
-      }
-    },
-    "81a9602e-9405-479a-a4a9-42e555dd6bff": {
-      "components": {},
-      "geometry": null,
-      "id": "81a9602e-9405-479a-a4a9-42e555dd6bff",
-      "material": null,
-      "name": "Text (1)",
-      "order": 1,
-      "parentId": "8da5e8a8-03f6-4014-a72f-daf509716d67",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "color": "#ffffff",
-        "fontSize": 16,
-        "height": "90%",
-        "text": "Temporary",
-        "width": "90%"
-      }
-    },
     "837f0cee-8c71-42a4-8979-4b70f32725ea": {
       "components": {},
       "geometry": null,
@@ -3016,34 +2461,6 @@
         1,
         1,
         1
-      ]
-    },
-    "87ca4524-65ae-46e5-bc79-9130c88dfccb": {
-      "components": {},
-      "geometry": null,
-      "id": "87ca4524-65ae-46e5-bc79-9130c88dfccb",
-      "imageTarget": {
-        "name": "Inscription_target"
-      },
-      "material": null,
-      "name": "Inscription Image Target",
-      "order": 8.140391968112109,
-      "parentId": "fc8c4187-4ce5-42ae-aa6e-688ec6f66e1d",
-      "position": [
-        0,
-        4,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        8,
-        8,
-        8
       ]
     },
     "8803f7b0-5995-4133-b024-fd458d2b6ca6": {
@@ -3205,7 +2622,7 @@
       "order": 2.0589574316025687,
       "parentId": "20220416-071d-4dcf-b78f-26f25d2e77ba",
       "position": [
-        0,
+        2.437904291527502,
         2,
         0
       ],
@@ -3248,52 +2665,6 @@
         1,
         1
       ]
-    },
-    "8da5e8a8-03f6-4014-a72f-daf509716d67": {
-      "components": {
-        "14fb41e7-6ced-40c7-8761-1b1bf9532647": {
-          "id": "14fb41e7-6ced-40c7-8761-1b1bf9532647",
-          "name": "tap-UI-scene-change",
-          "parameters": {
-            "targetScene": "Dice-rotate-buttons"
-          }
-        }
-      },
-      "geometry": null,
-      "id": "8da5e8a8-03f6-4014-a72f-daf509716d67",
-      "material": null,
-      "name": "Button (1)",
-      "order": 8.48116526605327,
-      "parentId": "dade04e1-ba63-41cb-8062-582acc8262f0",
-      "position": [
-        24.181134387435275,
-        2.674482378754182,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "alignItems": "flex-end",
-        "background": "#ad50ff",
-        "backgroundOpacity": 1,
-        "borderRadius": 18,
-        "flexDirection": "row",
-        "gap": "6",
-        "height": "40%",
-        "justifyContent": "center",
-        "padding": "10",
-        "type": "overlay",
-        "width": "40%"
-      }
     },
     "8e30ffdb-5735-45f3-b777-106d0e168d77": {
       "camera": {
@@ -3496,8 +2867,8 @@
       ],
       "ui": {
         "alignItems": "center",
-        "background": "#8e74ff",
-        "backgroundOpacity": 0.3,
+        "background": "#faf4d8",
+        "backgroundOpacity": 0.4,
         "borderRadius": 30,
         "flexDirection": "row",
         "height": "50%",
@@ -3565,81 +2936,6 @@
         1,
         1
       ]
-    },
-    "9bfc9385-dd6a-4a29-8189-8de6b922a82d": {
-      "components": {
-        "58832dd7-be26-4a06-a79f-5826b0229b23": {
-          "id": "58832dd7-be26-4a06-a79f-5826b0229b23",
-          "name": "tap-3D-scene-change",
-          "parameters": {
-            "targetScene": "Exhibit-Jackal"
-          }
-        }
-      },
-      "geometry": null,
-      "gltfModel": {
-        "animationClip": "",
-        "loop": true,
-        "src": {
-          "type": "asset",
-          "asset": "assets/Jackal.glb"
-        }
-      },
-      "id": "9bfc9385-dd6a-4a29-8189-8de6b922a82d",
-      "material": null,
-      "name": "Jackal.glb",
-      "order": 9.96930497382134,
-      "parentId": "ad6910fc-586b-4912-abd4-7db7083fe412",
-      "position": [
-        0,
-        -0.028571428571428525,
-        0.2857142857142857
-      ],
-      "rotation": [
-        0,
-        1,
-        0,
-        -6.123233995736766e-17
-      ],
-      "scale": [
-        14.285714285714285,
-        14.285714285714285,
-        14.285714285714285
-      ]
-    },
-    "a50fd778-169c-454b-9c06-e5f5bdc07581": {
-      "components": {},
-      "geometry": null,
-      "id": "a50fd778-169c-454b-9c06-e5f5bdc07581",
-      "material": null,
-      "name": "Icon",
-      "order": 0.18802925927884334,
-      "parentId": "dad6d5e1-4345-4eb8-a76e-bdfc765f9ecf",
-      "position": [
-        -0.323,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "backgroundOpacity": 1,
-        "height": 16,
-        "image": {
-          "type": "url",
-          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
-        },
-        "width": 16
-      }
     },
     "a51c595c-4b85-4f30-b547-4df63de1323a": {
       "components": {
@@ -3793,34 +3089,6 @@
         "type": "3d",
         "width": "100%"
       }
-    },
-    "ad6910fc-586b-4912-abd4-7db7083fe412": {
-      "components": {},
-      "geometry": null,
-      "id": "ad6910fc-586b-4912-abd4-7db7083fe412",
-      "imageTarget": {
-        "name": "Jackal_target"
-      },
-      "material": null,
-      "name": "Jackal Image Target",
-      "order": 5.260680849830642,
-      "parentId": "fc8c4187-4ce5-42ae-aa6e-688ec6f66e1d",
-      "position": [
-        -20,
-        3.4,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        7,
-        7,
-        7
-      ]
     },
     "af83bb92-86dc-43a9-8fdc-e17e801738d2": {
       "components": {},
@@ -4113,48 +3381,6 @@
         "width": 100
       }
     },
-    "c2e46824-5e37-4d4f-a29a-6076b407280c": {
-      "components": {},
-      "geometry": null,
-      "id": "c2e46824-5e37-4d4f-a29a-6076b407280c",
-      "material": null,
-      "name": "UI",
-      "order": 2.837567769534907,
-      "parentId": "fc8c4187-4ce5-42ae-aa6e-688ec6f66e1d",
-      "persistent": true,
-      "position": [
-        34.577837239184184,
-        6.9343021427712905,
-        2.020658144485895
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "alignItems": "center",
-        "background": "#ffffff",
-        "backgroundOpacity": 0,
-        "bottom": 0,
-        "flexDirection": "column",
-        "height": "100%",
-        "ignoreRaycast": true,
-        "justifyContent": "flex-end",
-        "left": 0,
-        "position": "absolute",
-        "right": 0,
-        "top": 0,
-        "type": "overlay",
-        "width": "100%"
-      }
-    },
     "c33b18e6-4434-4a4f-ad1a-ec15966532e0": {
       "components": {},
       "geometry": null,
@@ -4230,31 +3456,6 @@
         10,
         5,
         5
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ]
-    },
-    "c68d986c-e44a-48a5-8e8c-0069adcf6e44": {
-      "components": {},
-      "geometry": null,
-      "id": "c68d986c-e44a-48a5-8e8c-0069adcf6e44",
-      "material": null,
-      "name": "Menu",
-      "order": -0.5898906396772212,
-      "parentId": "c2e46824-5e37-4d4f-a29a-6076b407280c",
-      "position": [
-        0,
-        0,
-        0
       ],
       "rotation": [
         0,
@@ -4401,7 +3602,7 @@
       "order": 3.3569686811953616,
       "parentId": "20220416-071d-4dcf-b78f-26f25d2e77ba",
       "position": [
-        -10,
+        -7.562095708472498,
         3.5,
         0
       ],
@@ -4447,41 +3648,6 @@
         "height": 100,
         "type": "3d",
         "width": 100
-      }
-    },
-    "cd3ac673-e0d0-4897-9ce7-b69cde1746cd": {
-      "components": {},
-      "geometry": null,
-      "id": "cd3ac673-e0d0-4897-9ce7-b69cde1746cd",
-      "material": null,
-      "name": "Icon",
-      "order": 0.26467040890643334,
-      "parentId": "05d08a3a-180f-458d-8462-60650379ed49",
-      "position": [
-        -0.323,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "backgroundOpacity": 1,
-        "backgroundSize": "contain",
-        "height": 16,
-        "image": {
-          "type": "asset",
-          "asset": "assets/menu.png"
-        },
-        "width": 16
       }
     },
     "ce865b9f-53de-4c98-99ea-106772b9da67": {
@@ -4693,87 +3859,6 @@
         "height": "90%",
         "text": "Temporary",
         "width": "90%"
-      }
-    },
-    "dad6d5e1-4345-4eb8-a76e-bdfc765f9ecf": {
-      "components": {},
-      "geometry": null,
-      "id": "dad6d5e1-4345-4eb8-a76e-bdfc765f9ecf",
-      "material": null,
-      "name": "Button",
-      "order": 14.731509416716873,
-      "parentId": "c68d986c-e44a-48a5-8e8c-0069adcf6e44",
-      "position": [
-        -34.577414137613175,
-        -6.933986240850325,
-        -2.0208910850645454
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "alignItems": "center",
-        "background": "#ad50ff",
-        "backgroundOpacity": 1,
-        "borderRadius": 18,
-        "bottom": "",
-        "flexDirection": "row",
-        "gap": "6",
-        "height": 36,
-        "justifyContent": "center",
-        "left": 10,
-        "padding": "10",
-        "position": "absolute",
-        "right": "",
-        "top": 120,
-        "type": "3d",
-        "width": 100
-      }
-    },
-    "dade04e1-ba63-41cb-8062-582acc8262f0": {
-      "components": {},
-      "geometry": null,
-      "id": "dade04e1-ba63-41cb-8062-582acc8262f0",
-      "material": null,
-      "name": "NavBar",
-      "order": 3.0994760801207675,
-      "parentId": "c2e46824-5e37-4d4f-a29a-6076b407280c",
-      "position": [
-        -23.653756673667697,
-        -7.171796839613538,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "alignItems": "center",
-        "background": "#413f72",
-        "backgroundOpacity": 0.9,
-        "borderRadius": 20,
-        "flexDirection": "row",
-        "height": 100,
-        "justifyContent": "center",
-        "paddingBottom": "",
-        "paddingTop": "",
-        "type": "3d",
-        "width": "100%"
       }
     },
     "daf1312f-ff01-4bdb-8113-635a212d9713": {
@@ -5191,7 +4276,7 @@
       "order": 0.6007701192889999,
       "parentId": "20220416-071d-4dcf-b78f-26f25d2e77ba",
       "position": [
-        -2.581316252566566,
+        -0.14341196103906384,
         0.9841097857903494,
         5.924009291569237
       ],
@@ -5367,7 +4452,7 @@
       "order": 6.29627886384535,
       "parentId": "20220416-071d-4dcf-b78f-26f25d2e77ba",
       "position": [
-        10,
+        12.437904291527502,
         4,
         0
       ],
@@ -5402,7 +4487,7 @@
       "order": 2.54970019053422,
       "parentId": "0934003f-9710-4655-a0ff-525908e622e7",
       "position": [
-        10.66992282185873,
+        4.419416119266363,
         5.721636044875579,
         5.522641158517497
       ],
@@ -5416,68 +4501,6 @@
         1,
         1,
         1
-      ]
-    },
-    "f5c09767-c3e8-4540-b3b6-1dfb999f5f85": {
-      "components": {},
-      "geometry": null,
-      "id": "f5c09767-c3e8-4540-b3b6-1dfb999f5f85",
-      "material": null,
-      "name": "Icon (1)",
-      "order": 1,
-      "parentId": "7d4c6299-076c-43ae-806b-884c95c0870f",
-      "position": [
-        -0.323,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "backgroundOpacity": 1,
-        "height": 16,
-        "image": {
-          "type": "url",
-          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
-        },
-        "width": 16
-      }
-    },
-    "f8c6d55b-e115-45cb-98fb-a6ffe2455a73": {
-      "components": {},
-      "geometry": null,
-      "id": "f8c6d55b-e115-45cb-98fb-a6ffe2455a73",
-      "imageTarget": {
-        "name": "Augustus_target"
-      },
-      "material": null,
-      "name": "Augustus Image Target",
-      "order": 3.3569686811953616,
-      "parentId": "fc8c4187-4ce5-42ae-aa6e-688ec6f66e1d",
-      "position": [
-        -10,
-        3.5,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        7,
-        7,
-        7
       ]
     },
     "f9407512-cf31-47b5-9ce0-a46f9ce4cdc2": {
@@ -5553,7 +4576,7 @@
       "order": 12.610225268626465,
       "parentId": "11db7428-caa9-48b0-99bf-2f3d85b3f98f",
       "position": [
-        5.451908574900596,
+        7.889812866428098,
         -14.184169087769739,
         -0.1903594220072664
       ],
@@ -5683,51 +4706,23 @@
         "width": "40%"
       }
     },
-    "ff46e3d3-36f8-493d-8547-9b559de02237": {
-      "components": {},
-      "geometry": null,
-      "id": "ff46e3d3-36f8-493d-8547-9b559de02237",
-      "imageTarget": {
-        "name": "0869_Inscription_target"
-      },
-      "material": null,
-      "name": "0869_Inscription_target",
-      "order": 11.726101008947275,
-      "parentId": "fc8c4187-4ce5-42ae-aa6e-688ec6f66e1d",
-      "position": [
-        -30,
-        3,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        6,
-        6,
-        6
-      ]
-    },
     "a2909382-ea56-4411-9925-f24244bb9976": {
       "id": "a2909382-ea56-4411-9925-f24244bb9976",
       "position": [
-        10.66992282185873,
+        4.419416119266363,
         2.860469022075586,
         0.13301125622883245
       ],
       "rotation": [
-        -0.21407577017989332,
+        -0.2140757701798933,
         0,
         0,
         0.9768170579089442
       ],
       "scale": [
         7,
-        7,
-        7
+        7.000000000000001,
+        7.000000000000001
       ],
       "geometry": null,
       "material": null,
@@ -5866,14 +4861,14 @@
         }
       },
       "ui": {
-        "flexDirection": "column",
+        "flexDirection": "row",
         "width": "100%",
         "height": 1250,
         "type": "overlay",
         "background": "#faf4d8",
         "backgroundOpacity": 1,
         "alignItems": "center",
-        "justifyContent": "center",
+        "justifyContent": "flex-start",
         "paddingBottom": 50,
         "paddingTop": 50,
         "gap": 8,
@@ -5906,7 +4901,7 @@
       "components": {},
       "ui": {
         "width": "90%",
-        "height": 35,
+        "height": "70%",
         "text": "Choose Your Character",
         "color": "#7c2f09",
         "fontSize": 36,
@@ -5943,7 +4938,7 @@
       "components": {},
       "ui": {
         "width": "90%",
-        "height": 25,
+        "height": "40%",
         "text": "Select a character to begin your journey through Ancient Rome",
         "color": "#7c2f09",
         "fontSize": 18,
@@ -6039,7 +5034,7 @@
         "alignItems": "center",
         "justifyContent": "center",
         "position": "absolute",
-        "top": 522,
+        "top": 550,
         "left": "",
         "bottom": "",
         "right": "",
@@ -6047,6 +5042,834 @@
       },
       "name": "Frame (1)",
       "order": 1.643745816642633
+    },
+    "d382ed0a-949b-4186-821d-0a7f7129bf35": {
+      "id": "d382ed0a-949b-4186-821d-0a7f7129bf35",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "9dbcc629-4d9e-4eba-83a4-9b303dd09f8c",
+      "components": {},
+      "ui": {
+        "flexDirection": "column",
+        "width": "100%",
+        "height": "100%",
+        "type": "3d",
+        "background": "#000000",
+        "backgroundOpacity": 0,
+        "alignItems": "flex-start",
+        "justifyContent": "flex-start",
+        "margin": "",
+        "marginTop": "1%",
+        "marginBottom": "1%",
+        "marginLeft": "1%",
+        "marginRight": "1%",
+        "flexWrap": "nowrap",
+        "paddingTop": "",
+        "paddingBottom": "",
+        "paddingLeft": "",
+        "paddingRight": "",
+        "backgroundSize": "contain",
+        "gap": "1%",
+        "ignoreRaycast": true,
+        "position": "absolute",
+        "top": 0,
+        "left": "",
+        "bottom": "",
+        "right": ""
+      },
+      "name": "Frame (2)",
+      "order": 2.829373752655118
+    },
+    "4238d538-b3d4-4c67-a25f-2e64a0418d87": {
+      "id": "4238d538-b3d4-4c67-a25f-2e64a0418d87",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "d382ed0a-949b-4186-821d-0a7f7129bf35",
+      "components": {
+        "20aa10d9-3d52-4d80-ba7a-b15e9f646773": {
+          "id": "20aa10d9-3d52-4d80-ba7a-b15e9f646773",
+          "name": "toggle-menu",
+          "parameters": {
+            "menu": {
+              "type": "entity",
+              "id": "6ce8d2cb-b1a2-49f4-9382-b131267be2f3"
+            },
+            "isVisible": false
+          }
+        }
+      },
+      "ui": {
+        "width": "15%",
+        "height": "3.5%",
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0
+      },
+      "name": "MenuBtn",
+      "order": 10.639269988772625
+    },
+    "c1f209b7-cb78-4f7b-a1ec-bfa61c010e46": {
+      "id": "c1f209b7-cb78-4f7b-a1ec-bfa61c010e46",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "6ce8d2cb-b1a2-49f4-9382-b131267be2f3",
+      "components": {},
+      "ui": {
+        "flexDirection": "column",
+        "width": "55%",
+        "height": "75%",
+        "type": "3d",
+        "background": "#b69754",
+        "backgroundOpacity": 1,
+        "borderRadius": 25,
+        "paddingTop": "2%",
+        "paddingBottom": "2%",
+        "paddingLeft": "2%",
+        "paddingRight": "2%",
+        "alignItems": "center",
+        "justifyContent": "flex-start",
+        "gap": "2%",
+        "position": "absolute",
+        "top": 50,
+        "left": "",
+        "bottom": "",
+        "right": ""
+      },
+      "name": "Menu",
+      "order": 11.990559374833735
+    },
+    "59a9c371-e9f8-4542-bcc6-e26accb00e11": {
+      "id": "59a9c371-e9f8-4542-bcc6-e26accb00e11",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "4238d538-b3d4-4c67-a25f-2e64a0418d87",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": "100%",
+        "height": "100%",
+        "background": "#ffffff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 0,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "paddingTop": "",
+        "paddingBottom": "",
+        "paddingLeft": "",
+        "paddingRight": "",
+        "margin": "",
+        "marginTop": "1%",
+        "marginBottom": "1%",
+        "marginLeft": "1%",
+        "marginRight": "1%"
+      },
+      "name": "Button",
+      "order": 5.489001497411192
+    },
+    "decde9ce-05dd-4c2c-876d-8bba42b03f7a": {
+      "id": "decde9ce-05dd-4c2c-876d-8bba42b03f7a",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "59a9c371-e9f8-4542-bcc6-e26accb00e11",
+      "components": {},
+      "name": "Icon",
+      "ui": {
+        "width": "100%",
+        "height": "100%",
+        "image": {
+          "type": "asset",
+          "asset": "assets/menu.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 0.19751111662521453
+    },
+    "4855e64b-6e6e-40b7-839e-5f9dc03ee3d4": {
+      "id": "4855e64b-6e6e-40b7-839e-5f9dc03ee3d4",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c1f209b7-cb78-4f7b-a1ec-bfa61c010e46",
+      "components": {
+        "a6f4403a-5b8e-415d-9065-d12a8a712062": {
+          "id": "a6f4403a-5b8e-415d-9065-d12a8a712062",
+          "name": "tap-UI-scene-change",
+          "parameters": {
+            "targetScene": "AR Camera Page"
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": "90%",
+        "height": "5%",
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 0,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "flex-start"
+      },
+      "name": "Button (2)",
+      "order": 2.710952014790137
+    },
+    "88731d20-e794-43c4-b816-3de37c40f101": {
+      "id": "88731d20-e794-43c4-b816-3de37c40f101",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "4855e64b-6e6e-40b7-839e-5f9dc03ee3d4",
+      "components": {},
+      "name": "Icon (2)",
+      "ui": {
+        "width": "10%",
+        "height": "90%",
+        "image": {
+          "type": "url",
+          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
+        },
+        "backgroundOpacity": 1
+      },
+      "order": 0.48073632055108184
+    },
+    "2752e1b2-9789-48d4-a6d5-20fdf33e8bf7": {
+      "id": "2752e1b2-9789-48d4-a6d5-20fdf33e8bf7",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "4855e64b-6e6e-40b7-839e-5f9dc03ee3d4",
+      "components": {},
+      "name": "Text (2)",
+      "ui": {
+        "width": "80%",
+        "height": "100%",
+        "text": "Scan Artifact",
+        "color": "#ffffff",
+        "fontSize": 20,
+        "textAlign": "left",
+        "verticalTextAlign": "center"
+      },
+      "order": 1.2151003353316339
+    },
+    "1f43c94a-c3da-4a2d-aa46-68e353c0ed95": {
+      "id": "1f43c94a-c3da-4a2d-aa46-68e353c0ed95",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c1f209b7-cb78-4f7b-a1ec-bfa61c010e46",
+      "components": {
+        "a6f4403a-5b8e-415d-9065-d12a8a712062": {
+          "id": "a6f4403a-5b8e-415d-9065-d12a8a712062",
+          "name": "tap-UI-scene-change",
+          "parameters": {
+            "targetScene": "Character-Selection"
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": "90%",
+        "height": "5%",
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 0,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "flex-start"
+      },
+      "name": "Button (1)",
+      "order": 0.304622368846871
+    },
+    "850c0308-0a14-466f-82cf-23b0a8fd54e0": {
+      "id": "850c0308-0a14-466f-82cf-23b0a8fd54e0",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "1f43c94a-c3da-4a2d-aa46-68e353c0ed95",
+      "components": {},
+      "name": "Icon (1)",
+      "ui": {
+        "width": "10%",
+        "height": "90%",
+        "image": {
+          "type": "url",
+          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
+        },
+        "backgroundOpacity": 1,
+        "background": "#ffffff"
+      },
+      "order": 0.48073632055108184
+    },
+    "0819b88f-b8a5-4156-a5e5-b877ac097b5b": {
+      "id": "0819b88f-b8a5-4156-a5e5-b877ac097b5b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "1f43c94a-c3da-4a2d-aa46-68e353c0ed95",
+      "components": {},
+      "name": "Text (1)",
+      "ui": {
+        "width": "80%",
+        "height": "100%",
+        "text": "Characters",
+        "color": "#ffffff",
+        "fontSize": 20,
+        "textAlign": "left",
+        "verticalTextAlign": "center"
+      },
+      "order": 1.2151003353316339
+    },
+    "a40c1d5d-4089-4e4f-b543-86a130de3993": {
+      "id": "a40c1d5d-4089-4e4f-b543-86a130de3993",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c1f209b7-cb78-4f7b-a1ec-bfa61c010e46",
+      "components": {
+        "a6f4403a-5b8e-415d-9065-d12a8a712062": {
+          "id": "a6f4403a-5b8e-415d-9065-d12a8a712062",
+          "name": "tap-UI-scene-change",
+          "parameters": {
+            "targetScene": "AR Camera Page"
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": "90%",
+        "height": "5%",
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 0,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "flex-start"
+      },
+      "name": "Button (3)",
+      "order": 4.448412095194407
+    },
+    "8a9e3bb9-d8e8-4ef6-b1cc-1140a428671f": {
+      "id": "8a9e3bb9-d8e8-4ef6-b1cc-1140a428671f",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a40c1d5d-4089-4e4f-b543-86a130de3993",
+      "components": {},
+      "name": "Icon (3)",
+      "ui": {
+        "width": "10%",
+        "height": "90%",
+        "image": {
+          "type": "url",
+          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
+        },
+        "backgroundOpacity": 1
+      },
+      "order": 0.48073632055108184
+    },
+    "ddb6f431-d117-41d1-a43e-6781b8c175a4": {
+      "id": "ddb6f431-d117-41d1-a43e-6781b8c175a4",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a40c1d5d-4089-4e4f-b543-86a130de3993",
+      "components": {},
+      "name": "Text (3)",
+      "ui": {
+        "width": "80%",
+        "height": "100%",
+        "text": "Kelsey Dex",
+        "color": "#ffffff",
+        "fontSize": 20,
+        "textAlign": "left",
+        "verticalTextAlign": "center"
+      },
+      "order": 1.2151003353316339
+    },
+    "633e13bc-a286-4ccf-8ffa-04f7fa0a5b4e": {
+      "id": "633e13bc-a286-4ccf-8ffa-04f7fa0a5b4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c1f209b7-cb78-4f7b-a1ec-bfa61c010e46",
+      "components": {
+        "a6f4403a-5b8e-415d-9065-d12a8a712062": {
+          "id": "a6f4403a-5b8e-415d-9065-d12a8a712062",
+          "name": "tap-UI-scene-change",
+          "parameters": {
+            "targetScene": "AR Camera Page"
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": "90%",
+        "height": "5%",
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 0,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "flex-start"
+      },
+      "name": "Button (4)",
+      "order": 5.641635678503613
+    },
+    "9953bc54-3777-43d5-bb98-dd3ed70e6c84": {
+      "id": "9953bc54-3777-43d5-bb98-dd3ed70e6c84",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "633e13bc-a286-4ccf-8ffa-04f7fa0a5b4e",
+      "components": {},
+      "name": "Icon (4)",
+      "ui": {
+        "width": "10%",
+        "height": "90%",
+        "image": {
+          "type": "url",
+          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
+        },
+        "backgroundOpacity": 1
+      },
+      "order": 0.48073632055108184
+    },
+    "7bb6826e-a7df-4fda-8fa0-4c867b9b67e4": {
+      "id": "7bb6826e-a7df-4fda-8fa0-4c867b9b67e4",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "633e13bc-a286-4ccf-8ffa-04f7fa0a5b4e",
+      "components": {},
+      "name": "Text (4)",
+      "ui": {
+        "width": "80%",
+        "height": "100%",
+        "text": "About Us",
+        "color": "#ffffff",
+        "fontSize": 20,
+        "textAlign": "left",
+        "verticalTextAlign": "center"
+      },
+      "order": 1.2151003353316339
+    },
+    "91aa8c17-c83c-41fa-9a19-0bf2d5be0378": {
+      "id": "91aa8c17-c83c-41fa-9a19-0bf2d5be0378",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c1f209b7-cb78-4f7b-a1ec-bfa61c010e46",
+      "components": {
+        "a6f4403a-5b8e-415d-9065-d12a8a712062": {
+          "id": "a6f4403a-5b8e-415d-9065-d12a8a712062",
+          "name": "tap-UI-scene-change",
+          "parameters": {
+            "targetScene": "AR Camera Page"
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": "90%",
+        "height": "5%",
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 0,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "flex-start"
+      },
+      "name": "Button (5)",
+      "order": 6.743237771337374
+    },
+    "1edf5d3f-7366-43ad-a547-ba6c7f6373bb": {
+      "id": "1edf5d3f-7366-43ad-a547-ba6c7f6373bb",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "91aa8c17-c83c-41fa-9a19-0bf2d5be0378",
+      "components": {},
+      "name": "Icon (5)",
+      "ui": {
+        "width": "10%",
+        "height": "90%",
+        "image": {
+          "type": "url",
+          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
+        },
+        "backgroundOpacity": 1
+      },
+      "order": 0.48073632055108184
+    },
+    "41fbb097-b0cf-4ad2-8a96-54d19c02fbf4": {
+      "id": "41fbb097-b0cf-4ad2-8a96-54d19c02fbf4",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "91aa8c17-c83c-41fa-9a19-0bf2d5be0378",
+      "components": {},
+      "name": "Text (5)",
+      "ui": {
+        "width": "80%",
+        "height": "100%",
+        "text": "Tutorial",
+        "color": "#ffffff",
+        "fontSize": 20,
+        "textAlign": "left",
+        "verticalTextAlign": "center"
+      },
+      "order": 1.2151003353316339
+    },
+    "6ce8d2cb-b1a2-49f4-9382-b131267be2f3": {
+      "id": "6ce8d2cb-b1a2-49f4-9382-b131267be2f3",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "d382ed0a-949b-4186-821d-0a7f7129bf35",
+      "components": {},
+      "ui": {
+        "width": "100%",
+        "height": "100%",
+        "type": "3d",
+        "background": "#000000",
+        "backgroundOpacity": 0.5
+      },
+      "name": "Shadow",
+      "order": 14.840122312761302
     }
   },
   "runtimeVersion": {
@@ -6127,20 +5950,6 @@
       "activeCamera": "564478f3-d3db-4acd-8f27-afccfc5747eb",
       "id": "fb9c470b-e947-46d5-aa7f-63a1b3496a78",
       "name": "Exhibit-Philip"
-    },
-    "fc8c4187-4ce5-42ae-aa6e-688ec6f66e1d": {
-      "activeCamera": "f26eddee-2bda-4dce-bfb8-38363b7f151c",
-      "id": "fc8c4187-4ce5-42ae-aa6e-688ec6f66e1d",
-      "includedSpaces": [],
-      "name": "Exhibit-Isla-Test",
-      "sky": {
-        "type": "gradient",
-        "style": "linear",
-        "colors": [
-          "#5e5f63",
-          "#0F0E1A"
-        ]
-      }
     },
     "a00a069c-3e3d-41e2-a04e-a959bfb039ac": {
       "id": "a00a069c-3e3d-41e2-a04e-a959bfb039ac",
