@@ -4867,12 +4867,11 @@
         "type": "overlay",
         "background": "#faf4d8",
         "backgroundOpacity": 1,
-        "alignItems": "center",
-        "justifyContent": "flex-start",
-        "paddingBottom": 50,
-        "paddingTop": 50,
-        "gap": 8,
-        "backgroundSize": "contain"
+        "backgroundSize": "contain",
+        "paddingTop": 10,
+        "paddingBottom": 10,
+        "paddingLeft": 10,
+        "paddingRight": 10
       },
       "name": "Frame",
       "order": 4.1068225466604105
@@ -4898,10 +4897,19 @@
       "geometry": null,
       "material": null,
       "parentId": "857cceea-ccf7-4596-a941-361abc4aee7f",
-      "components": {},
+      "components": {
+        "a35e446b-85e2-4113-b3e2-181825094eab": {
+          "id": "a35e446b-85e2-4113-b3e2-181825094eab",
+          "name": "TextWrap",
+          "parameters": {
+            "fontSize": 0,
+            "heightScale": 1
+          }
+        }
+      },
       "ui": {
         "width": "90%",
-        "height": "70%",
+        "height": 50,
         "text": "Choose Your Character",
         "color": "#7c2f09",
         "fontSize": 36,
@@ -4935,10 +4943,18 @@
       "geometry": null,
       "material": null,
       "parentId": "857cceea-ccf7-4596-a941-361abc4aee7f",
-      "components": {},
+      "components": {
+        "2172c4db-2c76-4341-90ae-92d4f52391be": {
+          "id": "2172c4db-2c76-4341-90ae-92d4f52391be",
+          "name": "TextWrap",
+          "parameters": {
+            "heightScale": 0.8
+          }
+        }
+      },
       "ui": {
         "width": "90%",
-        "height": "40%",
+        "height": 30,
         "text": "Select a character to begin your journey through Ancient Rome",
         "color": "#7c2f09",
         "fontSize": 18,
@@ -5027,17 +5043,12 @@
       "ui": {
         "flexDirection": "column",
         "width": "100%",
-        "height": 100,
+        "height": "100%",
         "type": "3d",
         "background": "#ffffff",
         "backgroundOpacity": 0,
         "alignItems": "center",
-        "justifyContent": "center",
-        "position": "absolute",
-        "top": 550,
-        "left": "",
-        "bottom": "",
-        "right": "",
+        "justifyContent": "flex-start",
         "gap": 12
       },
       "name": "Frame (1)",
@@ -5094,7 +5105,8 @@
         "right": ""
       },
       "name": "Frame (2)",
-      "order": 2.829373752655118
+      "order": 2.829373752655118,
+      "disabled": true
     },
     "4238d538-b3d4-4c67-a25f-2e64a0418d87": {
       "id": "4238d538-b3d4-4c67-a25f-2e64a0418d87",
