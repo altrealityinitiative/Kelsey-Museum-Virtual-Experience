@@ -1,5 +1,11 @@
 declare const XR8: any;
 
+declare global {
+  interface Window {
+    XR8: any;
+  }
+}
+
 import imageTarget0869 from "../image-targets/0869_Inscription_target.json";
 import imageTarget0878 from "../image-targets/0878_Inscription_target.json";
 import imageTargetAugustus from "../image-targets/Augustus_target.json";
