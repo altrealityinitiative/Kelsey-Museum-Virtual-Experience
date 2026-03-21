@@ -6562,18 +6562,18 @@
         "type": "overlay",
         "background": "#faf4d8",
         "backgroundOpacity": 1,
-        "alignItems": "flex-start",
-        "justifyContent": "center",
-        "paddingBottom": 50,
-        "paddingTop": 50,
-        "gap": 8,
+        "alignItems": "center",
+        "justifyContent": "flex-start",
+        "paddingBottom": 30,
+        "paddingTop": 30,
+        "gap": 0,
         "backgroundSize": "contain"
       },
       "name": "Frame",
       "order": 4.1068225466604105
     },
-    "17ab0ab4-0904-48c6-b14c-8a64bdb9ae6d": {
-      "id": "17ab0ab4-0904-48c6-b14c-8a64bdb9ae6d",
+    "9f2e4fa2-9665-4ab6-8d21-d39576722367": {
+      "id": "9f2e4fa2-9665-4ab6-8d21-d39576722367",
       "position": [
         0,
         0,
@@ -6597,19 +6597,21 @@
       "ui": {
         "flexDirection": "column",
         "width": "100%",
-        "height": "100%",
+        "height": 100,
         "type": "3d",
-        "background": "#ffffff",
-        "backgroundOpacity": 0,
-        "alignItems": "center",
-        "justifyContent": "flex-start",
-        "gap": 12
+        "background": "#873204",
+        "backgroundOpacity": 1,
+        "position": "absolute",
+        "top": 0,
+        "left": "",
+        "bottom": "",
+        "right": ""
       },
-      "name": "Frame (1)",
-      "order": 1.643745816642633
+      "name": "Top Navigation",
+      "order": 1.2496495066126179
     },
-    "b333ceb8-afcf-4315-ae5b-f74fee30fab4": {
-      "id": "b333ceb8-afcf-4315-ae5b-f74fee30fab4",
+    "e479c191-7540-4f14-a244-ee029bc384ac": {
+      "id": "e479c191-7540-4f14-a244-ee029bc384ac",
       "position": [
         0,
         0,
@@ -6628,18 +6630,643 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "17ab0ab4-0904-48c6-b14c-8a64bdb9ae6d",
+      "parentId": "9f2e4fa2-9665-4ab6-8d21-d39576722367",
       "components": {},
       "ui": {
-        "width": 70,
+        "flexDirection": "row",
+        "width": "100%",
+        "height": "40%",
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0,
+        "paddingLeft": "",
+        "paddingRight": "",
+        "gap": 230
+      },
+      "name": "Hamburger&Back",
+      "order": 1.6334221359157288
+    },
+    "69890a22-5344-4637-ab1a-7ada7f3568d5": {
+      "id": "69890a22-5344-4637-ab1a-7ada7f3568d5",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "e479c191-7540-4f14-a244-ee029bc384ac",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Menu",
+      "order": 1.034058697468676
+    },
+    "12038f3f-25d5-4f6a-9c75-a6d6dc8e0ed8": {
+      "id": "12038f3f-25d5-4f6a-9c75-a6d6dc8e0ed8",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "69890a22-5344-4637-ab1a-7ada7f3568d5",
+      "components": {},
+      "name": "Icon",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "url",
+          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
+        },
+        "backgroundOpacity": 1
+      },
+      "order": 0.04742375246399916
+    },
+    "963d993e-5db3-40b7-afe8-ad0ed4c6c163": {
+      "id": "963d993e-5db3-40b7-afe8-ad0ed4c6c163",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "69890a22-5344-4637-ab1a-7ada7f3568d5",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Hamburger",
+        "color": "#ffffff",
+        "fontSize": 8
+      },
+      "order": 1.0607693147558894
+    },
+    "ac2bbc2d-d6c2-46a3-8df7-0d49243b5bf3": {
+      "id": "ac2bbc2d-d6c2-46a3-8df7-0d49243b5bf3",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "e479c191-7540-4f14-a244-ee029bc384ac",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "flex-start",
+        "justifyContent": "center"
+      },
+      "name": "Back",
+      "order": 2.26531934301247
+    },
+    "7e0e478a-dc54-4400-bb34-08f0c8e274fd": {
+      "id": "7e0e478a-dc54-4400-bb34-08f0c8e274fd",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "ac2bbc2d-d6c2-46a3-8df7-0d49243b5bf3",
+      "components": {},
+      "name": "Icon (1)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "url",
+          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
+        },
+        "backgroundOpacity": 1
+      },
+      "order": 0.0908116030100361
+    },
+    "4cefcf1b-bf47-4810-ae8d-c0dc0663d607": {
+      "id": "4cefcf1b-bf47-4810-ae8d-c0dc0663d607",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "ac2bbc2d-d6c2-46a3-8df7-0d49243b5bf3",
+      "components": {},
+      "name": "Text (1)",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "back\n",
+        "color": "#ffffff",
+        "fontSize": 16
+      },
+      "order": 1.4764891156918085
+    },
+    "c94c3463-c6af-47ba-971c-9b69e0b03ceb": {
+      "id": "c94c3463-c6af-47ba-971c-9b69e0b03ceb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "9f2e4fa2-9665-4ab6-8d21-d39576722367",
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": "100%",
+        "height": "30%",
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0,
+        "alignItems": "center",
+        "justifyContent": "flex-start"
+      },
+      "name": "Name",
+      "order": 5.369538186957767
+    },
+    "e9aa6079-3888-4cc3-9b86-ba827075ac80": {
+      "id": "e9aa6079-3888-4cc3-9b86-ba827075ac80",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "9f2e4fa2-9665-4ab6-8d21-d39576722367",
+      "components": {},
+      "ui": {
+        "width": "100%",
+        "height": "20%",
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0
+      },
+      "name": "Pronouncation",
+      "order": 6.847424150149971
+    },
+    "a6dd3dc8-f673-4f5f-b644-0e579cbd0e08": {
+      "id": "a6dd3dc8-f673-4f5f-b644-0e579cbd0e08",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c94c3463-c6af-47ba-971c-9b69e0b03ceb",
+      "components": {},
+      "ui": {
+        "width": 100,
         "height": 10,
-        "text": "Callityche",
-        "color": "#871c1c",
+        "text": "Callityche\n",
+        "color": "#ffffff",
+        "fontSize": 18,
+        "type": "3d"
+      },
+      "name": "Name",
+      "order": 1.4214946838213338
+    },
+    "b4c54dbe-ef6e-4c3f-b90d-996acee095fe": {
+      "id": "b4c54dbe-ef6e-4c3f-b90d-996acee095fe",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "e9aa6079-3888-4cc3-9b86-ba827075ac80",
+      "components": {},
+      "ui": {
+        "width": 120,
+        "height": 10,
+        "text": "(KA-LIH-TEE-KAY)\n\n",
+        "color": "#ffffff",
         "fontSize": 12,
         "type": "3d"
       },
-      "name": "Text",
-      "order": 1.1079500258446013
+      "name": "Pronouncyation",
+      "order": 1.8751630683006693
+    },
+    "668f3d6f-a185-47a3-b5cc-832546df0af0": {
+      "id": "668f3d6f-a185-47a3-b5cc-832546df0af0",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a65b30b2-f31d-46fc-ac46-d4cc05460a02",
+      "components": {},
+      "ui": {
+        "borderColor": "#ffe875",
+        "borderWidth": 2,
+        "flexDirection": "row",
+        "width": "80%",
+        "height": 500,
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 1,
+        "alignItems": "center",
+        "justifyContent": "center",
+        "paddingTop": "",
+        "paddingBottom": "",
+        "margin": "",
+        "marginTop": 80,
+        "marginBottom": 80,
+        "borderRadius": 15
+      },
+      "name": "Image Frame",
+      "order": 2.6875438172039967
+    },
+    "30603b56-18e5-45b6-a652-cd2b1234f26c": {
+      "id": "30603b56-18e5-45b6-a652-cd2b1234f26c",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "abbfb0db-acd7-4c8d-91a2-5ac9a282e3f4",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": "90%",
+        "height": "80%",
+        "image": {
+          "type": "asset",
+          "asset": "assets/Callityche_Img.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain",
+        "borderRadius": 10
+      },
+      "name": "Callityche Image",
+      "order": 1.4803079533414392
+    },
+    "abbfb0db-acd7-4c8d-91a2-5ac9a282e3f4": {
+      "id": "abbfb0db-acd7-4c8d-91a2-5ac9a282e3f4",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "668f3d6f-a185-47a3-b5cc-832546df0af0",
+      "components": {},
+      "ui": {
+        "flexDirection": "column",
+        "width": "90%",
+        "height": "90%",
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0.5,
+        "alignItems": "center",
+        "justifyContent": "center",
+        "gap": 10
+      },
+      "name": "Image & Text",
+      "order": 3.3821322544599024
+    },
+    "ec07ce8e-3914-492c-ab06-819e34903847": {
+      "id": "ec07ce8e-3914-492c-ab06-819e34903847",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "abbfb0db-acd7-4c8d-91a2-5ac9a282e3f4",
+      "components": {},
+      "ui": {
+        "width": "90%",
+        "height": "20%",
+        "text": "A freed slave who lived in Rome during the 1st century CE. Once enslaved in a wealthy household, Callityche gained her freedom and became a successful textile merchant. She navigated Roman society with grace and intelligence, building a life of independence.",
+        "color": "#873204",
+        "fontSize": 12,
+        "type": "3d"
+      },
+      "name": "Callityche Text",
+      "order": 3.470571929893649
+    },
+    "c6ac7b1c-a013-4ea6-ad2e-9466ea856ec9": {
+      "id": "c6ac7b1c-a013-4ea6-ad2e-9466ea856ec9",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a65b30b2-f31d-46fc-ac46-d4cc05460a02",
+      "components": {},
+      "ui": {
+        "flexDirection": "column",
+        "borderColor": "#ffe875",
+        "borderWidth": 2,
+        "width": "80%",
+        "height": 400,
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 1,
+        "borderRadius": 15
+      },
+      "name": "Collection Frame",
+      "order": 4.181621988565479
+    },
+    "c2e80736-6e19-4a0d-b990-6309c254463e": {
+      "id": "c2e80736-6e19-4a0d-b990-6309c254463e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c6ac7b1c-a013-4ea6-ad2e-9466ea856ec9",
+      "components": {},
+      "ui": {
+        "width": 100,
+        "height": 100,
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0.5
+      },
+      "name": "Top Title",
+      "order": 1.9126336204430263
+    },
+    "62181a0b-26b6-4008-93b0-9e3cc4856a97": {
+      "id": "62181a0b-26b6-4008-93b0-9e3cc4856a97",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c6ac7b1c-a013-4ea6-ad2e-9466ea856ec9",
+      "components": {},
+      "ui": {
+        "width": 100,
+        "height": 100,
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0.5
+      },
+      "name": "Status Bar",
+      "order": 3.8102008525676503
+    },
+    "53958bf4-e0ed-41cf-bce6-a31a86b9813d": {
+      "id": "53958bf4-e0ed-41cf-bce6-a31a86b9813d",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c6ac7b1c-a013-4ea6-ad2e-9466ea856ec9",
+      "components": {},
+      "ui": {
+        "width": 100,
+        "height": 100,
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0.5
+      },
+      "name": "Collections",
+      "order": 4.9133080754387075
     }
   },
   "runtimeVersion": {
