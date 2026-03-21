@@ -10,7 +10,7 @@ const setRotation = (world, modeleid, rotationX, rotationY, rotationZ) => (e) =>
 }
 
 ecs.registerComponent({
-  name: 'button-listen',
+  name: 'SetRotationButton',
   schema: {
     model: ecs.eid,
     rotationX: ecs.ui32,

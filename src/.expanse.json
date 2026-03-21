@@ -22,7 +22,9 @@
       "name": "Menu",
       "instanceData": {
         "instanceOf": "4fd2a11b-f0d5-48c8-a344-60e75154153a",
-        "deletions": {},
+        "deletions": {
+          "disabled": true
+        },
         "children": {}
       },
       "parentId": "d08b9882-d9d6-4514-81de-60f8ac847278",
@@ -93,7 +95,7 @@
       "components": {
         "05e8463d-16d1-41e8-9aee-ba51799fc24c": {
           "id": "05e8463d-16d1-41e8-9aee-ba51799fc24c",
-          "name": "collapse-menu",
+          "name": "SideMenuButton",
           "parameters": {
             "menu": {
               "type": "entity",
@@ -789,7 +791,7 @@
       "components": {
         "a1b95e21-2db0-4bbb-bb53-8b25d829500f": {
           "id": "a1b95e21-2db0-4bbb-bb53-8b25d829500f",
-          "name": "collapse-menu",
+          "name": "SideMenuButton",
           "parameters": {
             "menu": {
               "type": "entity",
@@ -1457,7 +1459,7 @@
       "components": {
         "20d13b8c-85d4-4fe9-9249-eacb05559176": {
           "id": "20d13b8c-85d4-4fe9-9249-eacb05559176",
-          "name": "listen-image-target",
+          "name": "ImageTargetListener",
           "parameters": {
             "element": {
               "type": "entity",
@@ -1619,7 +1621,7 @@
       "components": {
         "1ea69080-c7b2-4960-bdfc-dd7ee66e848b": {
           "id": "1ea69080-c7b2-4960-bdfc-dd7ee66e848b",
-          "name": "button-listen",
+          "name": "SetRotationButton",
           "parameters": {
             "model": {
               "type": "entity",
@@ -2042,7 +2044,7 @@
       "components": {
         "68f05224-5b5d-4f38-ac38-4c487e25bfad": {
           "id": "68f05224-5b5d-4f38-ac38-4c487e25bfad",
-          "name": "button-listen",
+          "name": "SetRotationButton",
           "parameters": {
             "model": {
               "type": "entity",
@@ -2138,7 +2140,7 @@
       "components": {
         "1ea69080-c7b2-4960-bdfc-dd7ee66e848b": {
           "id": "1ea69080-c7b2-4960-bdfc-dd7ee66e848b",
-          "name": "button-listen",
+          "name": "SetRotationButton",
           "parameters": {
             "model": {
               "type": "entity",
@@ -2578,7 +2580,7 @@
       "components": {
         "1ea69080-c7b2-4960-bdfc-dd7ee66e848b": {
           "id": "1ea69080-c7b2-4960-bdfc-dd7ee66e848b",
-          "name": "button-listen",
+          "name": "SetRotationButton",
           "parameters": {
             "model": {
               "type": "entity",
@@ -3912,7 +3914,7 @@
       "components": {
         "ff45be43-7bc5-4f4f-8591-0fcdebeab69b": {
           "id": "ff45be43-7bc5-4f4f-8591-0fcdebeab69b",
-          "name": "button-listen",
+          "name": "SetRotationButton",
           "parameters": {
             "model": {
               "type": "entity",
@@ -4740,7 +4742,7 @@
       "components": {
         "a4cbbfb9-bce0-4274-ac41-dde67fb515d3": {
           "id": "a4cbbfb9-bce0-4274-ac41-dde67fb515d3",
-          "name": "button-listen",
+          "name": "SetRotationButton",
           "parameters": {
             "model": {
               "type": "entity",
