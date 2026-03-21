@@ -2,7 +2,7 @@ import * as ecs from '@8thwall/ecs'
 
 ecs.registerComponent({
 
-  name: 'tap-UI-scene-change',
+  name: 'ChangeSceneButton',
   schema: {
     targetScene: ecs.string,
   },

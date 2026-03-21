@@ -1,5 +1,5 @@
 {
-  "entrySpaceId": "fb9c470b-e947-46d5-aa7f-63a1b3496a78",
+  "entrySpaceId": "4b417023-ab9f-42af-894d-51a44b1409c3",
   "objects": {
     "7ad3729a-d978-4e6d-a354-31a9b46578f3": {
       "id": "7ad3729a-d978-4e6d-a354-31a9b46578f3",
@@ -182,7 +182,7 @@
       "components": {
         "a6f4403a-5b8e-415d-9065-d12a8a712062": {
           "id": "a6f4403a-5b8e-415d-9065-d12a8a712062",
-          "name": "tap-UI-scene-change",
+          "name": "ChangeSceneButton",
           "parameters": {
             "targetScene": "AR Camera Page"
           }
@@ -296,7 +296,7 @@
       "components": {
         "a6f4403a-5b8e-415d-9065-d12a8a712062": {
           "id": "a6f4403a-5b8e-415d-9065-d12a8a712062",
-          "name": "tap-UI-scene-change",
+          "name": "ChangeSceneButton",
           "parameters": {
             "targetScene": "Character-Selection"
           }
@@ -411,7 +411,7 @@
       "components": {
         "a6f4403a-5b8e-415d-9065-d12a8a712062": {
           "id": "a6f4403a-5b8e-415d-9065-d12a8a712062",
-          "name": "tap-UI-scene-change",
+          "name": "ChangeSceneButton",
           "parameters": {
             "targetScene": "AR Camera Page"
           }
@@ -525,7 +525,7 @@
       "components": {
         "a6f4403a-5b8e-415d-9065-d12a8a712062": {
           "id": "a6f4403a-5b8e-415d-9065-d12a8a712062",
-          "name": "tap-UI-scene-change",
+          "name": "ChangeSceneButton",
           "parameters": {
             "targetScene": "AR Camera Page"
           }
@@ -639,7 +639,7 @@
       "components": {
         "a6f4403a-5b8e-415d-9065-d12a8a712062": {
           "id": "a6f4403a-5b8e-415d-9065-d12a8a712062",
-          "name": "tap-UI-scene-change",
+          "name": "ChangeSceneButton",
           "parameters": {
             "targetScene": "AR Camera Page"
           }
@@ -1372,7 +1372,7 @@
       "components": {
         "4e5b90dc-4234-402b-9b84-01f288bf8d64": {
           "id": "4e5b90dc-4234-402b-9b84-01f288bf8d64",
-          "name": "tap-3D-scene-change",
+          "name": "ChangeSceneModelHook",
           "parameters": {
             "targetScene": "Exhibit-Augustus"
           }
@@ -1411,7 +1411,7 @@
       "components": {
         "14fb41e7-6ced-40c7-8761-1b1bf9532647": {
           "id": "14fb41e7-6ced-40c7-8761-1b1bf9532647",
-          "name": "tap-UI-scene-change",
+          "name": "ChangeSceneButton",
           "parameters": {
             "targetScene": "Dice-rotate-buttons"
           }
@@ -2261,7 +2261,7 @@
       "components": {
         "9d554bcd-7cd0-42e5-b795-15bee66dc62c": {
           "id": "9d554bcd-7cd0-42e5-b795-15bee66dc62c",
-          "name": "tap-UI-scene-change",
+          "name": "ChangeSceneButton",
           "parameters": {}
         }
       },
@@ -2691,7 +2691,7 @@
       "components": {
         "95056743-4dfb-4b7e-9297-cac07e128fb7": {
           "id": "95056743-4dfb-4b7e-9297-cac07e128fb7",
-          "name": "tap-UI-scene-change",
+          "name": "ChangeSceneButton",
           "parameters": {}
         }
       },
@@ -2994,7 +2994,7 @@
             "components": {
               "95056743-4dfb-4b7e-9297-cac07e128fb7": {
                 "id": "95056743-4dfb-4b7e-9297-cac07e128fb7",
-                "name": "tap-UI-scene-change",
+                "name": "ChangeSceneButton",
                 "parameters": {
                   "targetScene": "Exhibit-0869Inscription"
                 }
@@ -3174,7 +3174,7 @@
             "components": {
               "9d554bcd-7cd0-42e5-b795-15bee66dc62c": {
                 "id": "9d554bcd-7cd0-42e5-b795-15bee66dc62c",
-                "name": "tap-UI-scene-change",
+                "name": "ChangeSceneButton",
                 "parameters": {
                   "targetScene": "Exhibit-Inscription"
                 }
@@ -3203,7 +3203,7 @@
             "components": {
               "95056743-4dfb-4b7e-9297-cac07e128fb7": {
                 "id": "95056743-4dfb-4b7e-9297-cac07e128fb7",
-                "name": "tap-UI-scene-change",
+                "name": "ChangeSceneButton",
                 "parameters": {
                   "targetScene": "Exhibit-Philip"
                 }
@@ -3306,7 +3306,7 @@
       "components": {
         "db82252f-367b-4795-87a9-606324844c57": {
           "id": "db82252f-367b-4795-87a9-606324844c57",
-          "name": "tap-3D-scene-change",
+          "name": "ChangeSceneModelHook",
           "parameters": {
             "targetScene": "Exhibit-Philip"
           }
@@ -3532,7 +3532,7 @@
       "components": {
         "e6877db4-2799-4ade-989c-ff0d1b2598d5": {
           "id": "e6877db4-2799-4ade-989c-ff0d1b2598d5",
-          "name": "tap-3D-scene-change",
+          "name": "ChangeSceneModelHook",
           "parameters": {
             "targetScene": "Exhibit-Inscription"
           }
@@ -4300,7 +4300,7 @@
             "components": {
               "9d554bcd-7cd0-42e5-b795-15bee66dc62c": {
                 "id": "9d554bcd-7cd0-42e5-b795-15bee66dc62c",
-                "name": "tap-UI-scene-change",
+                "name": "ChangeSceneButton",
                 "parameters": {
                   "targetScene": "Exhibit-Jackal"
                 }
@@ -4329,7 +4329,7 @@
             "components": {
               "95056743-4dfb-4b7e-9297-cac07e128fb7": {
                 "id": "95056743-4dfb-4b7e-9297-cac07e128fb7",
-                "name": "tap-UI-scene-change",
+                "name": "ChangeSceneButton",
                 "parameters": {
                   "targetScene": "Exhibit-Augustus"
                 }
@@ -4491,7 +4491,7 @@
       "components": {
         "872cebd7-2b85-4eca-a7ee-6ce3947f6a91": {
           "id": "872cebd7-2b85-4eca-a7ee-6ce3947f6a91",
-          "name": "tap-3D-scene-change",
+          "name": "ChangeSceneModelHook",
           "parameters": {
             "targetScene": "Exhibit-0869Inscription"
           }
@@ -4566,7 +4566,7 @@
       "components": {
         "58832dd7-be26-4a06-a79f-5826b0229b23": {
           "id": "58832dd7-be26-4a06-a79f-5826b0229b23",
-          "name": "tap-3D-scene-change",
+          "name": "ChangeSceneModelHook",
           "parameters": {
             "targetScene": "Exhibit-Jackal"
           }
@@ -4795,7 +4795,7 @@
       "components": {
         "d75f6996-e76e-45e8-9985-4ddf1c850783": {
           "id": "d75f6996-e76e-45e8-9985-4ddf1c850783",
-          "name": "tap-UI-scene-change",
+          "name": "ChangeSceneButton",
           "parameters": {
             "targetScene": "Menu"
           }

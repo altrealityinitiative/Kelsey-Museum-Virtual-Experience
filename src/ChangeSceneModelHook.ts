@@ -5,7 +5,7 @@ const setScene = (world, component) => (e) => {
 }
 
 ecs.registerComponent({
-  name: 'tap-3D-scene-change',
+  name: 'ChangeSceneModelHook',
   schema: {
     targetScene: ecs.string,
   },
