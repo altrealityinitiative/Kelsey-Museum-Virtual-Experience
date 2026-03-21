@@ -1,5 +1,5 @@
 {
-  "entrySpaceId": "38dad18c-95e0-413c-9cd7-9e7e2a5b78f4",
+  "entrySpaceId": "4b417023-ab9f-42af-894d-51a44b1409c3",
   "objects": {
     "7ad3729a-d978-4e6d-a354-31a9b46578f3": {
       "id": "7ad3729a-d978-4e6d-a354-31a9b46578f3",
@@ -4298,13 +4298,20 @@
           },
           "59e38afd-312b-440f-96fa-6d12632a2832": {
             "id": "59e38afd-312b-440f-96fa-6d12632a2832",
-            "deletions": {},
+            "deletions": {
+              "components": {
+                "248cdbd6-8ebf-4af3-ae72-4c11814e4412": true,
+                "9d554bcd-7cd0-42e5-b795-15bee66dc62c": true
+              }
+            },
             "components": {
-              "9d554bcd-7cd0-42e5-b795-15bee66dc62c": {
-                "id": "9d554bcd-7cd0-42e5-b795-15bee66dc62c",
-                "name": "ChangeSceneButton",
+              "6f80588d-c759-487a-ae42-d8900c31f18e": {
+                "id": "6f80588d-c759-487a-ae42-d8900c31f18e",
+                "name": "ChangeToModelButton",
                 "parameters": {
-                  "targetScene": "Exhibit-Jackal"
+                  "model": "Jackal_OriginFixed.glb",
+                  "modelScale": 800,
+                  "modelRotationY": 180
                 }
               }
             }
@@ -4327,13 +4334,19 @@
           },
           "6f1cc20b-fcb0-4423-b525-b7c3260160a8": {
             "id": "6f1cc20b-fcb0-4423-b525-b7c3260160a8",
-            "deletions": {},
+            "deletions": {
+              "components": {
+                "95056743-4dfb-4b7e-9297-cac07e128fb7": true
+              }
+            },
             "components": {
-              "95056743-4dfb-4b7e-9297-cac07e128fb7": {
-                "id": "95056743-4dfb-4b7e-9297-cac07e128fb7",
-                "name": "ChangeSceneButton",
+              "ebb8b73c-0b1c-4659-8349-505f238add0e": {
+                "id": "ebb8b73c-0b1c-4659-8349-505f238add0e",
+                "name": "ChangeToModelButton",
                 "parameters": {
-                  "targetScene": "Exhibit-Augustus"
+                  "targetScene": "Exhibit-Augustus",
+                  "model": "Augustus_Head.glb",
+                  "modelScale": 100
                 }
               }
             }
@@ -6642,6 +6655,183 @@
       },
       "name": "Text",
       "order": 1.1079500258446013
+    },
+    "1f2056fb-c193-4ca6-ae9b-255feedd41dd": {
+      "components": {},
+      "geometry": null,
+      "id": "1f2056fb-c193-4ca6-ae9b-255feedd41dd",
+      "light": {
+        "type": "directional"
+      },
+      "material": null,
+      "name": "Directional Light",
+      "order": 0.9563838841097266,
+      "parentId": "534fbaa7-9bfc-443d-b13b-236a1b6610ad",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10,
+        10,
+        10
+      ]
+    },
+    "947e9ecb-3223-46f1-b82d-1d20834cc7af": {
+      "components": {},
+      "geometry": null,
+      "id": "947e9ecb-3223-46f1-b82d-1d20834cc7af",
+      "light": {
+        "type": "ambient"
+      },
+      "material": null,
+      "name": "Ambient Light",
+      "order": 1.9128106722808473,
+      "parentId": "534fbaa7-9bfc-443d-b13b-236a1b6610ad",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10,
+        10,
+        10
+      ]
+    },
+    "6e924278-9ada-450a-8fac-5ee90f2fc8a4": {
+      "camera": {
+        "type": "perspective"
+      },
+      "components": {},
+      "geometry": null,
+      "id": "6e924278-9ada-450a-8fac-5ee90f2fc8a4",
+      "material": null,
+      "name": "Camera",
+      "order": 2.855353805935237,
+      "parentId": "534fbaa7-9bfc-443d-b13b-236a1b6610ad",
+      "position": [
+        0,
+        0,
+        50
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        -6.123233995736766e-17
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "a5b8aa8b-1504-445b-aee2-4f61e57de312": {
+      "components": {},
+      "geometry": null,
+      "hidden": false,
+      "id": "a5b8aa8b-1504-445b-aee2-4f61e57de312",
+      "light": {
+        "castShadow": false,
+        "intensity": 800,
+        "type": "spot"
+      },
+      "material": null,
+      "name": "Back Spot Light",
+      "order": 5.7352649017148405,
+      "parentId": "534fbaa7-9bfc-443d-b13b-236a1b6610ad",
+      "position": [
+        -0.2978166019387958,
+        17.596712880604024,
+        -50.003430426704625
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10,
+        10,
+        10
+      ]
+    },
+    "e9e5db3b-4004-4750-b26d-98571d186a77": {
+      "components": {},
+      "geometry": null,
+      "hidden": false,
+      "id": "e9e5db3b-4004-4750-b26d-98571d186a77",
+      "light": {
+        "castShadow": false,
+        "intensity": 900,
+        "type": "spot"
+      },
+      "material": null,
+      "name": "Front Spot Light",
+      "order": 7.352544565107332,
+      "parentId": "534fbaa7-9bfc-443d-b13b-236a1b6610ad",
+      "position": [
+        -0.2978166019387958,
+        -5,
+        50
+      ],
+      "rotation": [
+        0,
+        -1,
+        0,
+        6.123233995736766e-17
+      ],
+      "scale": [
+        30,
+        30,
+        30
+      ]
+    },
+    "47ec30a7-d7a3-4c04-9ec8-498b47f9052d": {
+      "id": "47ec30a7-d7a3-4c04-9ec8-498b47f9052d",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "534fbaa7-9bfc-443d-b13b-236a1b6610ad",
+      "components": {
+        "e42e6594-a78d-4475-a045-14ad21b9a2e8": {
+          "id": "e42e6594-a78d-4475-a045-14ad21b9a2e8",
+          "name": "ModelSpawnController",
+          "parameters": {}
+        }
+      },
+      "name": "ModelSpawnController",
+      "order": 8.383652052877348
     }
   },
   "runtimeVersion": {
@@ -6732,6 +6922,11 @@
       "id": "38dad18c-95e0-413c-9cd7-9e7e2a5b78f4",
       "name": "Callityche-Page",
       "activeCamera": "c491eda2-ee64-4f9e-b2bd-4e88d627d8ff"
+    },
+    "534fbaa7-9bfc-443d-b13b-236a1b6610ad": {
+      "activeCamera": "6e924278-9ada-450a-8fac-5ee90f2fc8a4",
+      "id": "534fbaa7-9bfc-443d-b13b-236a1b6610ad",
+      "name": "Exhibit-Model"
     }
   }
 }

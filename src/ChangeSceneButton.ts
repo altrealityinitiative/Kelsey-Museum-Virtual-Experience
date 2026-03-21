@@ -1,21 +1,16 @@
-import * as ecs from '@8thwall/ecs'
+import * as ecs from "@8thwall/ecs";
 
 ecs.registerComponent({
-
-  name: 'ChangeSceneButton',
+  name: "ChangeSceneButton",
   schema: {
     targetScene: ecs.string,
   },
-  schemaDefaults: {
-  },
-  data: {
-  },
-
+  schemaDefaults: {},
+  data: {},
   add: (world, component) => {
-    const {targetScene} = component.schema
+    const { targetScene } = component.schema;
     world.events.addListener(component.eid, ecs.input.UI_CLICK, () => {
-      world.spaces.loadSpace(targetScene)
-    })
+      world.spaces.loadSpace(targetScene);
+    });
   },
-
-})
+});
