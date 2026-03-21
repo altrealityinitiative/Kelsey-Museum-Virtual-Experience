@@ -1,5 +1,5 @@
 {
-  "entrySpaceId": "a00a069c-3e3d-41e2-a04e-a959bfb039ac",
+  "entrySpaceId": "fb9c470b-e947-46d5-aa7f-63a1b3496a78",
   "objects": {
     "7ad3729a-d978-4e6d-a354-31a9b46578f3": {
       "id": "7ad3729a-d978-4e6d-a354-31a9b46578f3",
@@ -2097,17 +2097,10 @@
     },
     "4fd3b22a-5258-44b7-be6c-6b7b35bc8ead": {
       "components": {
-        "b983d68a-0fd9-414d-8641-96205b48c593": {
-          "id": "b983d68a-0fd9-414d-8641-96205b48c593",
-          "name": "tap-rotate",
-          "parameters": {
-            "objectEid": {
-              "type": "entity",
-              "id": "4fd3b22a-5258-44b7-be6c-6b7b35bc8ead"
-            },
-            "sensitivityX": 2000,
-            "sensitivityY": -3000
-          }
+        "478be73b-9809-4629-9cb3-ce63fc3fc9de": {
+          "id": "478be73b-9809-4629-9cb3-ce63fc3fc9de",
+          "name": "ModelRotateControls",
+          "parameters": {}
         }
       },
       "geometry": null,
@@ -2801,17 +2794,10 @@
     },
     "79b4eaa0-7d85-49ea-8372-ad2bbe4cec5e": {
       "components": {
-        "2536f238-4a51-4207-a383-9b3112a406b1": {
-          "id": "2536f238-4a51-4207-a383-9b3112a406b1",
-          "name": "tap-rotate",
-          "parameters": {
-            "objectEid": {
-              "type": "entity",
-              "id": "79b4eaa0-7d85-49ea-8372-ad2bbe4cec5e"
-            },
-            "sensitivityX": 2000,
-            "sensitivityY": -3000
-          }
+        "594043bc-4c49-4d49-aa45-a8c46918e93d": {
+          "id": "594043bc-4c49-4d49-aa45-a8c46918e93d",
+          "name": "ModelRotateControls",
+          "parameters": {}
         }
       },
       "geometry": null,
@@ -2911,17 +2897,10 @@
     },
     "8803f7b0-5995-4133-b024-fd458d2b6ca6": {
       "components": {
-        "2188463d-145e-4597-9d7b-e057a2e43b28": {
-          "id": "2188463d-145e-4597-9d7b-e057a2e43b28",
-          "name": "tap-rotate",
-          "parameters": {
-            "objectEid": {
-              "type": "entity",
-              "id": "8803f7b0-5995-4133-b024-fd458d2b6ca6"
-            },
-            "sensitivityX": 2000,
-            "sensitivityY": -3000
-          }
+        "b7ca4f02-ed35-4e05-8fad-73e79297adc9": {
+          "id": "b7ca4f02-ed35-4e05-8fad-73e79297adc9",
+          "name": "ModelRotateControls",
+          "parameters": {}
         }
       },
       "geometry": null,
@@ -3864,21 +3843,10 @@
     },
     "cb5b64f2-65fa-495d-972b-a940e70d367d": {
       "components": {
-        "ed3e0061-166c-4b4b-9b69-2cca5719207a": {
-          "id": "ed3e0061-166c-4b4b-9b69-2cca5719207a",
-          "name": "tap-rotate",
-          "parameters": {
-            "camera": {
-              "type": "entity",
-              "id": "e7e2df06-2537-4a91-bd46-09dc85289074"
-            },
-            "objectEid": {
-              "type": "entity",
-              "id": "cb5b64f2-65fa-495d-972b-a940e70d367d"
-            },
-            "sensitivityX": 2000,
-            "sensitivityY": 3000
-          }
+        "a9b91300-1a16-4bb8-963b-a794bbc233e6": {
+          "id": "a9b91300-1a16-4bb8-963b-a794bbc233e6",
+          "name": "ModelRotateControls",
+          "parameters": {}
         }
       },
       "geometry": null,
@@ -4131,17 +4099,10 @@
     },
     "db340d7f-facb-407a-8014-a969cda4b1d0": {
       "components": {
-        "85f9730d-2408-4650-9500-a2e48e3825ea": {
-          "id": "85f9730d-2408-4650-9500-a2e48e3825ea",
-          "name": "tap-rotate",
-          "parameters": {
-            "objectEid": {
-              "type": "entity",
-              "id": "db340d7f-facb-407a-8014-a969cda4b1d0"
-            },
-            "sensitivityX": 2000,
-            "sensitivityY": -3000
-          }
+        "ad0324ad-7371-4e2a-b49a-8c9b9b31d2b1": {
+          "id": "ad0324ad-7371-4e2a-b49a-8c9b9b31d2b1",
+          "name": "ModelRotateControls",
+          "parameters": {}
         }
       },
       "geometry": null,
@@ -4898,17 +4859,10 @@
       "material": null,
       "parentId": "0934003f-9710-4655-a0ff-525908e622e7",
       "components": {
-        "175d1c44-0584-4c57-a771-6a8843aedd74": {
-          "id": "175d1c44-0584-4c57-a771-6a8843aedd74",
-          "name": "tap-rotate",
-          "parameters": {
-            "sensitivityX": 2000,
-            "sensitivityY": -3000,
-            "objectEid": {
-              "type": "entity",
-              "id": "a2909382-ea56-4411-9925-f24244bb9976"
-            }
-          }
+        "40999ab3-ef8b-472e-a148-e1a6ae42974f": {
+          "id": "40999ab3-ef8b-472e-a148-e1a6ae42974f",
+          "name": "ModelRotateControls",
+          "parameters": {}
         }
       },
       "gltfModel": {
