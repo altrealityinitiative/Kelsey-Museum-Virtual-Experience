@@ -6642,6 +6642,1403 @@
       },
       "name": "Text",
       "order": 1.1079500258446013
+    },
+    "e2c99764-344f-4d30-94a7-ea0524ab660d": {
+      "id": "e2c99764-344f-4d30-94a7-ea0524ab660d",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "1052085b-7ac6-4be6-ad91-402b071223cd",
+      "components": {},
+      "light": {
+        "type": "directional"
+      },
+      "name": "Directional Light",
+      "order": 0.8280488001742485
+    },
+    "a432520a-8db5-4a8d-85bb-3d9f8d6cca3a": {
+      "id": "a432520a-8db5-4a8d-85bb-3d9f8d6cca3a",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "1052085b-7ac6-4be6-ad91-402b071223cd",
+      "components": {},
+      "light": {
+        "type": "ambient"
+      },
+      "name": "Ambient Light",
+      "order": 1.2697213808871066
+    },
+    "8066c715-32e2-48a7-868d-e03f04984d49": {
+      "id": "8066c715-32e2-48a7-868d-e03f04984d49",
+      "position": [
+        0,
+        2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "1052085b-7ac6-4be6-ad91-402b071223cd",
+      "components": {},
+      "name": "Camera",
+      "camera": {
+        "type": "perspective"
+      },
+      "order": 2.484461416931644
+    },
+    "247d5502-11d5-4522-b6c9-3015d611ae6e": {
+      "id": "247d5502-11d5-4522-b6c9-3015d611ae6e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "ed3b4892-4771-4db2-a6c1-47e4ba8bdb8a": {
+          "id": "ed3b4892-4771-4db2-a6c1-47e4ba8bdb8a",
+          "name": "Scrollable",
+          "parameters": {}
+        }
+      },
+      "ui": {
+        "flexDirection": "column",
+        "width": "100%",
+        "height": "164%",
+        "type": "overlay",
+        "background": "#faf4d8",
+        "backgroundOpacity": 1,
+        "alignItems": "center",
+        "justifyContent": "flex-start",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "gap": 20
+      },
+      "name": "Frame",
+      "order": 3.7340891243630647,
+      "parentId": "1052085b-7ac6-4be6-ad91-402b071223cd"
+    },
+    "0a67d29b-93d6-4b63-a24f-9b20217c7ddd": {
+      "id": "0a67d29b-93d6-4b63-a24f-9b20217c7ddd",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "247d5502-11d5-4522-b6c9-3015d611ae6e",
+      "components": {},
+      "ui": {
+        "text": "About Kelsey Museum\n",
+        "flexDirection": "row",
+        "background": "#fef8f2",
+        "backgroundOpacity": 0.5,
+        "width": "100%",
+        "height": 100,
+        "type": "3d",
+        "margin": "",
+        "paddingTop": "",
+        "paddingBottom": "",
+        "color": "#000000",
+        "fontSize": 32,
+        "verticalTextAlign": "center",
+        "flexWrap": "wrap"
+      },
+      "name": "Frame (1)",
+      "order": 1
+    },
+    "80a27da4-b422-4533-b2e2-ef17eb6bef99": {
+      "id": "80a27da4-b422-4533-b2e2-ef17eb6bef99",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "247d5502-11d5-4522-b6c9-3015d611ae6e",
+      "components": {},
+      "ui": {
+        "width": "70%",
+        "height": 300,
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0.5
+      },
+      "name": "Frame (2)",
+      "order": 2.264353226073505
+    },
+    "6b4cd888-208a-4b47-b0d4-d29886fd8e86": {
+      "id": "6b4cd888-208a-4b47-b0d4-d29886fd8e86",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "borderColor": "#ffffff",
+        "borderWidth": 1,
+        "width": 450,
+        "height": 25,
+        "text": "Welcome to the Kelsey Museum\n",
+        "color": "#000000",
+        "fontSize": 28,
+        "type": "3d",
+        "textAlign": "center",
+        "alignItems": "flex-start",
+        "justifyContent": "flex-start",
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 50,
+        "paddingBottom": 50
+      },
+      "name": "Text",
+      "order": 3.7702839285487313,
+      "parentId": "80a27da4-b422-4533-b2e2-ef17eb6bef99"
+    },
+    "cfe5a46a-a464-44fa-993b-1f7c0cdbd4c5": {
+      "id": "cfe5a46a-a464-44fa-993b-1f7c0cdbd4c5",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": 950,
+        "height": 70,
+        "text": "The Kelsey Museum of Archaeology is a museum of ancient and medieval artifacts located on the University of Michigan central campus in Ann Arbor. Founded in 1928 as the University of Michigan Museum of Classical Archaeology, the museum has a collection of over 100,000 ancient artifacts from the civilizations of the Mediterranean, Egypt, and the Near East.\n\nThe museum is named after Francis W. Kelsey, a professor of Latin at the University of Michigan who led expeditions to the Near East and Egypt in the early 20th century. Today, the Kelsey Museum serves as a vital resource for teaching, research, and public engagement with the ancient world.\n",
+        "color": "#474747",
+        "fontSize": 22,
+        "type": "3d",
+        "textAlign": "left",
+        "verticalTextAlign": "center",
+        "alignItems": "flex-start",
+        "justifyContent": "center",
+        "gap": 0,
+        "margin": "",
+        "marginLeft": 25,
+        "marginRight": 25,
+        "paddingTop": 100,
+        "paddingBottom": 100
+      },
+      "name": "Text (1)",
+      "order": 5.079233299421565,
+      "parentId": "6b4cd888-208a-4b47-b0d4-d29886fd8e86"
+    },
+    "6e4ded3b-a2ad-4a9d-a3c4-fbb1cac79499": {
+      "id": "6e4ded3b-a2ad-4a9d-a3c4-fbb1cac79499",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "width": "70%",
+        "height": 300,
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0.5
+      },
+      "name": "Frame (3)",
+      "order": 3.5879320303674236,
+      "parentId": "247d5502-11d5-4522-b6c9-3015d611ae6e"
+    },
+    "0c07797b-e22e-40a9-8003-d7a40a7060fc": {
+      "id": "0c07797b-e22e-40a9-8003-d7a40a7060fc",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "borderColor": "#ffffff",
+        "borderWidth": 1,
+        "width": 450,
+        "height": 25,
+        "text": "Welcome to the Kelsey Museum\n",
+        "color": "#000000",
+        "fontSize": 28,
+        "type": "3d",
+        "textAlign": "center",
+        "alignItems": "flex-start",
+        "justifyContent": "flex-start",
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 50,
+        "paddingBottom": 50
+      },
+      "name": "Text (2)",
+      "order": 1,
+      "parentId": "6e4ded3b-a2ad-4a9d-a3c4-fbb1cac79499"
+    },
+    "a053e41e-fc9b-4ec8-804a-436abd5ecd07": {
+      "id": "a053e41e-fc9b-4ec8-804a-436abd5ecd07",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": 950,
+        "height": 70,
+        "text": "The Kelsey Museum of Archaeology is a museum of ancient and medieval artifacts located on the University of Michigan central campus in Ann Arbor. Founded in 1928 as the University of Michigan Museum of Classical Archaeology, the museum has a collection of over 100,000 ancient artifacts from the civilizations of the Mediterranean, Egypt, and the Near East.\n\nThe museum is named after Francis W. Kelsey, a professor of Latin at the University of Michigan who led expeditions to the Near East and Egypt in the early 20th century. Today, the Kelsey Museum serves as a vital resource for teaching, research, and public engagement with the ancient world.\n",
+        "color": "#474747",
+        "fontSize": 22,
+        "type": "3d",
+        "textAlign": "left",
+        "verticalTextAlign": "center",
+        "alignItems": "flex-start",
+        "justifyContent": "center",
+        "gap": 0,
+        "margin": "",
+        "marginLeft": 25,
+        "marginRight": 25,
+        "paddingTop": 100,
+        "paddingBottom": 100
+      },
+      "name": "Text (2)",
+      "order": 2,
+      "parentId": "0c07797b-e22e-40a9-8003-d7a40a7060fc"
+    },
+    "4421faf1-0fbd-491c-8b15-a1eef89ab4eb": {
+      "id": "4421faf1-0fbd-491c-8b15-a1eef89ab4eb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "width": "70%",
+        "height": 200,
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0.5
+      },
+      "name": "Frame (4)",
+      "order": 5.05786503962955,
+      "parentId": "247d5502-11d5-4522-b6c9-3015d611ae6e"
+    },
+    "9acd200f-4bcc-44ac-a004-98bf87580c67": {
+      "id": "9acd200f-4bcc-44ac-a004-98bf87580c67",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "width": "70%",
+        "height": 200,
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0.5
+      },
+      "name": "Frame (5)",
+      "order": 6.552895446739316,
+      "parentId": "247d5502-11d5-4522-b6c9-3015d611ae6e"
+    },
+    "26622545-d9f9-4bf8-a7e3-b2435a67c7e4": {
+      "id": "26622545-d9f9-4bf8-a7e3-b2435a67c7e4",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "width": "70%",
+        "height": 200,
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0.5
+      },
+      "name": "Frame (6)",
+      "order": 7.80591309759296,
+      "parentId": "247d5502-11d5-4522-b6c9-3015d611ae6e"
+    },
+    "2891a708-6fe7-47e9-83cc-87a719c499b4": {
+      "id": "2891a708-6fe7-47e9-83cc-87a719c499b4",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "width": 70,
+        "height": 50,
+        "type": "3d",
+        "background": "#f51414",
+        "backgroundOpacity": 0.5
+      },
+      "name": "box",
+      "order": 5.56362441674742,
+      "parentId": "4421faf1-0fbd-491c-8b15-a1eef89ab4eb"
+    },
+    "acd752c1-7fcc-4f93-859e-f397d06ad948": {
+      "id": "acd752c1-7fcc-4f93-859e-f397d06ad948",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "borderColor": "#ffffff",
+        "borderWidth": 1,
+        "width": 250,
+        "height": 10,
+        "text": "Hours of Operation\n",
+        "color": "#000000",
+        "fontSize": 22,
+        "type": "3d",
+        "textAlign": "center",
+        "alignItems": "center",
+        "justifyContent": "flex-start",
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 50,
+        "paddingBottom": 50
+      },
+      "name": "Text (3)",
+      "order": 7.451887105102266,
+      "parentId": "4421faf1-0fbd-491c-8b15-a1eef89ab4eb"
+    },
+    "4aae5986-6cfe-43dc-9369-4addc1a930fe": {
+      "id": "4aae5986-6cfe-43dc-9369-4addc1a930fe",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": 700,
+        "height": 70,
+        "text": "Tuesday - Friday",
+        "color": "#474747",
+        "fontSize": 22,
+        "type": "3d",
+        "textAlign": "left",
+        "verticalTextAlign": "center",
+        "alignItems": "flex-start",
+        "justifyContent": "center",
+        "gap": 0,
+        "margin": "",
+        "marginLeft": 25,
+        "marginRight": 25,
+        "paddingTop": 0,
+        "paddingBottom": 0
+      },
+      "name": "Text (3)",
+      "order": 1,
+      "parentId": "acd752c1-7fcc-4f93-859e-f397d06ad948"
+    },
+    "e20f002e-6e2f-4e3d-8399-1809b3551f02": {
+      "id": "e20f002e-6e2f-4e3d-8399-1809b3551f02",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": 700,
+        "height": 70,
+        "text": "Saturday - Sunday",
+        "color": "#474747",
+        "fontSize": 22,
+        "type": "3d",
+        "textAlign": "left",
+        "verticalTextAlign": "center",
+        "alignItems": "flex-start",
+        "justifyContent": "center",
+        "gap": 0,
+        "margin": "",
+        "marginLeft": 25,
+        "marginRight": 25,
+        "paddingTop": 70,
+        "paddingBottom": 70
+      },
+      "name": "Text (4)",
+      "order": 2.4312890431757928,
+      "parentId": "4aae5986-6cfe-43dc-9369-4addc1a930fe"
+    },
+    "424041a5-ad99-410f-8f36-1accd1f62256": {
+      "id": "424041a5-ad99-410f-8f36-1accd1f62256",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": 700,
+        "height": 70,
+        "text": "Monday",
+        "color": "#474747",
+        "fontSize": 22,
+        "type": "3d",
+        "textAlign": "left",
+        "verticalTextAlign": "center",
+        "alignItems": "flex-start",
+        "justifyContent": "center",
+        "gap": 0,
+        "margin": "",
+        "marginLeft": 25,
+        "marginRight": 25,
+        "paddingTop": 30,
+        "paddingBottom": 30
+      },
+      "name": "Text (5)",
+      "order": 4.200515011366271,
+      "parentId": "e20f002e-6e2f-4e3d-8399-1809b3551f02"
+    },
+    "94cfac0c-ea20-4e8d-8992-d8a5912a0c4b": {
+      "id": "94cfac0c-ea20-4e8d-8992-d8a5912a0c4b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": 400,
+        "height": 70,
+        "text": "9:00 AM - 4:00 PM",
+        "color": "#000000",
+        "fontSize": 22,
+        "type": "3d",
+        "textAlign": "left",
+        "verticalTextAlign": "center",
+        "alignItems": "flex-start",
+        "justifyContent": "center",
+        "gap": 0,
+        "margin": "",
+        "marginLeft": 25,
+        "marginRight": 25,
+        "paddingTop": 0,
+        "paddingBottom": 0
+      },
+      "name": "Text (6)",
+      "order": 2.1701428929134075,
+      "parentId": "acd752c1-7fcc-4f93-859e-f397d06ad948"
+    },
+    "31eccc38-5ecf-4b5f-8ec2-63dfefcdeabb": {
+      "id": "31eccc38-5ecf-4b5f-8ec2-63dfefcdeabb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": 400,
+        "height": 70,
+        "text": "1:00 PM - 4:00 PM",
+        "color": "#000000",
+        "fontSize": 22,
+        "type": "3d",
+        "textAlign": "left",
+        "verticalTextAlign": "center",
+        "alignItems": "flex-start",
+        "justifyContent": "center",
+        "gap": 0,
+        "margin": "",
+        "marginLeft": 25,
+        "marginRight": 25,
+        "paddingTop": 70,
+        "paddingBottom": 70
+      },
+      "name": "Text (6)",
+      "order": 1,
+      "parentId": "94cfac0c-ea20-4e8d-8992-d8a5912a0c4b"
+    },
+    "4ce4bf1f-cba3-452c-9e0f-1e4d7e09d3ab": {
+      "id": "4ce4bf1f-cba3-452c-9e0f-1e4d7e09d3ab",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": 400,
+        "height": 70,
+        "text": "Closed",
+        "color": "#bd0000",
+        "fontSize": 22,
+        "type": "3d",
+        "textAlign": "left",
+        "verticalTextAlign": "center",
+        "alignItems": "flex-start",
+        "justifyContent": "center",
+        "gap": 0,
+        "paddingTop": 45,
+        "paddingBottom": 45
+      },
+      "name": "Text (6)",
+      "order": 2,
+      "parentId": "31eccc38-5ecf-4b5f-8ec2-63dfefcdeabb"
+    },
+    "ad2e2a38-6512-4e51-84b2-48fe1f4ad9b1": {
+      "id": "ad2e2a38-6512-4e51-84b2-48fe1f4ad9b1",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": 700,
+        "height": 70,
+        "text": "* Hours may vary during university holidays and breaks. Please check our website for updates.",
+        "color": "#878787",
+        "fontSize": 18,
+        "type": "3d",
+        "textAlign": "left",
+        "verticalTextAlign": "center",
+        "alignItems": "flex-start",
+        "justifyContent": "center",
+        "gap": 0,
+        "margin": "",
+        "marginLeft": 25,
+        "marginRight": 25,
+        "paddingTop": 45,
+        "paddingBottom": 45
+      },
+      "name": "Text (7)",
+      "order": 5.380106514878619,
+      "parentId": "424041a5-ad99-410f-8f36-1accd1f62256"
+    },
+    "b45f2682-653d-4c69-acce-cf0de58691cc": {
+      "id": "b45f2682-653d-4c69-acce-cf0de58691cc",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "width": 70,
+        "height": 50,
+        "type": "3d",
+        "background": "#f51414",
+        "backgroundOpacity": 0.5
+      },
+      "name": "box (1)",
+      "order": 7.21882912658327,
+      "parentId": "9acd200f-4bcc-44ac-a004-98bf87580c67"
+    },
+    "ff076d6a-773d-4cb7-bceb-5e0acd5c6ac9": {
+      "id": "ff076d6a-773d-4cb7-bceb-5e0acd5c6ac9",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "borderColor": "#ffffff",
+        "borderWidth": 1,
+        "width": 150,
+        "height": 200,
+        "text": "Location\n",
+        "color": "#000000",
+        "fontSize": 22,
+        "type": "3d",
+        "textAlign": "center",
+        "alignItems": "center",
+        "justifyContent": "flex-start",
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 30,
+        "paddingBottom": 30
+      },
+      "name": "Text (8)",
+      "order": 8.701499918907762,
+      "parentId": "9acd200f-4bcc-44ac-a004-98bf87580c67"
+    },
+    "eb68d6a5-1d17-4beb-90c9-9c0c603451dc": {
+      "id": "eb68d6a5-1d17-4beb-90c9-9c0c603451dc",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "borderColor": "#ffffff",
+        "borderWidth": 1,
+        "width": 250,
+        "height": 100,
+        "text": "434 South State Street\n",
+        "color": "#000000",
+        "fontSize": 22,
+        "type": "3d",
+        "textAlign": "left",
+        "alignItems": "flex-end",
+        "justifyContent": "flex-start",
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": "",
+        "paddingBottom": ""
+      },
+      "name": "Text (9)",
+      "order": 10.361707409596448,
+      "parentId": "ff076d6a-773d-4cb7-bceb-5e0acd5c6ac9"
+    },
+    "aef33f96-d823-42a6-9051-05f150dcb550": {
+      "id": "aef33f96-d823-42a6-9051-05f150dcb550",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "borderColor": "#ffffff",
+        "borderWidth": 1,
+        "width": 300,
+        "height": 60,
+        "text": "Ann Arbor, MI 48109-1390\n",
+        "color": "#000000",
+        "fontSize": 22,
+        "type": "3d",
+        "textAlign": "left",
+        "alignItems": "flex-end",
+        "justifyContent": "flex-start",
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": "",
+        "paddingBottom": ""
+      },
+      "name": "Text (10)",
+      "order": 12.282171481081662,
+      "parentId": "eb68d6a5-1d17-4beb-90c9-9c0c603451dc"
+    },
+    "b8d6e377-ac4d-4140-8dcf-95ed2f6dfbcc": {
+      "id": "b8d6e377-ac4d-4140-8dcf-95ed2f6dfbcc",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "borderColor": "#ffffff",
+        "borderWidth": 1,
+        "width": 550,
+        "height": 20,
+        "text": "Located on the University of Michigan Central Campus\n",
+        "color": "#9c9c9c",
+        "fontSize": 16,
+        "type": "3d",
+        "textAlign": "left",
+        "alignItems": "flex-end",
+        "justifyContent": "flex-start",
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": "",
+        "paddingBottom": "",
+        "gap": ""
+      },
+      "name": "Text (11)",
+      "order": 14.277489678749363,
+      "parentId": "aef33f96-d823-42a6-9051-05f150dcb550"
+    },
+    "fd43b7e0-2ca8-4f9b-9b77-5255e3f026e4": {
+      "id": "fd43b7e0-2ca8-4f9b-9b77-5255e3f026e4",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "width": "70%",
+        "height": 150,
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0.5
+      },
+      "name": "Frame (7)",
+      "order": 9.21290856518133,
+      "parentId": "247d5502-11d5-4522-b6c9-3015d611ae6e"
+    },
+    "469c388d-0db0-4b85-9d13-8bbe560c8d1b": {
+      "id": "469c388d-0db0-4b85-9d13-8bbe560c8d1b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "borderColor": "#ffffff",
+        "borderWidth": 1,
+        "width": 200,
+        "height": 200,
+        "text": "Contact Information\n",
+        "color": "#000000",
+        "fontSize": 22,
+        "type": "3d",
+        "textAlign": "center",
+        "alignItems": "center",
+        "justifyContent": "flex-start",
+        "paddingLeft": 25,
+        "paddingRight": 25,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "gap": ""
+      },
+      "name": "Text (12)",
+      "order": 8.815184088950305,
+      "parentId": "26622545-d9f9-4bf8-a7e3-b2435a67c7e4"
+    },
+    "2ce71ffb-df24-4bee-a259-e2c07a69b0e4": {
+      "id": "2ce71ffb-df24-4bee-a259-e2c07a69b0e4",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "borderColor": "#ffffff",
+        "borderWidth": 1,
+        "width": 250,
+        "height": 100,
+        "text": "(734) 764-9304\n",
+        "color": "#000000",
+        "fontSize": 18,
+        "type": "3d",
+        "textAlign": "left",
+        "alignItems": "flex-end",
+        "justifyContent": "flex-start",
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": "",
+        "paddingBottom": ""
+      },
+      "name": "Text (13)",
+      "order": 10.431453164686552,
+      "parentId": "469c388d-0db0-4b85-9d13-8bbe560c8d1b"
+    },
+    "1b931ac4-bd68-4e95-89e5-86d757ebdf47": {
+      "id": "1b931ac4-bd68-4e95-89e5-86d757ebdf47",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "borderColor": "#ffffff",
+        "borderWidth": 1,
+        "width": 300,
+        "height": 60,
+        "text": "kelsey.museum@umich.edu\n",
+        "color": "#000000",
+        "fontSize": 18,
+        "type": "3d",
+        "textAlign": "left",
+        "alignItems": "flex-end",
+        "justifyContent": "flex-start",
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": "",
+        "paddingBottom": ""
+      },
+      "name": "Text (13)",
+      "order": 1,
+      "parentId": "2ce71ffb-df24-4bee-a259-e2c07a69b0e4"
+    },
+    "0ca7bef9-ca80-4f0a-af89-04517703ea40": {
+      "id": "0ca7bef9-ca80-4f0a-af89-04517703ea40",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "borderColor": "#ffffff",
+        "borderWidth": 1,
+        "width": 550,
+        "height": 20,
+        "text": "lsa.umich.edu/kelsey",
+        "color": "#6461ff",
+        "fontSize": 18,
+        "type": "3d",
+        "textAlign": "left",
+        "alignItems": "flex-end",
+        "justifyContent": "flex-start",
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": "",
+        "paddingBottom": "",
+        "gap": ""
+      },
+      "name": "Text (13)",
+      "order": 2,
+      "parentId": "1b931ac4-bd68-4e95-89e5-86d757ebdf47"
+    },
+    "9793f824-7609-4f59-b970-c1c393b66a46": {
+      "id": "9793f824-7609-4f59-b970-c1c393b66a46",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "fd43b7e0-2ca8-4f9b-9b77-5255e3f026e4",
+      "components": {},
+      "ui": {
+        "width": 140,
+        "height": 120,
+        "text": "Admission",
+        "color": "#000000",
+        "fontSize": 22,
+        "type": "3d"
+      },
+      "name": "Text (14)",
+      "order": 1.954797467659621
+    },
+    "4b2ff5a2-0bb3-47f9-b0f5-ddc8e3a1c951": {
+      "id": "4b2ff5a2-0bb3-47f9-b0f5-ddc8e3a1c951",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "width": 300,
+        "height": 75,
+        "text": "Free and open to the public",
+        "color": "#000000",
+        "fontSize": 22,
+        "type": "3d",
+        "textAlign": "center",
+        "verticalTextAlign": "end"
+      },
+      "name": "Text (15)",
+      "order": 3.1132973191446403,
+      "parentId": "9793f824-7609-4f59-b970-c1c393b66a46"
+    },
+    "603f9789-6e69-4097-b182-fb2df87e3399": {
+      "id": "603f9789-6e69-4097-b182-fb2df87e3399",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "width": 900,
+        "height": 125,
+        "text": "The Kelsey Museum welcomes visitors of all ages. Group tours and educational programs are available by appointment.",
+        "color": "#4b4848",
+        "fontSize": 16,
+        "type": "3d",
+        "textAlign": "center",
+        "verticalTextAlign": "end"
+      },
+      "name": "Text (16)",
+      "order": 4.792875727300528,
+      "parentId": "4b2ff5a2-0bb3-47f9-b0f5-ddc8e3a1c951"
     }
   },
   "runtimeVersion": {
@@ -6732,6 +8129,11 @@
       "id": "38dad18c-95e0-413c-9cd7-9e7e2a5b78f4",
       "name": "Callityche-Page",
       "activeCamera": "c491eda2-ee64-4f9e-b2bd-4e88d627d8ff"
+    },
+    "1052085b-7ac6-4be6-ad91-402b071223cd": {
+      "id": "1052085b-7ac6-4be6-ad91-402b071223cd",
+      "name": "About-Page",
+      "activeCamera": "8066c715-32e2-48a7-868d-e03f04984d49"
     }
   }
 }
