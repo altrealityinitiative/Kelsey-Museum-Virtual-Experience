@@ -6529,7 +6529,7 @@
       "id": "a65b30b2-f31d-46fc-ac46-d4cc05460a02",
       "position": [
         0,
-        0,
+        -0.3845293425266643,
         0
       ],
       "rotation": [
@@ -6558,14 +6558,14 @@
       "ui": {
         "flexDirection": "column",
         "width": "100%",
-        "height": 1250,
+        "height": 1100,
         "type": "overlay",
         "background": "#faf4d8",
         "backgroundOpacity": 1,
         "alignItems": "center",
         "justifyContent": "flex-start",
-        "paddingBottom": 30,
-        "paddingTop": 30,
+        "paddingBottom": 100,
+        "paddingTop": 100,
         "gap": 0,
         "backgroundSize": "contain"
       },
@@ -6738,7 +6738,7 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "69890a22-5344-4637-ab1a-7ada7f3568d5",
+      "parentId": "c6ac7b1c-a013-4ea6-ad2e-9466ea856ec9",
       "components": {},
       "name": "Text",
       "ui": {
@@ -6748,7 +6748,7 @@
         "color": "#ffffff",
         "fontSize": 8
       },
-      "order": 1.0607693147558894
+      "order": 6.251906528974832
     },
     "ac2bbc2d-d6c2-46a3-8df7-0d49243b5bf3": {
       "id": "ac2bbc2d-d6c2-46a3-8df7-0d49243b5bf3",
@@ -7010,21 +7010,21 @@
       "parentId": "a65b30b2-f31d-46fc-ac46-d4cc05460a02",
       "components": {},
       "ui": {
-        "borderColor": "#ffe875",
-        "borderWidth": 2,
+        "borderColor": "#ffd230",
+        "borderWidth": 1,
         "flexDirection": "row",
         "width": "80%",
-        "height": 500,
+        "height": 482,
         "type": "3d",
         "background": "#ffffff",
         "backgroundOpacity": 1,
         "alignItems": "center",
         "justifyContent": "center",
-        "paddingTop": "",
-        "paddingBottom": "",
+        "paddingTop": 10,
+        "paddingBottom": 10,
         "margin": "",
-        "marginTop": 80,
-        "marginBottom": 80,
+        "marginTop": 20,
+        "marginBottom": 20,
         "borderRadius": 15
       },
       "name": "Image Frame",
@@ -7055,7 +7055,7 @@
       "ui": {
         "type": "3d",
         "width": "90%",
-        "height": "80%",
+        "height": "90%",
         "image": {
           "type": "asset",
           "asset": "assets/Callityche_Img.png"
@@ -7127,11 +7127,12 @@
       "components": {},
       "ui": {
         "width": "90%",
-        "height": "20%",
+        "height": "10%",
         "text": "A freed slave who lived in Rome during the 1st century CE. Once enslaved in a wealthy household, Callityche gained her freedom and became a successful textile merchant. She navigated Roman society with grace and intelligence, building a life of independence.",
         "color": "#873204",
-        "fontSize": 12,
-        "type": "3d"
+        "fontSize": 10,
+        "type": "3d",
+        "verticalTextAlign": "center"
       },
       "name": "Callityche Text",
       "order": 3.470571929893649
@@ -7160,49 +7161,22 @@
       "components": {},
       "ui": {
         "flexDirection": "column",
-        "borderColor": "#ffe875",
-        "borderWidth": 2,
+        "borderColor": "#ffd230",
+        "borderWidth": 1,
         "width": "80%",
-        "height": 400,
+        "height": 187,
         "type": "3d",
         "background": "#ffffff",
         "backgroundOpacity": 1,
-        "borderRadius": 15
+        "borderRadius": 15,
+        "alignItems": "center",
+        "justifyContent": "flex-start",
+        "gap": 10,
+        "paddingTop": 10,
+        "paddingBottom": 10
       },
       "name": "Collection Frame",
       "order": 4.181621988565479
-    },
-    "c2e80736-6e19-4a0d-b990-6309c254463e": {
-      "id": "c2e80736-6e19-4a0d-b990-6309c254463e",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "c6ac7b1c-a013-4ea6-ad2e-9466ea856ec9",
-      "components": {},
-      "ui": {
-        "width": 100,
-        "height": 100,
-        "type": "3d",
-        "background": "#ffffff",
-        "backgroundOpacity": 0.5
-      },
-      "name": "Top Title",
-      "order": 1.9126336204430263
     },
     "62181a0b-26b6-4008-93b0-9e3cc4856a97": {
       "id": "62181a0b-26b6-4008-93b0-9e3cc4856a97",
@@ -7227,11 +7201,12 @@
       "parentId": "c6ac7b1c-a013-4ea6-ad2e-9466ea856ec9",
       "components": {},
       "ui": {
-        "width": 100,
-        "height": 100,
+        "width": "90%",
+        "height": 8,
         "type": "3d",
-        "background": "#ffffff",
-        "backgroundOpacity": 0.5
+        "background": "#f54900",
+        "backgroundOpacity": 1,
+        "borderRadius": 5
       },
       "name": "Status Bar",
       "order": 3.8102008525676503
@@ -7259,14 +7234,755 @@
       "parentId": "c6ac7b1c-a013-4ea6-ad2e-9466ea856ec9",
       "components": {},
       "ui": {
-        "width": 100,
+        "flexDirection": "row",
+        "width": "100%",
         "height": 100,
         "type": "3d",
         "background": "#ffffff",
-        "backgroundOpacity": 0.5
+        "backgroundOpacity": 0.5,
+        "alignItems": "flex-start",
+        "justifyContent": "center",
+        "gap": 3
       },
       "name": "Collections",
       "order": 4.9133080754387075
+    },
+    "a9f04baa-0db7-46c0-b997-9c78d9fcc946": {
+      "id": "a9f04baa-0db7-46c0-b997-9c78d9fcc946",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "53958bf4-e0ed-41cf-bce6-a31a86b9813d",
+      "components": {},
+      "ui": {
+        "borderColor": "#ffbd2e",
+        "borderWidth": 1,
+        "flexDirection": "column",
+        "width": "30%",
+        "height": 115,
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0.5,
+        "alignItems": "center",
+        "justifyContent": "flex-start",
+        "borderRadius": 15,
+        "gap": 3
+      },
+      "name": "Artificat_Frame",
+      "order": 1.9670991357875052
+    },
+    "3da58dca-3a21-4aaf-9001-f212483df086": {
+      "id": "3da58dca-3a21-4aaf-9001-f212483df086",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a9f04baa-0db7-46c0-b997-9c78d9fcc946",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "image": {
+          "type": "asset",
+          "asset": "assets/roman_oil_lamp.jpeg"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "cover",
+        "borderRadiusTopLeft": 15,
+        "borderRadiusTopRight": 15,
+        "borderRadiusBottomLeft": "",
+        "borderRadiusBottomRight": ""
+      },
+      "name": "Image (1)",
+      "order": 1.6211362466286305
+    },
+    "7391906b-b44b-4e62-9774-537565081201": {
+      "id": "7391906b-b44b-4e62-9774-537565081201",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a9f04baa-0db7-46c0-b997-9c78d9fcc946",
+      "components": {},
+      "ui": {
+        "width": "100%",
+        "height": 10,
+        "text": "Roman Oil Lamp",
+        "color": "#873204",
+        "fontSize": 8,
+        "type": "3d"
+      },
+      "name": "Text (2)",
+      "order": 3.3242317766183245
+    },
+    "9b113fe5-3662-4c15-8d58-eecff9ca5ce5": {
+      "id": "9b113fe5-3662-4c15-8d58-eecff9ca5ce5",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "2ef7d751-760a-49f0-8a88-11e221633a1a",
+      "components": {},
+      "ui": {
+        "width": 120,
+        "height": 10,
+        "text": "Artifact Colllection\n",
+        "color": "#873204",
+        "fontSize": 12,
+        "type": "3d"
+      },
+      "name": "Title",
+      "order": 2.8068575239958093
+    },
+    "2ef7d751-760a-49f0-8a88-11e221633a1a": {
+      "id": "2ef7d751-760a-49f0-8a88-11e221633a1a",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c6ac7b1c-a013-4ea6-ad2e-9466ea856ec9",
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": "100%",
+        "height": 20,
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0,
+        "alignItems": "center",
+        "justifyContent": "center",
+        "gap": 150
+      },
+      "name": "CollectionTopBar",
+      "order": 1.2730068810365593
+    },
+    "f5400792-ff32-41f5-b285-1316218644b6": {
+      "id": "f5400792-ff32-41f5-b285-1316218644b6",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "2ef7d751-760a-49f0-8a88-11e221633a1a",
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": 60,
+        "height": "80%",
+        "type": "3d",
+        "background": "#fef3c6",
+        "backgroundOpacity": 1,
+        "alignItems": "center",
+        "justifyContent": "center",
+        "borderRadius": 8
+      },
+      "name": "3/3 Unlocked",
+      "order": 3.9958720820316844
+    },
+    "def13c90-df82-44fb-9389-01203ea6902a": {
+      "id": "def13c90-df82-44fb-9389-01203ea6902a",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "f5400792-ff32-41f5-b285-1316218644b6",
+      "components": {},
+      "ui": {
+        "width": "100%",
+        "height": 10,
+        "text": "3/3 Unlocked",
+        "color": "#bb4d00",
+        "fontSize": 7,
+        "type": "3d",
+        "verticalTextAlign": "center"
+      },
+      "name": "Text (5)",
+      "order": 1.0911071627009945
+    },
+    "ed982981-4aa2-4a97-9c83-f684c2bc2111": {
+      "id": "ed982981-4aa2-4a97-9c83-f684c2bc2111",
+      "position": [
+        0,
+        0.3845293425266643,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "column",
+        "borderColor": "#ffd230",
+        "borderWidth": 1,
+        "width": "80%",
+        "height": 200,
+        "type": "3d",
+        "background": "#fef3c6",
+        "backgroundOpacity": 1,
+        "borderRadius": 15,
+        "alignItems": "center",
+        "justifyContent": "flex-start",
+        "gap": 5,
+        "paddingTop": 10,
+        "paddingBottom": 10,
+        "margin": "",
+        "marginTop": 20,
+        "marginBottom": 20,
+        "flexWrap": "nowrap"
+      },
+      "name": "Cartoon Frame",
+      "order": 5.3765424197887475,
+      "parentId": "a65b30b2-f31d-46fc-ac46-d4cc05460a02"
+    },
+    "8567991d-2fab-4046-b749-3747b9148f5e": {
+      "id": "8567991d-2fab-4046-b749-3747b9148f5e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "ed982981-4aa2-4a97-9c83-f684c2bc2111",
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": "90%",
+        "height": 20,
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0,
+        "alignItems": "center",
+        "justifyContent": "flex-start",
+        "gap": 5
+      },
+      "name": "CartoonTopBar",
+      "order": 13
+    },
+    "f59a815b-a8f9-4057-b2b8-267563a72937": {
+      "id": "f59a815b-a8f9-4057-b2b8-267563a72937",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "8567991d-2fab-4046-b749-3747b9148f5e",
+      "components": {},
+      "ui": {
+        "width": 120,
+        "height": 10,
+        "text": "Life Story Unlocked!",
+        "color": "#873204",
+        "fontSize": 12,
+        "type": "3d",
+        "textAlign": "left"
+      },
+      "name": "Title (1)",
+      "order": 14
+    },
+    "c2194536-ae21-4062-b909-a85db7fb940b": {
+      "id": "c2194536-ae21-4062-b909-a85db7fb940b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "8567991d-2fab-4046-b749-3747b9148f5e",
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": 20,
+        "height": 20,
+        "type": "3d",
+        "background": "#e17100",
+        "backgroundOpacity": 1,
+        "alignItems": "center",
+        "justifyContent": "center",
+        "borderRadius": 10,
+        "paddingTop": "",
+        "paddingBottom": ""
+      },
+      "name": "LockIcon",
+      "order": 12.70855550871419
+    },
+    "a01c8c5e-c26d-4950-810d-87200174edb9": {
+      "id": "a01c8c5e-c26d-4950-810d-87200174edb9",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c2194536-ae21-4062-b909-a85db7fb940b",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": "70%",
+        "height": "70%",
+        "image": {
+          "type": "asset",
+          "asset": "assets/lockicon.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "name": "Image (4)",
+      "order": 1.1504823491221408
+    },
+    "5ef18bb6-a211-4f8c-9f4e-ce263f6ff0c5": {
+      "id": "5ef18bb6-a211-4f8c-9f4e-ce263f6ff0c5",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "ed982981-4aa2-4a97-9c83-f684c2bc2111",
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": "90%",
+        "height": "90%",
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 1,
+        "alignItems": "center",
+        "justifyContent": "center",
+        "borderRadius": 15
+      },
+      "name": "CartoonMain",
+      "order": 14.545136770155525
+    },
+    "7d4bcb51-0766-456e-9572-95c025b89d0f": {
+      "id": "7d4bcb51-0766-456e-9572-95c025b89d0f",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "5ef18bb6-a211-4f8c-9f4e-ce263f6ff0c5",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": "90%",
+        "height": "90%",
+        "image": {
+          "type": "asset",
+          "asset": "assets/Calliyche_cartoon.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain",
+        "borderRadius": 15
+      },
+      "name": "Image (5)",
+      "order": 1.1725341079225442
+    },
+    "78bd0e0b-57be-425d-83b1-57ce35df9c5e": {
+      "id": "78bd0e0b-57be-425d-83b1-57ce35df9c5e",
+      "position": [
+        0,
+        0.3845293425266643,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "borderColor": "#ffbd2e",
+        "borderWidth": 1,
+        "flexDirection": "column",
+        "width": "30%",
+        "height": 115,
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0.5,
+        "alignItems": "center",
+        "justifyContent": "flex-start",
+        "borderRadius": 15,
+        "gap": 3
+      },
+      "name": "Artificat_Frame (1)",
+      "order": 3.748387852111769,
+      "parentId": "53958bf4-e0ed-41cf-bce6-a31a86b9813d"
+    },
+    "750fae66-afb7-4532-9a29-f37e78b2b946": {
+      "id": "750fae66-afb7-4532-9a29-f37e78b2b946",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "78bd0e0b-57be-425d-83b1-57ce35df9c5e",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "image": {
+          "type": "asset",
+          "asset": "assets/roman_oil_lamp.jpeg"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "cover",
+        "borderRadiusTopLeft": 15,
+        "borderRadiusTopRight": 15,
+        "borderRadiusBottomLeft": "",
+        "borderRadiusBottomRight": ""
+      },
+      "name": "Image (6)",
+      "order": 1
+    },
+    "2941adbd-80ba-4cea-9320-622a1b5c4ba2": {
+      "id": "2941adbd-80ba-4cea-9320-622a1b5c4ba2",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "78bd0e0b-57be-425d-83b1-57ce35df9c5e",
+      "components": {},
+      "ui": {
+        "width": "100%",
+        "height": 10,
+        "text": "Roman Oil Lamp",
+        "color": "#873204",
+        "fontSize": 8,
+        "type": "3d"
+      },
+      "name": "Text (6)",
+      "order": 2
+    },
+    "8cb8f633-5189-4aa7-973f-224896a6af41": {
+      "id": "8cb8f633-5189-4aa7-973f-224896a6af41",
+      "position": [
+        0,
+        0.3845293425266643,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "borderColor": "#ffbd2e",
+        "borderWidth": 1,
+        "flexDirection": "column",
+        "width": "30%",
+        "height": 115,
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0.5,
+        "alignItems": "center",
+        "justifyContent": "flex-start",
+        "borderRadius": 15,
+        "gap": 3
+      },
+      "name": "Artificat_Frame (2)",
+      "order": 2.4127461550244793,
+      "parentId": "53958bf4-e0ed-41cf-bce6-a31a86b9813d"
+    },
+    "6ba519f8-62d5-4a25-a056-9456ab35ada4": {
+      "id": "6ba519f8-62d5-4a25-a056-9456ab35ada4",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "8cb8f633-5189-4aa7-973f-224896a6af41",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "image": {
+          "type": "asset",
+          "asset": "assets/roman_oil_lamp.jpeg"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "cover",
+        "borderRadiusTopLeft": 15,
+        "borderRadiusTopRight": 15,
+        "borderRadiusBottomLeft": "",
+        "borderRadiusBottomRight": ""
+      },
+      "name": "Image (7)",
+      "order": 1
+    },
+    "7c63aa9e-6280-4f9c-b26c-207c5616d432": {
+      "id": "7c63aa9e-6280-4f9c-b26c-207c5616d432",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "8cb8f633-5189-4aa7-973f-224896a6af41",
+      "components": {},
+      "ui": {
+        "width": "100%",
+        "height": 10,
+        "text": "Roman Oil Lamp",
+        "color": "#873204",
+        "fontSize": 8,
+        "type": "3d"
+      },
+      "name": "Text (7)",
+      "order": 2
     }
   },
   "runtimeVersion": {
