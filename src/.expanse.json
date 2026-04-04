@@ -1960,7 +1960,7 @@
         "backgroundSize": "stretch",
         "flexDirection": "column",
         "flexWrap": "nowrap",
-        "height": "25%",
+        "height": "35%",
         "justifyContent": "flex-start",
         "type": "overlay",
         "width": "90%",
@@ -3567,7 +3567,7 @@
       "parentId": "0934003f-9710-4655-a0ff-525908e622e7",
       "position": [
         0,
-        4.586706441297672,
+        9.853618835402619,
         0
       ],
       "rotation": [
@@ -3587,7 +3587,7 @@
         "backgroundOpacity": 1,
         "flexDirection": "column",
         "gap": 13,
-        "height": "170%",
+        "height": "140%",
         "ignoreRaycast": true,
         "justifyContent": "flex-start",
         "type": "overlay",
@@ -6081,7 +6081,7 @@
       "ui": {
         "type": "3d",
         "width": 200,
-        "height": "40%",
+        "height": "45%",
         "background": "#e7e9ed",
         "borderRadius": 18,
         "flexDirection": "row",
@@ -7162,7 +7162,7 @@
       "ui": {
         "flexDirection": "column",
         "width": "100%",
-        "height": "30%",
+        "height": "25%",
         "type": "3d",
         "background": "#ffffff",
         "backgroundOpacity": 0.5,
@@ -7622,7 +7622,7 @@
         "backgroundSize": "stretch",
         "flexDirection": "column",
         "flexWrap": "nowrap",
-        "height": "7%",
+        "height": "10%",
         "justifyContent": "flex-start",
         "type": "overlay",
         "width": "90%",
@@ -7800,7 +7800,7 @@
         "backgroundSize": "stretch",
         "flexDirection": "column",
         "flexWrap": "nowrap",
-        "height": "7%",
+        "height": "10%",
         "justifyContent": "flex-start",
         "type": "overlay",
         "width": "90%",
