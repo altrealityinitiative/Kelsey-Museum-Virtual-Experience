@@ -2,7 +2,6 @@ import * as ecs from '@8thwall/ecs'
 
 ecs.registerComponent({
   name: 'toggle-menu',
-
   schema: {
     menu: ecs.eid,
     isVisible: ecs.boolean,     //if the components are visible at startup by default
