@@ -1935,7 +1935,7 @@
       "geometry": null,
       "id": "53573e72-8653-4522-badd-b3f963321b7b",
       "material": null,
-      "name": "Description Space",
+      "name": "Description Space 1",
       "order": -1.0267032479716267,
       "parentId": "d08b9882-d9d6-4514-81de-60f8ac847278",
       "position": [
@@ -1971,8 +1971,10 @@
         "paddingBottom": "1%",
         "borderRadius": 25,
         "paddingLeft": "3%",
-        "paddingRight": "3%"
-      }
+        "paddingRight": "3%",
+        "stackingOrder": 0
+      },
+      "hidden": false
     },
     "564478f3-d3db-4acd-8f27-afccfc5747eb": {
       "camera": {
@@ -3554,8 +3556,8 @@
     },
     "d08b9882-d9d6-4514-81de-60f8ac847278": {
       "components": {
-        "47c1288e-3d77-435b-91f6-944355e0c14a": {
-          "id": "47c1288e-3d77-435b-91f6-944355e0c14a",
+        "73565c66-fced-4fc3-a210-6d7f5ab73bcb": {
+          "id": "73565c66-fced-4fc3-a210-6d7f5ab73bcb",
           "name": "Scrollable",
           "parameters": {
             "maxScroll": 1250
@@ -3570,7 +3572,7 @@
       "parentId": "0934003f-9710-4655-a0ff-525908e622e7",
       "position": [
         0,
-        9.853618835402619,
+        0,
         0
       ],
       "rotation": [
@@ -6124,9 +6126,9 @@
       "material": null,
       "parentId": "4c1018c1-de0d-4080-8b92-c96a33df882f",
       "components": {
-        "ed919e26-7218-4688-9ca5-316b51e67f0f": {
-          "id": "ed919e26-7218-4688-9ca5-316b51e67f0f",
-          "name": "SideMenuButton",
+        "7ef4dd6e-14b6-48d3-b96b-5744c6a1b671": {
+          "id": "7ef4dd6e-14b6-48d3-b96b-5744c6a1b671",
+          "name": "toggle-menu",
           "parameters": {
             "menu": {
               "type": "entity",
@@ -6147,7 +6149,8 @@
         "backgroundSize": "contain",
         "ignoreRaycast": false
       },
-      "order": 13.425429970936722
+      "order": 13.425429970936722,
+      "hidden": false
     },
     "a439f0eb-910c-46c4-8bb5-83cc53817812": {
       "components": {},
@@ -6981,6 +6984,7 @@
         1,
         1
       ],
+      "hidden": false,
       "ui": {
         "flexDirection": "row",
         "width": "100%",
@@ -7034,7 +7038,8 @@
         "verticalTextAlign": "center"
       },
       "name": "Artifact Name",
-      "order": 14.946877269968443
+      "order": 14.946877269968443,
+      "hidden": false
     },
     "e9a108c9-ed62-4f08-8874-ebc75f5f58c9": {
       "components": {},
@@ -7801,15 +7806,16 @@
         "backgroundOpacity": 1,
         "backgroundSize": "contain"
       },
-      "name": "Image",
-      "order": -0.29875181976182974
+      "name": "Artifact_Image",
+      "order": -0.29875181976182974,
+      "hidden": false
     },
     "e556a10e-19b3-420a-90dd-e792c02cd0c7": {
       "components": {},
       "geometry": null,
       "id": "e556a10e-19b3-420a-90dd-e792c02cd0c7",
       "material": null,
-      "name": "Description Space 3 (1)",
+      "name": "Description Space 4",
       "order": -0.06915480897949233,
       "parentId": "d08b9882-d9d6-4514-81de-60f8ac847278",
       "position": [

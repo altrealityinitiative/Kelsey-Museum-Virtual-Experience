@@ -1,4 +1,4 @@
-import * as ecs from '@8thwall/ecs'  // This is how you access the ecs library.
+import * as ecs from '@8thwall/ecs'
 
 ecs.registerComponent({
   name: 'SideMenuButton',
