@@ -1,7 +1,7 @@
 // Rotate the current entity (eid) live based on drag deltaX/deltaY.
 import * as ecs from "@8thwall/ecs";
 
-const ModelRotateControls = ecs.registerComponent({
+ecs.registerComponent({
   name: "ModelRotateControls",
   schema: {
     sensitivityX: ecs.f32,
@@ -143,5 +143,3 @@ const ModelRotateControls = ecs.registerComponent({
     );
   },
 });
-
-export default ModelRotateControls;
