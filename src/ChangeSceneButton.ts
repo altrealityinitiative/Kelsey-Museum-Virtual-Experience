@@ -1,6 +1,7 @@
 import * as ecs from '@8thwall/ecs'
 
 ecs.registerComponent({
+
   name: 'ChangeSceneButton',
   schema: {
     targetScene: ecs.string,

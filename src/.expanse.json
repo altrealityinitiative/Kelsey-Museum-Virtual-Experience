@@ -285,7 +285,7 @@
       "ui": {
         "flexDirection": "row",
         "width": "100%",
-        "height": 700,
+        "height": "100%",
         "type": "3d",
         "background": "#ffffff",
         "backgroundOpacity": 0,
@@ -379,17 +379,14 @@
         "type": "3d",
         "background": "#b69754",
         "backgroundOpacity": 1,
+        "borderRadius": 25,
         "paddingTop": "2%",
         "paddingBottom": "2%",
         "paddingLeft": "2%",
         "paddingRight": "2%",
         "alignItems": "center",
         "justifyContent": "flex-start",
-        "gap": "2%",
-        "borderRadiusTopLeft": 0,
-        "borderRadiusTopRight": "25",
-        "borderRadiusBottomLeft": 0,
-        "borderRadiusBottomRight": "25"
+        "gap": "2%"
       },
       "name": "MenuCard",
       "order": 1.4807050379946585
@@ -1572,6 +1569,38 @@
         1
       ]
     },
+    "0a169dc7-136b-41d5-b302-3d262553c7d8": {
+      "components": {},
+      "geometry": null,
+      "id": "0a169dc7-136b-41d5-b302-3d262553c7d8",
+      "material": null,
+      "name": "Text",
+      "order": 1.1141649463728713,
+      "parentId": "4dd2eb65-108e-4bf6-b9da-2d8b2992bb8f",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "ui": {
+        "color": "#694520",
+        "fontSize": 16,
+        "height": 14,
+        "text": "Front\n",
+        "width": 50
+      }
+    },
     "0c38d047-7ec2-4d06-8f65-e84a794e702c": {
       "components": {
         "4e5b90dc-4234-402b-9b84-01f288bf8d64": {
@@ -1779,6 +1808,97 @@
         1,
         1
       ]
+    },
+    "19b07764-0686-4cfd-ba5f-273f41d8f108": {
+      "components": {},
+      "geometry": null,
+      "id": "19b07764-0686-4cfd-ba5f-273f41d8f108",
+      "material": null,
+      "name": "Description",
+      "order": 17.867536463300112,
+      "parentId": "53573e72-8653-4522-badd-b3f963321b7b",
+      "position": [
+        0,
+        -2.636128043192243,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "ui": {
+        "color": "#000000",
+        "font": {
+          "type": "font",
+          "font": "Futura"
+        },
+        "fontSize": 16,
+        "height": "100%",
+        "text": "Ut ex magna commodo pariatur nostrud anim sint non pariatur aliquip ad labore. Cupidatat aute sit ut ex Lorem exercitation laboris elit magna commodo consectetur et. Qui deserunt exercitation ad labore consequat pariatur voluptate irure est in commodo minim irure adipisicing. Eiusmod reprehenderit excepteur incididunt culpa ad. Irure labore amet Ut ex magna commodo pariatur nostrud anim sint non pariatur aliquip ad labore. Cupidatat aute sit ut ex Lorem exercitation laboris elit magna commodo consectetur et. Qui deserunt exercitation ad labore consequat pariatur voluptate irure est in commodo minim irure adipisicing. Eiusmod reprehenderit excepteur incididunt culpa ad. Irure labore amet ",
+        "textAlign": "center",
+        "type": "3d",
+        "verticalTextAlign": "start",
+        "width": "100%"
+      }
+    },
+    "1cc07264-c66b-4cb5-b779-a8ab6debcb61": {
+      "components": {
+        "1ea69080-c7b2-4960-bdfc-dd7ee66e848b": {
+          "id": "1ea69080-c7b2-4960-bdfc-dd7ee66e848b",
+          "name": "SetRotationButton",
+          "parameters": {
+            "model": {
+              "type": "entity",
+              "id": "a2909382-ea56-4411-9925-f24244bb9976"
+            },
+            "rotationX": 0,
+            "rotationY": 180
+          }
+        }
+      },
+      "geometry": null,
+      "id": "1cc07264-c66b-4cb5-b779-a8ab6debcb61",
+      "material": null,
+      "name": "Back",
+      "order": 0.20282681565995486,
+      "parentId": "65fb8e31-b0cb-4ea2-a7a6-ff56940f8521",
+      "position": [
+        1.4490186264601717,
+        1.9525112263001876,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "ui": {
+        "alignItems": "center",
+        "background": "#f1b974",
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "gap": "6",
+        "height": "100%",
+        "justifyContent": "center",
+        "padding": "10",
+        "type": "3d",
+        "width": "20%"
+      }
     },
     "1e812adb-0954-4013-bd0e-36d070f77636": {
       "components": {},
@@ -2151,6 +2271,63 @@
         "width": "100%"
       }
     },
+    "4dd2eb65-108e-4bf6-b9da-2d8b2992bb8f": {
+      "components": {
+        "68f05224-5b5d-4f38-ac38-4c487e25bfad": {
+          "id": "68f05224-5b5d-4f38-ac38-4c487e25bfad",
+          "name": "SetRotationButton",
+          "parameters": {
+            "model": {
+              "type": "entity",
+              "id": "a2909382-ea56-4411-9925-f24244bb9976"
+            }
+          }
+        }
+      },
+      "geometry": null,
+      "hidden": false,
+      "id": "4dd2eb65-108e-4bf6-b9da-2d8b2992bb8f",
+      "material": null,
+      "name": "Front",
+      "order": -1.0144281642450534,
+      "parentId": "65fb8e31-b0cb-4ea2-a7a6-ff56940f8521",
+      "position": [
+        1.4490186264601717,
+        2.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "ui": {
+        "alignItems": "center",
+        "background": "#f1b974",
+        "backgroundOpacity": 1,
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "gap": "6",
+        "height": "100%",
+        "ignoreRaycast": false,
+        "justifyContent": "center",
+        "opacity": 1,
+        "padding": "10",
+        "paddingBottom": 0,
+        "paddingLeft": "",
+        "paddingRight": "",
+        "paddingTop": 0,
+        "type": "3d",
+        "width": "20%"
+      }
+    },
     "4fd3b22a-5258-44b7-be6c-6b7b35bc8ead": {
       "components": {
         "478be73b-9809-4629-9cb3-ce63fc3fc9de": {
@@ -2190,12 +2367,65 @@
         40
       ]
     },
+    "508e00da-33cf-4a88-84fb-7d8317347cb9": {
+      "components": {
+        "1ea69080-c7b2-4960-bdfc-dd7ee66e848b": {
+          "id": "1ea69080-c7b2-4960-bdfc-dd7ee66e848b",
+          "name": "SetRotationButton",
+          "parameters": {
+            "model": {
+              "type": "entity",
+              "id": "a2909382-ea56-4411-9925-f24244bb9976"
+            },
+            "rotationX": 270,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      },
+      "geometry": null,
+      "id": "508e00da-33cf-4a88-84fb-7d8317347cb9",
+      "material": null,
+      "name": "Bottom",
+      "order": 2.929695431398348,
+      "parentId": "65fb8e31-b0cb-4ea2-a7a6-ff56940f8521",
+      "position": [
+        1.4490186264601717,
+        1.9525112263001876,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "ui": {
+        "alignItems": "center",
+        "background": "#f1b974",
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "gap": "6",
+        "height": "100%",
+        "justifyContent": "center",
+        "padding": "10",
+        "type": "3d",
+        "width": "20%"
+      }
+    },
     "53573e72-8653-4522-badd-b3f963321b7b": {
       "components": {},
       "geometry": null,
       "id": "53573e72-8653-4522-badd-b3f963321b7b",
       "material": null,
-      "name": "Description Space 1",
+      "name": "Description Space",
       "order": -1.0267032479716267,
       "parentId": "d08b9882-d9d6-4514-81de-60f8ac847278",
       "position": [
@@ -2215,26 +2445,22 @@
         1
       ],
       "ui": {
-        "borderColor": "#dedede",
-        "borderWidth": 1,
         "alignItems": "center",
         "background": "#ffffff",
         "backgroundOpacity": 0.5,
         "backgroundSize": "stretch",
-        "flexDirection": "column",
+        "flexDirection": "row",
         "flexWrap": "nowrap",
-        "height": "35%",
-        "justifyContent": "flex-start",
+        "height": "40%",
+        "justifyContent": "center",
         "type": "overlay",
         "width": "90%",
-        "paddingTop": "1%",
-        "paddingBottom": "1%",
+        "paddingTop": "7%",
+        "paddingBottom": "7%",
         "borderRadius": 25,
-        "paddingLeft": "3%",
-        "paddingRight": "3%",
-        "stackingOrder": 0
-      },
-      "hidden": false
+        "paddingLeft": "1%",
+        "paddingRight": "1%"
+      }
     },
     "564478f3-d3db-4acd-8f27-afccfc5747eb": {
       "camera": {
@@ -2459,6 +2685,72 @@
         "receiveShadow": true
       }
     },
+    "65fb8e31-b0cb-4ea2-a7a6-ff56940f8521": {
+      "components": {},
+      "geometry": null,
+      "id": "65fb8e31-b0cb-4ea2-a7a6-ff56940f8521",
+      "material": null,
+      "name": "Horizontal Container",
+      "order": -0.37894203926495607,
+      "parentId": "d08b9882-d9d6-4514-81de-60f8ac847278",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "ui": {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 30,
+        "height": "10%",
+        "justifyContent": "center",
+        "type": "3d",
+        "width": "90%"
+      }
+    },
+    "69209d5c-77c2-4aec-9eae-7ebee1b469e2": {
+      "components": {},
+      "geometry": null,
+      "id": "69209d5c-77c2-4aec-9eae-7ebee1b469e2",
+      "material": null,
+      "name": "Text",
+      "order": 1.323715598387526,
+      "parentId": "6b078b00-b620-495d-8c28-bfa6346cfa3a",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "ui": {
+        "color": "#694520",
+        "fontSize": 16,
+        "height": 14,
+        "text": "Top\n",
+        "width": 50
+      }
+    },
     "69efb8df-abde-40bc-b1d3-9dbeae72e588": {
       "components": {},
       "geometry": null,
@@ -2514,6 +2806,59 @@
         1,
         1
       ]
+    },
+    "6b078b00-b620-495d-8c28-bfa6346cfa3a": {
+      "components": {
+        "1ea69080-c7b2-4960-bdfc-dd7ee66e848b": {
+          "id": "1ea69080-c7b2-4960-bdfc-dd7ee66e848b",
+          "name": "SetRotationButton",
+          "parameters": {
+            "model": {
+              "type": "entity",
+              "id": "a2909382-ea56-4411-9925-f24244bb9976"
+            },
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0
+          }
+        }
+      },
+      "geometry": null,
+      "id": "6b078b00-b620-495d-8c28-bfa6346cfa3a",
+      "material": null,
+      "name": "Top",
+      "order": 1.4189533210470395,
+      "parentId": "65fb8e31-b0cb-4ea2-a7a6-ff56940f8521",
+      "position": [
+        1.4490186264601717,
+        1.9525112263001876,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "ui": {
+        "alignItems": "center",
+        "background": "#f1b974",
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "gap": "6",
+        "height": "100%",
+        "justifyContent": "center",
+        "padding": "10",
+        "type": "3d",
+        "width": "20%"
+      }
     },
     "6e20f2df-8a7c-4b8a-a713-06a6265ff782": {
       "camera": {
@@ -3697,6 +4042,38 @@
         "width": "90%"
       }
     },
+    "ca7fd48c-d6b2-4cd6-92f5-c41ee6576fdb": {
+      "components": {},
+      "geometry": null,
+      "id": "ca7fd48c-d6b2-4cd6-92f5-c41ee6576fdb",
+      "material": null,
+      "name": "Text",
+      "order": 1,
+      "parentId": "1cc07264-c66b-4cb5-b779-a8ab6debcb61",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "ui": {
+        "color": "#694520",
+        "fontSize": 16,
+        "height": 14,
+        "text": "Back\n",
+        "width": 50
+      }
+    },
     "cb5b64f2-65fa-495d-972b-a940e70d367d": {
       "components": {
         "a9b91300-1a16-4bb8-963b-a794bbc233e6": {
@@ -3816,8 +4193,8 @@
     },
     "d08b9882-d9d6-4514-81de-60f8ac847278": {
       "components": {
-        "73565c66-fced-4fc3-a210-6d7f5ab73bcb": {
-          "id": "73565c66-fced-4fc3-a210-6d7f5ab73bcb",
+        "47c1288e-3d77-435b-91f6-944355e0c14a": {
+          "id": "47c1288e-3d77-435b-91f6-944355e0c14a",
           "name": "Scrollable",
           "parameters": {
             "maxScroll": 1250
@@ -3832,7 +4209,7 @@
       "parentId": "0934003f-9710-4655-a0ff-525908e622e7",
       "position": [
         0,
-        0,
+        4.586706441297672,
         0
       ],
       "rotation": [
@@ -3848,11 +4225,11 @@
       ],
       "ui": {
         "alignItems": "center",
-        "background": "#fffaeb",
-        "backgroundOpacity": 1,
+        "background": "#faf4d8",
+        "backgroundOpacity": 0,
         "flexDirection": "column",
         "gap": 13,
-        "height": "140%",
+        "height": "100%",
         "ignoreRaycast": true,
         "justifyContent": "flex-start",
         "type": "overlay",
@@ -4522,6 +4899,38 @@
         1
       ]
     },
+    "fa66f349-3ec8-4674-9a70-25f062a27760": {
+      "components": {},
+      "geometry": null,
+      "id": "fa66f349-3ec8-4674-9a70-25f062a27760",
+      "material": null,
+      "name": "Text",
+      "order": 1,
+      "parentId": "508e00da-33cf-4a88-84fb-7d8317347cb9",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "ui": {
+        "color": "#694520",
+        "fontSize": 16,
+        "height": 14,
+        "text": "Bottom\n",
+        "width": 60
+      }
+    },
     "faed9c60-8a6e-4725-9e40-7afca584b9cc": {
       "components": {},
       "geometry": null,
@@ -4661,6 +5070,45 @@
         "width": "40%"
       }
     },
+    "a2909382-ea56-4411-9925-f24244bb9976": {
+      "id": "a2909382-ea56-4411-9925-f24244bb9976",
+      "position": [
+        4.419416119266363,
+        2.860469022075586,
+        0.13301125622883245
+      ],
+      "rotation": [
+        -0.2140757701798933,
+        0,
+        0,
+        0.9768170579089442
+      ],
+      "scale": [
+        7,
+        7.000000000000001,
+        7.000000000000001
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "0934003f-9710-4655-a0ff-525908e622e7",
+      "components": {
+        "40999ab3-ef8b-472e-a148-e1a6ae42974f": {
+          "id": "40999ab3-ef8b-472e-a148-e1a6ae42974f",
+          "name": "ModelRotateControls",
+          "parameters": {}
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Augustus_Head.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Augustus_Head.glb",
+      "order": 5.032285342198829
+    },
     "4c1018c1-de0d-4080-8b92-c96a33df882f": {
       "components": {},
       "geometry": null,
@@ -4692,7 +5140,7 @@
         "backgroundSize": "stretch",
         "flexDirection": "row",
         "flexWrap": "nowrap",
-        "height": "5%",
+        "height": "10%",
         "justifyContent": "flex-start",
         "type": "overlay",
         "width": "100%",
@@ -4725,7 +5173,6 @@
         1
       ],
       "ui": {
-        "flexDirection": "row",
         "color": "#000000",
         "font": {
           "type": "font",
@@ -4737,9 +5184,7 @@
         "textAlign": "left",
         "type": "3d",
         "verticalTextAlign": "center",
-        "width": "85%",
-        "paddingLeft": "",
-        "paddingRight": ""
+        "width": "85%"
       }
     },
     "9dbcc629-4d9e-4eba-83a4-9b303dd09f8c": {
@@ -5854,8 +6299,8 @@
       "sky": {
         "type": "gradient",
         "colors": [
-          "#464766",
-          "#08061f"
+          "#000000",
+          "#faf4d8"
         ]
       }
     },
@@ -5886,14 +6331,7 @@
     "442d8bc9-8269-4e9b-811b-faedf363b929": {
       "activeCamera": "3c1e04d7-da56-4368-8851-e3020c1596d0",
       "id": "442d8bc9-8269-4e9b-811b-faedf363b929",
-      "name": "Exhibit-Augustus",
-      "sky": {
-        "type": "gradient",
-        "colors": [
-          "#faf4d8",
-          "#faf4d8"
-        ]
-      }
+      "name": "Exhibit-Augustus"
     },
     "4b417023-ab9f-42af-894d-51a44b1409c3": {
       "activeCamera": "6e20f2df-8a7c-4b8a-a713-06a6265ff782",
@@ -5930,17 +6368,10 @@
       "name": "Tutorial-Page",
       "activeCamera": "274af4c2-a6ca-4339-bd4f-44c1504576bc"
     },
-    "95b45adb-11d3-4d6a-ae7f-bcd138d5d354": {
-      "activeCamera": "6c36d914-c97e-42c0-b705-f06be3a69bc2",
-      "id": "95b45adb-11d3-4d6a-ae7f-bcd138d5d354",
-      "name": "Exhibit-Augustus-1",
-      "sky": {
-        "type": "gradient",
-        "colors": [
-          "#faf4d8",
-          "#faf4d8"
-        ]
-      }
+    "38dad18c-95e0-413c-9cd7-9e7e2a5b78f4": {
+      "id": "38dad18c-95e0-413c-9cd7-9e7e2a5b78f4",
+      "name": "Callityche-Page",
+      "activeCamera": "c491eda2-ee64-4f9e-b2bd-4e88d627d8ff"
     }
   }
 }
