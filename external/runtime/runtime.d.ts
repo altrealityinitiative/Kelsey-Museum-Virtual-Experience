@@ -2726,7 +2726,6 @@ export declare const registerBehavior: (callback: WorldBehavior) => void;
 export declare const unregisterBehavior: (callback: WorldBehavior) => void;
 export declare const getBehaviors: () => DeepReadonly<typeof behaviors>;
 type ComponentCursor<S extends Schema, D extends Schema> = {
-    isVisible: any;
 	eid: Eid;
 	schema: WriteData<S>;
 	data: WriteData<D>;
