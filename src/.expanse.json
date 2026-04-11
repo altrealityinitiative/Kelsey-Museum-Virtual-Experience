@@ -1,6 +1,266 @@
 {
-  "entrySpaceId": "0934003f-9710-4655-a0ff-525908e622e7",
+  "entrySpaceId": "bd791d06-90ab-4a77-9e53-77556776c6ab",
   "objects": {
+    "b6487f41-185b-4b3e-944b-8f2bca08bfb2": {
+      "id": "b6487f41-185b-4b3e-944b-8f2bca08bfb2",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "borderColor": "#d4d4d4",
+        "borderWidth": 1,
+        "flexDirection": "row-reverse",
+        "background": "#ffffff",
+        "backgroundOpacity": 1,
+        "width": 360,
+        "height": 90,
+        "type": "3d",
+        "paddingTop": 10,
+        "paddingBottom": 10,
+        "flexWrap": "nowrap",
+        "borderRadius": 10,
+        "alignItems": "center",
+        "justifyContent": "flex-end",
+        "gap": 10,
+        "paddingLeft": 10,
+        "paddingRight": 10
+      },
+      "name": "TutorialInfoRow",
+      "order": 2.124168933867311,
+      "prefab": true
+    },
+    "26264bb3-239b-4373-b338-6f30d1a618da": {
+      "id": "26264bb3-239b-4373-b338-6f30d1a618da",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "11c273f2-d93b-4665-9523-d56ca8a1af31",
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": "100%",
+        "height": 20,
+        "text": "1. Scan an Artifact",
+        "color": "#000000",
+        "fontSize": 16,
+        "type": "3d",
+        "textAlign": "left",
+        "alignItems": "flex-start",
+        "justifyContent": "flex-start",
+        "paddingLeft": 0,
+        "paddingRight": 0
+      },
+      "name": "Title",
+      "order": 2.5228517189431745
+    },
+    "20c07aa5-2066-4e5a-b8d2-aee0a9478bac": {
+      "id": "20c07aa5-2066-4e5a-b8d2-aee0a9478bac",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "b6487f41-185b-4b3e-944b-8f2bca08bfb2",
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": 40,
+        "height": "100%",
+        "type": "3d",
+        "paddingTop": 14,
+        "paddingBottom": 14
+      },
+      "name": "IconFrame",
+      "order": -0.5549256700078874
+    },
+    "11c273f2-d93b-4665-9523-d56ca8a1af31": {
+      "id": "11c273f2-d93b-4665-9523-d56ca8a1af31",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "b6487f41-185b-4b3e-944b-8f2bca08bfb2",
+      "components": {},
+      "ui": {
+        "text": "",
+        "flexDirection": "column",
+        "width": "85%",
+        "height": "100%",
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0,
+        "alignItems": "flex-start",
+        "justifyContent": "flex-start",
+        "paddingTop": "",
+        "paddingBottom": "",
+        "verticalTextAlign": "center",
+        "color": "#413e3e",
+        "textAlign": "left",
+        "flexWrap": "nowrap",
+        "paddingLeft": "",
+        "paddingRight": ""
+      },
+      "name": "Info",
+      "order": -2.3045451802528176
+    },
+    "b4105db8-61db-45d1-9c7d-221d82491327": {
+      "id": "b4105db8-61db-45d1-9c7d-221d82491327",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "11c273f2-d93b-4665-9523-d56ca8a1af31",
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": "100%",
+        "height": 50,
+        "text": "Point your camera at any artifact in the museum to identify it and learn more. The AR scanner will automatically detect and recognize artifacts from the collection.\n",
+        "color": "#474747",
+        "fontSize": 12,
+        "type": "3d",
+        "textAlign": "left",
+        "verticalTextAlign": "start",
+        "alignItems": "flex-end",
+        "justifyContent": "flex-end",
+        "gap": 0
+      },
+      "name": "Description",
+      "order": 3.8420421636920787
+    },
+    "0aeddc1e-5fa8-4ca8-befb-7912706e8d85": {
+      "id": "0aeddc1e-5fa8-4ca8-befb-7912706e8d85",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "20c07aa5-2066-4e5a-b8d2-aee0a9478bac",
+      "components": {},
+      "ui": {
+        "width": 40,
+        "height": 40,
+        "type": "3d",
+        "background": "#ffe261",
+        "backgroundOpacity": 1
+      },
+      "name": "IconPlaceholder",
+      "order": 1.6631010572349223
+    },
+    "7ad3729a-d978-4e6d-a354-31a9b46578f3": {
+      "id": "7ad3729a-d978-4e6d-a354-31a9b46578f3",
+      "position": [
+        0,
+        -4.586706441297672,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Menu",
+      "instanceData": {
+        "instanceOf": "4fd2a11b-f0d5-48c8-a344-60e75154153a",
+        "deletions": {
+          "disabled": true
+        },
+        "children": {}
+      },
+      "parentId": "d08b9882-d9d6-4514-81de-60f8ac847278",
+      "components": {}
+    },
     "4fd2a11b-f0d5-48c8-a344-60e75154153a": {
       "id": "4fd2a11b-f0d5-48c8-a344-60e75154153a",
       "position": [
@@ -4816,13 +5076,15 @@
         "ed3b4892-4771-4db2-a6c1-47e4ba8bdb8a": {
           "id": "ed3b4892-4771-4db2-a6c1-47e4ba8bdb8a",
           "name": "Scrollable",
-          "parameters": {}
+          "parameters": {
+            "maxScroll": 800
+          }
         }
       },
       "ui": {
         "flexDirection": "column",
         "width": "100%",
-        "height": "164%",
+        "height": 800,
         "type": "overlay",
         "background": "#faf4d8",
         "backgroundOpacity": 1,
@@ -4832,7 +5094,7 @@
         "paddingBottom": 0,
         "gap": 20
       },
-      "name": "Frame",
+      "name": "Background",
       "order": 3.933738778645772
     },
     "6d91c0b5-2115-40a7-86af-dab586f4a281": {
@@ -4860,960 +5122,21 @@
       "ui": {
         "text": "How to Use Kelsey Dex\n",
         "flexDirection": "row",
-        "background": "#fef8f2",
-        "backgroundOpacity": 0.5,
+        "background": "#ffffff",
+        "backgroundOpacity": 1,
         "width": "100%",
-        "height": 100,
+        "height": 75,
         "type": "3d",
         "margin": "",
         "paddingTop": "",
         "paddingBottom": "",
         "color": "#000000",
-        "fontSize": 32,
-        "verticalTextAlign": "center",
+        "fontSize": 26,
+        "verticalTextAlign": "end",
         "flexWrap": "wrap"
       },
-      "name": "Frame (1)",
+      "name": "TitleBar",
       "order": 1.011615068829268
-    },
-    "b7aa2fd9-c290-47d6-aa1f-ab8cd2bd3076": {
-      "id": "b7aa2fd9-c290-47d6-aa1f-ab8cd2bd3076",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "ui": {
-        "flexDirection": "row-reverse",
-        "background": "#fef8f2",
-        "backgroundOpacity": 0.5,
-        "width": "70%",
-        "height": 150,
-        "type": "3d",
-        "margin": "",
-        "paddingTop": 10,
-        "paddingBottom": 10,
-        "flexWrap": "wrap",
-        "borderRadius": 0,
-        "alignItems": "center",
-        "justifyContent": "flex-end",
-        "gap": 0,
-        "paddingLeft": 11,
-        "paddingRight": 11
-      },
-      "name": "Frame (2)",
-      "order": 2.124168933867311,
-      "parentId": "be746a14-108d-4da6-bd6c-151549559019"
-    },
-    "78e99665-4004-4ec8-86f7-5666968c63a1": {
-      "id": "78e99665-4004-4ec8-86f7-5666968c63a1",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "ba4e8b04-dc77-43b9-b8fb-fd1e2fd874c9",
-      "components": {},
-      "ui": {
-        "flexDirection": "row",
-        "borderColor": "#ffffff",
-        "borderWidth": 1,
-        "width": 363,
-        "height": 25,
-        "text": "1. Scan an Artifact\n",
-        "color": "#000000",
-        "fontSize": 24,
-        "type": "3d",
-        "textAlign": "center",
-        "alignItems": "flex-start",
-        "justifyContent": "flex-start",
-        "paddingLeft": 0,
-        "paddingRight": 0
-      },
-      "name": "Text",
-      "order": 2.5228517189431745
-    },
-    "310e8851-5b15-4fab-b227-d7a70525ae93": {
-      "id": "310e8851-5b15-4fab-b227-d7a70525ae93",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "b7aa2fd9-c290-47d6-aa1f-ab8cd2bd3076",
-      "components": {},
-      "ui": {
-        "width": "100",
-        "height": 100,
-        "type": "3d",
-        "background": "#f51414",
-        "backgroundOpacity": 0.5
-      },
-      "name": "box",
-      "order": -0.5199509114803278
-    },
-    "ba4e8b04-dc77-43b9-b8fb-fd1e2fd874c9": {
-      "id": "ba4e8b04-dc77-43b9-b8fb-fd1e2fd874c9",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "b7aa2fd9-c290-47d6-aa1f-ab8cd2bd3076",
-      "components": {},
-      "ui": {
-        "text": "",
-        "flexDirection": "column",
-        "width": 366,
-        "height": 100,
-        "type": "3d",
-        "background": "#ffffff",
-        "backgroundOpacity": 0.5,
-        "alignItems": "flex-start",
-        "justifyContent": "flex-start",
-        "paddingTop": "",
-        "paddingBottom": "",
-        "verticalTextAlign": "center",
-        "color": "#413e3e",
-        "textAlign": "left",
-        "flexWrap": "nowrap",
-        "paddingLeft": "",
-        "paddingRight": ""
-      },
-      "name": "img",
-      "order": -2.3045451802528176
-    },
-    "b4610b96-e221-456c-bb10-b327cc0c899c": {
-      "id": "b4610b96-e221-456c-bb10-b327cc0c899c",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "ui": {
-        "flexDirection": "row-reverse",
-        "background": "#fef8f2",
-        "backgroundOpacity": 0.5,
-        "width": "70%",
-        "height": 150,
-        "type": "3d",
-        "margin": "",
-        "paddingTop": 10,
-        "paddingBottom": 10,
-        "flexWrap": "wrap",
-        "borderRadius": 0,
-        "alignItems": "center",
-        "justifyContent": "flex-end",
-        "gap": 0,
-        "paddingLeft": 11,
-        "paddingRight": 11
-      },
-      "name": "Frame (3)",
-      "order": 3.819431627394299,
-      "parentId": "be746a14-108d-4da6-bd6c-151549559019"
-    },
-    "cc1ab373-eced-4dab-bbc9-2f69c2e4873d": {
-      "id": "cc1ab373-eced-4dab-bbc9-2f69c2e4873d",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "b4610b96-e221-456c-bb10-b327cc0c899c",
-      "components": {},
-      "ui": {
-        "width": "10%",
-        "height": 100,
-        "type": "3d",
-        "background": "#f51414",
-        "backgroundOpacity": 0.5
-      },
-      "name": "box (1)",
-      "order": 1
-    },
-    "f4d2f89f-5231-4271-b4b0-fda2e9bcd4d9": {
-      "id": "f4d2f89f-5231-4271-b4b0-fda2e9bcd4d9",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "b4610b96-e221-456c-bb10-b327cc0c899c",
-      "components": {},
-      "ui": {
-        "flexDirection": "column",
-        "width": 366,
-        "height": 100,
-        "type": "3d",
-        "background": "#ffffff",
-        "backgroundOpacity": 0.5
-      },
-      "name": "img (1)",
-      "order": -0.37756883166926736
-    },
-    "5562e541-18c6-41f8-9563-a62e8bfc3652": {
-      "id": "5562e541-18c6-41f8-9563-a62e8bfc3652",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "f4d2f89f-5231-4271-b4b0-fda2e9bcd4d9",
-      "components": {},
-      "ui": {
-        "flexDirection": "row",
-        "width": 363,
-        "height": 25,
-        "text": "2. Browse the Collection\n\n",
-        "color": "#000000",
-        "fontSize": 24,
-        "type": "3d",
-        "alignItems": "flex-start",
-        "justifyContent": "flex-start"
-      },
-      "name": "Text (1)",
-      "order": 3
-    },
-    "addb0b51-18f1-473e-9cee-35df1514b1fa": {
-      "id": "addb0b51-18f1-473e-9cee-35df1514b1fa",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "ui": {
-        "flexDirection": "row-reverse",
-        "background": "#fef8f2",
-        "backgroundOpacity": 0.5,
-        "width": "70%",
-        "height": 150,
-        "type": "3d",
-        "margin": "",
-        "paddingTop": 10,
-        "paddingBottom": 10,
-        "flexWrap": "wrap",
-        "borderRadius": 0,
-        "alignItems": "center",
-        "justifyContent": "flex-end",
-        "gap": 0,
-        "paddingLeft": 11,
-        "paddingRight": 11
-      },
-      "name": "Frame (4)",
-      "order": 7.377180608895248,
-      "parentId": "be746a14-108d-4da6-bd6c-151549559019"
-    },
-    "a7a06c3b-7df7-4f44-996b-da4728338d3f": {
-      "id": "a7a06c3b-7df7-4f44-996b-da4728338d3f",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "addb0b51-18f1-473e-9cee-35df1514b1fa",
-      "components": {},
-      "ui": {
-        "flexDirection": "column",
-        "width": 366,
-        "height": 100,
-        "type": "3d",
-        "background": "#ffffff",
-        "backgroundOpacity": 0.5
-      },
-      "name": "img (2)",
-      "order": 2
-    },
-    "766f4b39-06f4-4109-a77f-20349c867731": {
-      "id": "766f4b39-06f4-4109-a77f-20349c867731",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "a7a06c3b-7df7-4f44-996b-da4728338d3f",
-      "components": {},
-      "ui": {
-        "width": 363,
-        "height": 25,
-        "text": "3. Explore 3D Models\n\n\n",
-        "color": "#000000",
-        "fontSize": 24,
-        "type": "3d"
-      },
-      "name": "Text (2)",
-      "order": 3
-    },
-    "5f31ef10-cebc-4e8b-aca9-cecd1bb2b67b": {
-      "id": "5f31ef10-cebc-4e8b-aca9-cecd1bb2b67b",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "ui": {
-        "width": "10%",
-        "height": 100,
-        "type": "3d",
-        "background": "#f51414",
-        "backgroundOpacity": 0.5
-      },
-      "name": "box (2)",
-      "order": 3.177458445956363,
-      "parentId": "addb0b51-18f1-473e-9cee-35df1514b1fa"
-    },
-    "3b03b40f-38d9-4240-b8c3-5086d6077b48": {
-      "id": "3b03b40f-38d9-4240-b8c3-5086d6077b48",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "ui": {
-        "flexDirection": "row-reverse",
-        "background": "#fef8f2",
-        "backgroundOpacity": 0.5,
-        "width": "70%",
-        "height": 150,
-        "type": "3d",
-        "margin": "",
-        "paddingTop": 10,
-        "paddingBottom": 10,
-        "flexWrap": "wrap",
-        "borderRadius": 0,
-        "alignItems": "center",
-        "justifyContent": "flex-end",
-        "gap": 0,
-        "paddingLeft": 11,
-        "paddingRight": 11
-      },
-      "name": "Frame (5)",
-      "order": 9.222561906886996,
-      "parentId": "be746a14-108d-4da6-bd6c-151549559019"
-    },
-    "a30fb7f6-80ad-4178-8ec3-85635affe314": {
-      "id": "a30fb7f6-80ad-4178-8ec3-85635affe314",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "3b03b40f-38d9-4240-b8c3-5086d6077b48",
-      "components": {},
-      "ui": {
-        "flexDirection": "column",
-        "width": 366,
-        "height": 100,
-        "type": "3d",
-        "background": "#ffffff",
-        "backgroundOpacity": 0.5
-      },
-      "name": "img (3)",
-      "order": 1
-    },
-    "9b230170-f0ef-482c-a884-b6e1f7690eb3": {
-      "id": "9b230170-f0ef-482c-a884-b6e1f7690eb3",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "a30fb7f6-80ad-4178-8ec3-85635affe314",
-      "components": {},
-      "ui": {
-        "width": 363,
-        "height": 31,
-        "text": "4. Take Educational Quizzes\n\n\n",
-        "color": "#000000",
-        "fontSize": 24,
-        "type": "3d"
-      },
-      "name": "Text (3)",
-      "order": 2
-    },
-    "fb314927-a6ca-49e7-bdc2-298c8457b789": {
-      "id": "fb314927-a6ca-49e7-bdc2-298c8457b789",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "ui": {
-        "width": "10%",
-        "height": 100,
-        "type": "3d",
-        "background": "#f51414",
-        "backgroundOpacity": 0.5
-      },
-      "name": "box (3)",
-      "order": 3,
-      "parentId": "3b03b40f-38d9-4240-b8c3-5086d6077b48"
-    },
-    "41f93281-01e0-4217-a872-378493006f6b": {
-      "id": "41f93281-01e0-4217-a872-378493006f6b",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "ui": {
-        "flexDirection": "row-reverse",
-        "background": "#fef8f2",
-        "backgroundOpacity": 0.5,
-        "width": "70%",
-        "height": 150,
-        "type": "3d",
-        "margin": "",
-        "paddingTop": 10,
-        "paddingBottom": 10,
-        "flexWrap": "wrap",
-        "borderRadius": 0,
-        "alignItems": "center",
-        "justifyContent": "flex-end",
-        "gap": 0,
-        "paddingLeft": 11,
-        "paddingRight": 11
-      },
-      "name": "Frame (6)",
-      "order": 10.6876753231476,
-      "parentId": "be746a14-108d-4da6-bd6c-151549559019"
-    },
-    "e45831b0-0dda-424d-9866-23943a0f626e": {
-      "id": "e45831b0-0dda-424d-9866-23943a0f626e",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "41f93281-01e0-4217-a872-378493006f6b",
-      "components": {},
-      "ui": {
-        "flexDirection": "column",
-        "width": 366,
-        "height": 100,
-        "type": "3d",
-        "background": "#ffffff",
-        "backgroundOpacity": 0.5
-      },
-      "name": "img (4)",
-      "order": 1
-    },
-    "6c318446-c9b8-4d12-aa1a-9df15c5aecce": {
-      "id": "6c318446-c9b8-4d12-aa1a-9df15c5aecce",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "e45831b0-0dda-424d-9866-23943a0f626e",
-      "components": {},
-      "ui": {
-        "width": 363,
-        "height": 31,
-        "text": "5. Use Accessibility Features\n\n\n",
-        "color": "#000000",
-        "fontSize": 24,
-        "type": "3d"
-      },
-      "name": "Text (4)",
-      "order": 2
-    },
-    "eb84ac69-6dad-458e-8af4-5e54aeba35fd": {
-      "id": "eb84ac69-6dad-458e-8af4-5e54aeba35fd",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "ui": {
-        "width": "10%",
-        "height": 100,
-        "type": "3d",
-        "background": "#f51414",
-        "backgroundOpacity": 0.5
-      },
-      "name": "box (4)",
-      "order": 3,
-      "parentId": "41f93281-01e0-4217-a872-378493006f6b"
-    },
-    "3e88fee4-b689-4aba-afcd-2d5ba1889bf2": {
-      "id": "3e88fee4-b689-4aba-afcd-2d5ba1889bf2",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "ba4e8b04-dc77-43b9-b8fb-fd1e2fd874c9",
-      "components": {},
-      "ui": {
-        "flexDirection": "row",
-        "width": 300,
-        "height": 70,
-        "text": "Point your camera at any artifact in the museum to identify it and learn more. The AR scanner will automatically detect and recognize artifacts from the collection.\n",
-        "color": "#474747",
-        "fontSize": 12,
-        "type": "3d",
-        "textAlign": "left",
-        "verticalTextAlign": "center",
-        "alignItems": "flex-end",
-        "justifyContent": "flex-end",
-        "gap": 0,
-        "margin": "",
-        "marginLeft": 25,
-        "marginRight": 25
-      },
-      "name": "Text (5)",
-      "order": 3.8420421636920787
-    },
-    "8ebc3e10-e23c-4f9b-aa69-619d4b47b981": {
-      "id": "8ebc3e10-e23c-4f9b-aa69-619d4b47b981",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "ui": {
-        "borderColor": "#ffffff",
-        "borderWidth": 1,
-        "flexDirection": "row-reverse",
-        "width": 300,
-        "height": 70,
-        "text": "Use the Kelsey Dex to explore all artifacts in the collection. Filter by region, era, or material type to find artifacts that interest you. Tap the bookmark icon to save favorites for later.\n",
-        "color": "#474747",
-        "fontSize": 12,
-        "type": "3d",
-        "textAlign": "left",
-        "verticalTextAlign": "center",
-        "alignItems": "flex-start",
-        "justifyContent": "flex-start",
-        "gap": 0,
-        "margin": "",
-        "marginLeft": 25,
-        "marginRight": 25
-      },
-      "name": "Text (6)",
-      "order": 4.767372644409644,
-      "parentId": "f4d2f89f-5231-4271-b4b0-fda2e9bcd4d9"
-    },
-    "42b6ab12-2a0f-42b8-b6b4-e50fef822021": {
-      "id": "42b6ab12-2a0f-42b8-b6b4-e50fef822021",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "ui": {
-        "flexDirection": "row",
-        "width": 300,
-        "height": 70,
-        "text": "View interactive 3D models of artifacts. Use rotation controls to examine artifacts from all angles, and zoom in to see fine details and craftsmanship up close.\n",
-        "color": "#474747",
-        "fontSize": 12,
-        "type": "3d",
-        "textAlign": "left",
-        "verticalTextAlign": "center",
-        "alignItems": "center",
-        "justifyContent": "center",
-        "gap": 0,
-        "margin": "",
-        "marginLeft": 25,
-        "marginRight": 25
-      },
-      "name": "Text (7)",
-      "order": 4.343313454882204,
-      "parentId": "a7a06c3b-7df7-4f44-996b-da4728338d3f"
-    },
-    "006ee942-854d-47f7-94a6-bf3f5931ef36": {
-      "id": "006ee942-854d-47f7-94a6-bf3f5931ef36",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "ui": {
-        "flexDirection": "row",
-        "width": 300,
-        "height": 70,
-        "text": "Test your knowledge with interactive quizzes about each artifact. Learn about the artifact's history, cultural significance, and the civilization that created it.\n",
-        "color": "#474747",
-        "fontSize": 12,
-        "type": "3d",
-        "textAlign": "left",
-        "verticalTextAlign": "center",
-        "alignItems": "flex-end",
-        "justifyContent": "flex-end",
-        "gap": 0,
-        "margin": "",
-        "marginLeft": 25,
-        "marginRight": 25
-      },
-      "name": "Text (8)",
-      "order": 3.3987492377143815,
-      "parentId": "a30fb7f6-80ad-4178-8ec3-85635affe314"
-    },
-    "b881af64-9001-4196-b233-9d784f136aaf": {
-      "id": "b881af64-9001-4196-b233-9d784f136aaf",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "ui": {
-        "flexDirection": "row",
-        "width": 300,
-        "height": 70,
-        "text": "Enable audio descriptions for detailed spoken information about artifacts. Enlarge text for better readability, or toggle high contrast mode for improved visibility. Audio playback highlights text as it reads.\n",
-        "color": "#474747",
-        "fontSize": 12,
-        "type": "3d",
-        "textAlign": "left",
-        "verticalTextAlign": "center",
-        "alignItems": "flex-end",
-        "justifyContent": "flex-end",
-        "gap": 0,
-        "margin": "",
-        "marginLeft": 25,
-        "marginRight": 25
-      },
-      "name": "Text (9)",
-      "order": 3.0785297232692748,
-      "parentId": "e45831b0-0dda-424d-9866-23943a0f626e"
     },
     "356b7906-8596-4ac0-a0b2-9f8e0eafcf19": {
       "id": "356b7906-8596-4ac0-a0b2-9f8e0eafcf19",
@@ -5838,18 +5161,24 @@
       "parentId": "be746a14-108d-4da6-bd6c-151549559019",
       "components": {},
       "ui": {
+        "borderColor": "#f2d469",
+        "borderWidth": 1,
         "flexDirection": "column",
-        "width": "70%",
-        "height": 260,
+        "width": "90%",
+        "height": 135,
         "type": "3d",
-        "background": "#f2d469",
+        "background": "#fddb63",
         "backgroundOpacity": 0.5,
-        "paddingTop": 21,
-        "paddingBottom": 21,
+        "paddingTop": 10,
+        "paddingBottom": 10,
         "alignItems": "flex-start",
-        "justifyContent": "flex-start"
+        "justifyContent": "flex-start",
+        "paddingLeft": 10,
+        "paddingRight": 10,
+        "borderRadius": 15,
+        "gap": 6
       },
-      "name": "Frame (7)",
+      "name": "Tips",
       "order": 12.377562007199696
     },
     "0ea07745-ea90-4e98-a892-08e52fa1f618": {
@@ -5874,14 +5203,16 @@
       "material": null,
       "components": {},
       "ui": {
-        "width": 363,
-        "height": 31,
-        "text": "Tips for the Best Experience\n\n\n",
+        "width": "100%",
+        "height": 23,
+        "text": "Tips for the Best Experience",
         "color": "#000000",
-        "fontSize": 24,
-        "type": "3d"
+        "fontSize": 17,
+        "type": "3d",
+        "textAlign": "left",
+        "verticalTextAlign": "center"
       },
-      "name": "Text (11)",
+      "name": "Title",
       "order": 2.7956641084305742,
       "parentId": "356b7906-8596-4ac0-a0b2-9f8e0eafcf19"
     },
@@ -5905,30 +5236,536 @@
       ],
       "geometry": null,
       "material": null,
+      "parentId": "ff1a1f6c-0fa6-4195-a33f-22a1f64a01d7",
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": "100%",
+        "height": 20,
+        "text": "- Use headphones for the best audio description experience",
+        "color": "#474747",
+        "fontSize": 11,
+        "type": "3d",
+        "alignItems": "flex-start",
+        "justifyContent": "flex-start",
+        "textAlign": "left"
+      },
+      "name": "Tip1",
+      "order": 4.391241905862462
+    },
+    "a65b30b2-f31d-46fc-ac46-d4cc05460a02": {
+      "id": "a65b30b2-f31d-46fc-ac46-d4cc05460a02",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "38dad18c-95e0-413c-9cd7-9e7e2a5b78f4",
+      "components": {
+        "2ff935c7-5731-4b5f-a1c7-d7551b39c51a": {
+          "id": "2ff935c7-5731-4b5f-a1c7-d7551b39c51a",
+          "name": "Scrollable",
+          "parameters": {
+            "maxScroll": 1250
+          }
+        }
+      },
+      "ui": {
+        "flexDirection": "column",
+        "width": "100%",
+        "height": 1250,
+        "type": "overlay",
+        "background": "#faf4d8",
+        "backgroundOpacity": 1,
+        "alignItems": "flex-start",
+        "justifyContent": "center",
+        "paddingBottom": 50,
+        "paddingTop": 50,
+        "gap": 8,
+        "backgroundSize": "contain"
+      },
+      "name": "Frame",
+      "order": 4.1068225466604105
+    },
+    "17ab0ab4-0904-48c6-b14c-8a64bdb9ae6d": {
+      "id": "17ab0ab4-0904-48c6-b14c-8a64bdb9ae6d",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a65b30b2-f31d-46fc-ac46-d4cc05460a02",
+      "components": {},
+      "ui": {
+        "flexDirection": "column",
+        "width": "100%",
+        "height": "100%",
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0,
+        "alignItems": "center",
+        "justifyContent": "flex-start",
+        "gap": 12
+      },
+      "name": "Frame (1)",
+      "order": 1.643745816642633
+    },
+    "b333ceb8-afcf-4315-ae5b-f74fee30fab4": {
+      "id": "b333ceb8-afcf-4315-ae5b-f74fee30fab4",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "17ab0ab4-0904-48c6-b14c-8a64bdb9ae6d",
+      "components": {},
+      "ui": {
+        "width": 70,
+        "height": 10,
+        "text": "Callityche",
+        "color": "#871c1c",
+        "fontSize": 12,
+        "type": "3d"
+      },
+      "name": "Text",
+      "order": 1.1079500258446013
+    },
+    "f65a5ef5-eb69-48f2-bddc-6364498fcc4b": {
+      "id": "f65a5ef5-eb69-48f2-bddc-6364498fcc4b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "name": "Row1",
+      "instanceData": {
+        "instanceOf": "b6487f41-185b-4b3e-944b-8f2bca08bfb2",
+        "deletions": {},
+        "children": {}
+      },
+      "parentId": "be746a14-108d-4da6-bd6c-151549559019",
+      "components": {},
+      "ui": {
+        "borderColor": "#d4d4d4",
+        "borderWidth": 1,
+        "flexDirection": "row-reverse",
+        "background": "#ffffff",
+        "backgroundOpacity": 1,
+        "width": "90%",
+        "height": 90,
+        "type": "3d",
+        "paddingTop": 10,
+        "paddingBottom": 10,
+        "flexWrap": "nowrap",
+        "borderRadius": 10,
+        "alignItems": "center",
+        "justifyContent": "flex-end",
+        "gap": 10,
+        "paddingLeft": 10,
+        "paddingRight": 10
+      }
+    },
+    "00b983bd-3d3f-497d-9c19-48366f949664": {
+      "id": "00b983bd-3d3f-497d-9c19-48366f949664",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "name": "Row2",
+      "instanceData": {
+        "instanceOf": "b6487f41-185b-4b3e-944b-8f2bca08bfb2",
+        "deletions": {},
+        "children": {
+          "26264bb3-239b-4373-b338-6f30d1a618da": {
+            "id": "26264bb3-239b-4373-b338-6f30d1a618da",
+            "deletions": {},
+            "ui": {
+              "flexDirection": "row",
+              "width": "100%",
+              "height": 20,
+              "text": "2. Browse the Collection",
+              "color": "#000000",
+              "fontSize": 16,
+              "type": "3d",
+              "textAlign": "left",
+              "alignItems": "flex-start",
+              "justifyContent": "flex-start",
+              "paddingLeft": 0,
+              "paddingRight": 0
+            }
+          },
+          "b4105db8-61db-45d1-9c7d-221d82491327": {
+            "id": "b4105db8-61db-45d1-9c7d-221d82491327",
+            "deletions": {},
+            "ui": {
+              "flexDirection": "row",
+              "width": "100%",
+              "height": 50,
+              "text": "Use the Kelsey Dex to explore all artifacts in the collection. Filter by region, era, or material type to find artifacts that interest you. Tap the bookmark icon to save favorites for later.",
+              "color": "#474747",
+              "fontSize": 12,
+              "type": "3d",
+              "textAlign": "left",
+              "verticalTextAlign": "start",
+              "alignItems": "flex-end",
+              "justifyContent": "flex-end",
+              "gap": 0
+            }
+          }
+        }
+      },
+      "parentId": "be746a14-108d-4da6-bd6c-151549559019",
+      "components": {},
+      "ui": {
+        "borderColor": "#d4d4d4",
+        "borderWidth": 1,
+        "flexDirection": "row-reverse",
+        "background": "#ffffff",
+        "backgroundOpacity": 1,
+        "width": "90%",
+        "height": 90,
+        "type": "3d",
+        "paddingTop": 10,
+        "paddingBottom": 10,
+        "flexWrap": "nowrap",
+        "borderRadius": 10,
+        "alignItems": "center",
+        "justifyContent": "flex-end",
+        "gap": 10,
+        "paddingLeft": 10,
+        "paddingRight": 10
+      }
+    },
+    "8a04d4e6-670f-45f1-be41-bdf69767e7a0": {
+      "id": "8a04d4e6-670f-45f1-be41-bdf69767e7a0",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "name": "Row3",
+      "instanceData": {
+        "instanceOf": "b6487f41-185b-4b3e-944b-8f2bca08bfb2",
+        "deletions": {},
+        "children": {
+          "26264bb3-239b-4373-b338-6f30d1a618da": {
+            "id": "26264bb3-239b-4373-b338-6f30d1a618da",
+            "deletions": {},
+            "ui": {
+              "flexDirection": "row",
+              "width": "100%",
+              "height": 20,
+              "text": "3. Explore 3D Models",
+              "color": "#000000",
+              "fontSize": 16,
+              "type": "3d",
+              "textAlign": "left",
+              "alignItems": "flex-start",
+              "justifyContent": "flex-start",
+              "paddingLeft": 0,
+              "paddingRight": 0
+            }
+          },
+          "b4105db8-61db-45d1-9c7d-221d82491327": {
+            "id": "b4105db8-61db-45d1-9c7d-221d82491327",
+            "deletions": {},
+            "ui": {
+              "flexDirection": "row",
+              "width": "100%",
+              "height": 50,
+              "text": "View interactive 3D models of artifacts. Use rotation controls to examine artifacts from all angles, and zoom in to see fine details and craftsmanship up close.",
+              "color": "#474747",
+              "fontSize": 12,
+              "type": "3d",
+              "textAlign": "left",
+              "verticalTextAlign": "start",
+              "alignItems": "flex-end",
+              "justifyContent": "flex-end",
+              "gap": 0
+            }
+          }
+        }
+      },
+      "parentId": "be746a14-108d-4da6-bd6c-151549559019",
+      "components": {},
+      "ui": {
+        "borderColor": "#d4d4d4",
+        "borderWidth": 1,
+        "flexDirection": "row-reverse",
+        "background": "#ffffff",
+        "backgroundOpacity": 1,
+        "width": "90%",
+        "height": 90,
+        "type": "3d",
+        "paddingTop": 10,
+        "paddingBottom": 10,
+        "flexWrap": "nowrap",
+        "borderRadius": 10,
+        "alignItems": "center",
+        "justifyContent": "flex-end",
+        "gap": 10,
+        "paddingLeft": 10,
+        "paddingRight": 10
+      }
+    },
+    "bb6288fa-cbcf-4fa6-894e-182ded5ec065": {
+      "id": "bb6288fa-cbcf-4fa6-894e-182ded5ec065",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "name": "Row4",
+      "instanceData": {
+        "instanceOf": "b6487f41-185b-4b3e-944b-8f2bca08bfb2",
+        "deletions": {},
+        "children": {
+          "26264bb3-239b-4373-b338-6f30d1a618da": {
+            "id": "26264bb3-239b-4373-b338-6f30d1a618da",
+            "deletions": {},
+            "ui": {
+              "flexDirection": "row",
+              "width": "100%",
+              "height": 20,
+              "text": "4. Take Educational Quizzes",
+              "color": "#000000",
+              "fontSize": 16,
+              "type": "3d",
+              "textAlign": "left",
+              "alignItems": "flex-start",
+              "justifyContent": "flex-start",
+              "paddingLeft": 0,
+              "paddingRight": 0
+            }
+          },
+          "b4105db8-61db-45d1-9c7d-221d82491327": {
+            "id": "b4105db8-61db-45d1-9c7d-221d82491327",
+            "deletions": {},
+            "ui": {
+              "flexDirection": "row",
+              "width": "100%",
+              "height": 50,
+              "text": "Test your knowledge with interactive quizzes about each artifact. Learn about the artifact's history, cultural significance, and the civilization that created it.\n",
+              "color": "#474747",
+              "fontSize": 12,
+              "type": "3d",
+              "textAlign": "left",
+              "verticalTextAlign": "start",
+              "alignItems": "flex-end",
+              "justifyContent": "flex-end",
+              "gap": 0
+            }
+          }
+        }
+      },
+      "parentId": "be746a14-108d-4da6-bd6c-151549559019",
+      "components": {},
+      "ui": {
+        "borderColor": "#d4d4d4",
+        "borderWidth": 1,
+        "flexDirection": "row-reverse",
+        "background": "#ffffff",
+        "backgroundOpacity": 1,
+        "width": "90%",
+        "height": 90,
+        "type": "3d",
+        "paddingTop": 10,
+        "paddingBottom": 10,
+        "flexWrap": "nowrap",
+        "borderRadius": 10,
+        "alignItems": "center",
+        "justifyContent": "flex-end",
+        "gap": 10,
+        "paddingLeft": 10,
+        "paddingRight": 10
+      }
+    },
+    "259d4bd4-1fef-4e93-9b78-3cb756fa4cc4": {
+      "id": "259d4bd4-1fef-4e93-9b78-3cb756fa4cc4",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "name": "Row5",
+      "instanceData": {
+        "instanceOf": "b6487f41-185b-4b3e-944b-8f2bca08bfb2",
+        "deletions": {},
+        "children": {
+          "26264bb3-239b-4373-b338-6f30d1a618da": {
+            "id": "26264bb3-239b-4373-b338-6f30d1a618da",
+            "deletions": {},
+            "ui": {
+              "flexDirection": "row",
+              "width": "100%",
+              "height": 20,
+              "text": "5. Use Accessibility Features",
+              "color": "#000000",
+              "fontSize": 16,
+              "type": "3d",
+              "textAlign": "left",
+              "alignItems": "flex-start",
+              "justifyContent": "flex-start",
+              "paddingLeft": 0,
+              "paddingRight": 0
+            }
+          },
+          "b4105db8-61db-45d1-9c7d-221d82491327": {
+            "id": "b4105db8-61db-45d1-9c7d-221d82491327",
+            "deletions": {},
+            "ui": {
+              "flexDirection": "row",
+              "width": "100%",
+              "height": 50,
+              "text": "Enable audio descriptions for detailed spoken information about artifacts. Enlarge text for better readability, or toggle high contrast mode for improved visibility. Audio playback highlights text as it reads.",
+              "color": "#474747",
+              "fontSize": 12,
+              "type": "3d",
+              "textAlign": "left",
+              "verticalTextAlign": "start",
+              "alignItems": "flex-end",
+              "justifyContent": "flex-end",
+              "gap": 0
+            }
+          }
+        }
+      },
+      "parentId": "be746a14-108d-4da6-bd6c-151549559019",
+      "components": {},
+      "ui": {
+        "borderColor": "#d4d4d4",
+        "borderWidth": 1,
+        "flexDirection": "row-reverse",
+        "background": "#ffffff",
+        "backgroundOpacity": 1,
+        "width": "90%",
+        "height": 90,
+        "type": "3d",
+        "paddingTop": 10,
+        "paddingBottom": 10,
+        "flexWrap": "nowrap",
+        "borderRadius": 10,
+        "alignItems": "center",
+        "justifyContent": "flex-end",
+        "gap": 10,
+        "paddingLeft": 10,
+        "paddingRight": 10
+      }
+    },
+    "ff1a1f6c-0fa6-4195-a33f-22a1f64a01d7": {
+      "id": "ff1a1f6c-0fa6-4195-a33f-22a1f64a01d7",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
       "parentId": "356b7906-8596-4ac0-a0b2-9f8e0eafcf19",
       "components": {},
       "ui": {
+        "flexDirection": "column",
+        "width": "95%",
+        "height": 90,
+        "type": "3d",
+        "gap": 4,
+        "margin": "",
+        "marginLeft": 15,
+        "marginRight": 15
+      },
+      "name": "Tips",
+      "order": 10.459062425567213
+    },
+    "d093dcc8-c4e7-4957-ad00-6fea6275f542": {
+      "id": "d093dcc8-c4e7-4957-ad00-6fea6275f542",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "ff1a1f6c-0fa6-4195-a33f-22a1f64a01d7",
+      "components": {},
+      "ui": {
         "flexDirection": "row",
-        "width": 500,
-        "height": 30,
-        "text": "• Use headphones for the best audio description experience",
+        "width": "100%",
+        "height": 20,
+        "text": "- Ensure good lighting when scanning artifacts",
         "color": "#474747",
-        "fontSize": 18,
+        "fontSize": 11,
         "type": "3d",
-        "margin": "",
-        "marginTop": 9,
-        "marginBottom": 9,
-        "marginLeft": 40,
-        "marginRight": 40,
         "alignItems": "flex-start",
         "justifyContent": "flex-start",
         "textAlign": "left"
       },
-      "name": "Text (12)",
-      "order": 4.391241905862462
+      "name": "Tip2",
+      "order": 5.104075372784035
     },
-    "5b09baf1-9eca-445e-ba47-d8d45b4b67a2": {
-      "id": "5b09baf1-9eca-445e-ba47-d8d45b4b67a2",
+    "7134d2c7-d246-471b-8253-e7ca4b1e26e0": {
+      "id": "7134d2c7-d246-471b-8253-e7ca4b1e26e0",
       "position": [
         0,
         0,
@@ -5947,30 +5784,25 @@
       ],
       "geometry": null,
       "material": null,
+      "parentId": "ff1a1f6c-0fa6-4195-a33f-22a1f64a01d7",
       "components": {},
       "ui": {
         "flexDirection": "row",
-        "width": 500,
-        "height": 30,
-        "text": "• Ensure good lighting when scanning artifacts",
+        "width": "100%",
+        "height": 20,
+        "text": "- Explore related artifacts to discover connections",
         "color": "#474747",
-        "fontSize": 18,
+        "fontSize": 11,
         "type": "3d",
-        "margin": "",
-        "marginTop": 9,
-        "marginBottom": 9,
-        "marginLeft": 40,
-        "marginRight": 40,
         "alignItems": "flex-start",
         "justifyContent": "flex-start",
         "textAlign": "left"
       },
-      "name": "Text (13)",
-      "order": 5.944945626380235,
-      "parentId": "356b7906-8596-4ac0-a0b2-9f8e0eafcf19"
+      "name": "Tip3",
+      "order": 5.4429731904683045
     },
-    "8c48d6ea-19eb-45f0-8958-5d6e89ac0e80": {
-      "id": "8c48d6ea-19eb-45f0-8958-5d6e89ac0e80",
+    "99ac314f-fc35-4d9b-abe3-3ccf5b7788b6": {
+      "id": "99ac314f-fc35-4d9b-abe3-3ccf5b7788b6",
       "position": [
         0,
         0,
@@ -5989,1968 +5821,22 @@
       ],
       "geometry": null,
       "material": null,
+      "parentId": "ff1a1f6c-0fa6-4195-a33f-22a1f64a01d7",
       "components": {},
       "ui": {
         "flexDirection": "row",
-        "width": 500,
-        "height": 30,
-        "text": "• Explore related artifacts to discover connections",
+        "width": "100%",
+        "height": 20,
+        "text": "- Save your favorites to create your own personal collection",
         "color": "#474747",
-        "fontSize": 18,
+        "fontSize": 11,
         "type": "3d",
-        "margin": "",
-        "marginTop": 9,
-        "marginBottom": 9,
-        "marginLeft": 40,
-        "marginRight": 40,
         "alignItems": "flex-start",
         "justifyContent": "flex-start",
         "textAlign": "left"
       },
-      "name": "Text (14)",
-      "order": 7.775103826073243,
-      "parentId": "356b7906-8596-4ac0-a0b2-9f8e0eafcf19"
-    },
-    "65f66fea-cae2-49d0-855f-e5b5ab869948": {
-      "id": "65f66fea-cae2-49d0-855f-e5b5ab869948",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "ui": {
-        "flexDirection": "row",
-        "width": 500,
-        "height": 30,
-        "text": "• Save your favorites to create your own personal collection",
-        "color": "#474747",
-        "fontSize": 18,
-        "type": "3d",
-        "margin": "",
-        "marginTop": 9,
-        "marginBottom": 9,
-        "marginLeft": 40,
-        "marginRight": 40,
-        "alignItems": "flex-start",
-        "justifyContent": "flex-start",
-        "textAlign": "left"
-      },
-      "name": "Text (15)",
-      "order": 9.250131543804187,
-      "parentId": "356b7906-8596-4ac0-a0b2-9f8e0eafcf19"
-    },
-    "db6abc19-2f03-4427-9b50-31e5343d2a42": {
-      "id": "db6abc19-2f03-4427-9b50-31e5343d2a42",
-      "position": [
-        0,
-        -8.30911321920827,
-        1
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "53573e72-8653-4522-badd-b3f963321b7b",
-      "components": {
-        "2b1cf9b2-53f4-40c8-9625-f098a27ca287": {
-          "id": "2b1cf9b2-53f4-40c8-9625-f098a27ca287",
-          "name": "ChangeSceneButton",
-          "parameters": {
-            "targetScene": "Exhibit-Augustus-1"
-          }
-        }
-      },
-      "ui": {
-        "type": "3d",
-        "width": 200,
-        "height": "45%",
-        "background": "#e7e9ed",
-        "borderRadius": 18,
-        "flexDirection": "row",
-        "backgroundOpacity": 1,
-        "padding": "10",
-        "gap": "6",
-        "alignItems": "center",
-        "justifyContent": "center",
-        "paddingTop": "",
-        "paddingBottom": "",
-        "margin": "",
-        "marginTop": "2%",
-        "marginBottom": "2%"
-      },
-      "name": "Button",
-      "order": 19.299358586246008
-    },
-    "ac785dc6-ef8f-4ce8-bde4-56f9f30198a7": {
-      "id": "ac785dc6-ef8f-4ce8-bde4-56f9f30198a7",
-      "position": [
-        -0.323,
-        -8.30911321920827,
-        1
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "4c1018c1-de0d-4080-8b92-c96a33df882f",
-      "components": {
-        "7ef4dd6e-14b6-48d3-b96b-5744c6a1b671": {
-          "id": "7ef4dd6e-14b6-48d3-b96b-5744c6a1b671",
-          "name": "toggle-menu",
-          "parameters": {
-            "menu": {
-              "type": "entity",
-              "id": "757a3e96-99eb-49ee-a543-0c98a6fb30b4"
-            }
-          }
-        }
-      },
-      "name": "Icon",
-      "ui": {
-        "width": "10%",
-        "height": 15,
-        "image": {
-          "type": "asset",
-          "asset": "assets/menu.png"
-        },
-        "backgroundOpacity": 1,
-        "backgroundSize": "contain",
-        "ignoreRaycast": false
-      },
-      "order": 13.425429970936722,
-      "hidden": false
-    },
-    "a439f0eb-910c-46c4-8bb5-83cc53817812": {
-      "components": {},
-      "geometry": null,
-      "id": "a439f0eb-910c-46c4-8bb5-83cc53817812",
-      "light": {
-        "intensity": 0.5,
-        "shadowCamera": [
-          -100,
-          100,
-          100,
-          -100,
-          0.5,
-          200
-        ],
-        "type": "directional"
-      },
-      "material": null,
-      "name": "Directional Light",
-      "order": 0.44507445928571887,
-      "parentId": "95b45adb-11d3-4d6a-ae7f-bcd138d5d354",
-      "position": [
-        20.66992282185873,
-        8.721636044875579,
-        5
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ]
-    },
-    "e74e9766-c73b-4554-a0f5-1c2b987e79b5": {
-      "components": {},
-      "geometry": null,
-      "id": "e74e9766-c73b-4554-a0f5-1c2b987e79b5",
-      "light": {
-        "type": "ambient"
-      },
-      "material": null,
-      "name": "Ambient Light",
-      "order": 1.5905869380964988,
-      "parentId": "95b45adb-11d3-4d6a-ae7f-bcd138d5d354",
-      "position": [
-        20.66992282185873,
-        8.721636044875579,
-        5
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ]
-    },
-    "6c36d914-c97e-42c0-b705-f06be3a69bc2": {
-      "camera": {
-        "farClip": 2000,
-        "type": "perspective",
-        "xr": {
-          "xrCameraType": "3dOnly",
-          "phone": "3D",
-          "desktop": "3D",
-          "headset": "disabled"
-        }
-      },
-      "components": {},
-      "geometry": null,
-      "id": "6c36d914-c97e-42c0-b705-f06be3a69bc2",
-      "material": null,
-      "name": "Camera",
-      "order": 2.54970019053422,
-      "parentId": "95b45adb-11d3-4d6a-ae7f-bcd138d5d354",
-      "position": [
-        4.419416119266363,
-        3.017239351067447,
-        5.522641158517497
-      ],
-      "rotation": [
-        0,
-        1,
-        0,
-        -6.123233995736766e-17
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ]
-    },
-    "010dee89-e269-4e42-984c-bbfc40afcbff": {
-      "id": "010dee89-e269-4e42-984c-bbfc40afcbff",
-      "position": [
-        4.419416119266363,
-        3.4010656898011433,
-        0.13301125622883248
-      ],
-      "rotation": [
-        -0.03602082265307145,
-        0,
-        0,
-        0.9993510395928928
-      ],
-      "scale": [
-        7,
-        7.000000000000002,
-        7.000000000000002
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "95b45adb-11d3-4d6a-ae7f-bcd138d5d354",
-      "components": {
-        "40999ab3-ef8b-472e-a148-e1a6ae42974f": {
-          "id": "40999ab3-ef8b-472e-a148-e1a6ae42974f",
-          "name": "ModelRotateControls",
-          "parameters": {}
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/Augustus_Head.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "Augustus_Head.glb",
-      "order": 5.032285342198829
-    },
-    "b087bcdb-d290-4446-b16d-76c65dc5ada5": {
-      "components": {},
-      "geometry": null,
-      "id": "b087bcdb-d290-4446-b16d-76c65dc5ada5",
-      "material": null,
-      "name": "Screen Frame",
-      "order": 5.307288519203135,
-      "parentId": "95b45adb-11d3-4d6a-ae7f-bcd138d5d354",
-      "position": [
-        0,
-        4.586706441297672,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "alignItems": "center",
-        "background": "#faf4d8",
-        "backgroundOpacity": 0,
-        "flexDirection": "column",
-        "gap": 13,
-        "height": "100%",
-        "ignoreRaycast": true,
-        "justifyContent": "flex-start",
-        "type": "overlay",
-        "width": "100%"
-      }
-    },
-    "0c03ce1a-0e5a-416c-bfe3-e4f671710859": {
-      "id": "0c03ce1a-0e5a-416c-bfe3-e4f671710859",
-      "position": [
-        0,
-        -4.586706441297672,
-        0
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "name": "Menu",
-      "instanceData": {
-        "instanceOf": "4fd2a11b-f0d5-48c8-a344-60e75154153a",
-        "deletions": {},
-        "children": {
-          "1b9d446b-d6bf-4d4a-9c0a-df23b97a0d3d": {
-            "id": "1b9d446b-d6bf-4d4a-9c0a-df23b97a0d3d",
-            "deletions": {
-              "disabled": true
-            }
-          },
-          "6ec470c8-3800-467d-af3f-4995089d7374": {
-            "id": "6ec470c8-3800-467d-af3f-4995089d7374",
-            "deletions": {
-              "disabled": true
-            }
-          }
-        }
-      },
-      "parentId": "b087bcdb-d290-4446-b16d-76c65dc5ada5",
-      "components": {},
-      "disabled": true
-    },
-    "5c19bb30-4239-4ee5-87dc-288b5961f19e": {
-      "components": {},
-      "geometry": null,
-      "id": "5c19bb30-4239-4ee5-87dc-288b5961f19e",
-      "material": null,
-      "name": "Artifact Space",
-      "order": -1.0267032479716267,
-      "parentId": "b087bcdb-d290-4446-b16d-76c65dc5ada5",
-      "position": [
-        0,
-        3.7224067779105976,
-        -1
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "borderColor": "#dedede",
-        "borderWidth": 1,
-        "alignItems": "center",
-        "background": "#ffffff",
-        "backgroundOpacity": 0,
-        "backgroundSize": "stretch",
-        "flexDirection": "column",
-        "flexWrap": "nowrap",
-        "height": "70%",
-        "justifyContent": "center",
-        "type": "overlay",
-        "width": "90%",
-        "paddingTop": "7%",
-        "paddingBottom": "7%",
-        "borderRadius": 25,
-        "paddingLeft": "1%",
-        "paddingRight": "1%"
-      }
-    },
-    "d2aa0f34-20e9-4838-81b3-8684afed8a62": {
-      "components": {},
-      "geometry": null,
-      "id": "d2aa0f34-20e9-4838-81b3-8684afed8a62",
-      "material": null,
-      "name": "Horizontal Container",
-      "order": -0.37894203926495607,
-      "parentId": "b087bcdb-d290-4446-b16d-76c65dc5ada5",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "alignItems": "flex-start",
-        "flexDirection": "row",
-        "gap": 30,
-        "height": "10%",
-        "justifyContent": "center",
-        "type": "3d",
-        "width": "90%"
-      }
-    },
-    "d3a57a9a-16c6-45a0-a35b-65335df3533d": {
-      "components": {
-        "1ea69080-c7b2-4960-bdfc-dd7ee66e848b": {
-          "id": "1ea69080-c7b2-4960-bdfc-dd7ee66e848b",
-          "name": "SetRotationButton",
-          "parameters": {
-            "model": {
-              "type": "entity",
-              "id": "010dee89-e269-4e42-984c-bbfc40afcbff"
-            },
-            "rotationX": 0,
-            "rotationY": 180
-          }
-        }
-      },
-      "geometry": null,
-      "id": "d3a57a9a-16c6-45a0-a35b-65335df3533d",
-      "material": null,
-      "name": "Back",
-      "order": 0.20282681565995486,
-      "parentId": "d2aa0f34-20e9-4838-81b3-8684afed8a62",
-      "position": [
-        1.4490186264601717,
-        1.9525112263001876,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "alignItems": "center",
-        "background": "#f1b974",
-        "backgroundOpacity": 1,
-        "backgroundSize": "contain",
-        "borderRadius": 18,
-        "flexDirection": "row",
-        "gap": "6",
-        "height": "100%",
-        "justifyContent": "center",
-        "padding": "10",
-        "type": "3d",
-        "width": "20%"
-      }
-    },
-    "6949ae20-489f-4a28-9464-0cc45c980ca8": {
-      "components": {},
-      "geometry": null,
-      "id": "6949ae20-489f-4a28-9464-0cc45c980ca8",
-      "material": null,
-      "name": "Text (1)",
-      "order": 1,
-      "parentId": "d3a57a9a-16c6-45a0-a35b-65335df3533d",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "color": "#694520",
-        "fontSize": 16,
-        "height": 14,
-        "text": "Back\n",
-        "width": 50
-      }
-    },
-    "55fbb1f0-ff4e-4398-820a-8db0cf9eb331": {
-      "components": {
-        "68f05224-5b5d-4f38-ac38-4c487e25bfad": {
-          "id": "68f05224-5b5d-4f38-ac38-4c487e25bfad",
-          "name": "SetRotationButton",
-          "parameters": {
-            "model": {
-              "type": "entity",
-              "id": "010dee89-e269-4e42-984c-bbfc40afcbff"
-            }
-          }
-        }
-      },
-      "geometry": null,
-      "hidden": false,
-      "id": "55fbb1f0-ff4e-4398-820a-8db0cf9eb331",
-      "material": null,
-      "name": "Front",
-      "order": -1.0144281642450534,
-      "parentId": "d2aa0f34-20e9-4838-81b3-8684afed8a62",
-      "position": [
-        1.4490186264601717,
-        2.5,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "alignItems": "center",
-        "background": "#f1b974",
-        "backgroundOpacity": 1,
-        "borderRadius": 18,
-        "flexDirection": "row",
-        "flexWrap": "nowrap",
-        "gap": "6",
-        "height": "100%",
-        "ignoreRaycast": false,
-        "justifyContent": "center",
-        "opacity": 1,
-        "padding": "10",
-        "paddingBottom": 0,
-        "paddingLeft": "",
-        "paddingRight": "",
-        "paddingTop": 0,
-        "type": "3d",
-        "width": "20%"
-      }
-    },
-    "6a60c9a9-a36c-4f86-94b0-84bce600c267": {
-      "components": {},
-      "geometry": null,
-      "id": "6a60c9a9-a36c-4f86-94b0-84bce600c267",
-      "material": null,
-      "name": "Text (2)",
-      "order": 1.1141649463728713,
-      "parentId": "55fbb1f0-ff4e-4398-820a-8db0cf9eb331",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "color": "#694520",
-        "fontSize": 16,
-        "height": 14,
-        "text": "Front\n",
-        "width": 50
-      }
-    },
-    "8944c5fe-a8f2-4c6c-bb33-34ef7e0f5467": {
-      "components": {
-        "1ea69080-c7b2-4960-bdfc-dd7ee66e848b": {
-          "id": "1ea69080-c7b2-4960-bdfc-dd7ee66e848b",
-          "name": "SetRotationButton",
-          "parameters": {
-            "model": {
-              "type": "entity",
-              "id": "010dee89-e269-4e42-984c-bbfc40afcbff"
-            },
-            "rotationX": 270,
-            "rotationY": 0,
-            "rotationZ": 0
-          }
-        }
-      },
-      "geometry": null,
-      "id": "8944c5fe-a8f2-4c6c-bb33-34ef7e0f5467",
-      "material": null,
-      "name": "Bottom",
-      "order": 2.929695431398348,
-      "parentId": "d2aa0f34-20e9-4838-81b3-8684afed8a62",
-      "position": [
-        1.4490186264601717,
-        1.9525112263001876,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "alignItems": "center",
-        "background": "#f1b974",
-        "backgroundOpacity": 1,
-        "backgroundSize": "contain",
-        "borderRadius": 18,
-        "flexDirection": "row",
-        "gap": "6",
-        "height": "100%",
-        "justifyContent": "center",
-        "padding": "10",
-        "type": "3d",
-        "width": "20%"
-      }
-    },
-    "a771e894-6e2a-4d88-a632-c968a650b5cc": {
-      "components": {},
-      "geometry": null,
-      "id": "a771e894-6e2a-4d88-a632-c968a650b5cc",
-      "material": null,
-      "name": "Text (3)",
-      "order": 1,
-      "parentId": "8944c5fe-a8f2-4c6c-bb33-34ef7e0f5467",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "color": "#694520",
-        "fontSize": 16,
-        "height": 14,
-        "text": "Bottom\n",
-        "width": 60
-      }
-    },
-    "2bcab15e-e6c0-451d-ba08-1ac8ad3c0cb1": {
-      "components": {
-        "1ea69080-c7b2-4960-bdfc-dd7ee66e848b": {
-          "id": "1ea69080-c7b2-4960-bdfc-dd7ee66e848b",
-          "name": "SetRotationButton",
-          "parameters": {
-            "model": {
-              "type": "entity",
-              "id": "010dee89-e269-4e42-984c-bbfc40afcbff"
-            },
-            "rotationX": 90,
-            "rotationY": 0,
-            "rotationZ": 0
-          }
-        }
-      },
-      "geometry": null,
-      "id": "2bcab15e-e6c0-451d-ba08-1ac8ad3c0cb1",
-      "material": null,
-      "name": "Top",
-      "order": 1.4189533210470395,
-      "parentId": "d2aa0f34-20e9-4838-81b3-8684afed8a62",
-      "position": [
-        1.4490186264601717,
-        1.9525112263001876,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "alignItems": "center",
-        "background": "#f1b974",
-        "backgroundOpacity": 1,
-        "backgroundSize": "contain",
-        "borderRadius": 18,
-        "flexDirection": "row",
-        "gap": "6",
-        "height": "100%",
-        "justifyContent": "center",
-        "padding": "10",
-        "type": "3d",
-        "width": "20%"
-      }
-    },
-    "3323a5b7-6a20-4022-8482-cd6e155f53ee": {
-      "components": {},
-      "geometry": null,
-      "id": "3323a5b7-6a20-4022-8482-cd6e155f53ee",
-      "material": null,
-      "name": "Text (4)",
-      "order": 1.323715598387526,
-      "parentId": "2bcab15e-e6c0-451d-ba08-1ac8ad3c0cb1",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "color": "#694520",
-        "fontSize": 16,
-        "height": 14,
-        "text": "Top\n",
-        "width": 50
-      }
-    },
-    "313555d2-6c72-4ff0-8b1c-ba4d4420ae80": {
-      "components": {},
-      "geometry": null,
-      "id": "313555d2-6c72-4ff0-8b1c-ba4d4420ae80",
-      "material": null,
-      "name": "Title Space",
-      "order": -3.6748530070913765,
-      "parentId": "b087bcdb-d290-4446-b16d-76c65dc5ada5",
-      "position": [
-        0,
-        3.7224067779105976,
-        -1
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "alignItems": "center",
-        "background": "#ffffff",
-        "backgroundOpacity": 0,
-        "backgroundSize": "stretch",
-        "flexDirection": "row",
-        "flexWrap": "nowrap",
-        "height": "10%",
-        "justifyContent": "flex-start",
-        "type": "overlay",
-        "width": "100%",
-        "paddingTop": "3%",
-        "paddingBottom": "3%"
-      }
-    },
-    "d7063e0b-e3be-49d4-8fe8-a2ef5d7a1ca0": {
-      "components": {},
-      "geometry": null,
-      "id": "d7063e0b-e3be-49d4-8fe8-a2ef5d7a1ca0",
-      "material": null,
-      "name": "Page Title",
-      "order": 17.867536463300112,
-      "parentId": "313555d2-6c72-4ff0-8b1c-ba4d4420ae80",
-      "position": [
-        0,
-        -2.636128043192243,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "flexDirection": "row",
-        "color": "#000000",
-        "font": {
-          "type": "font",
-          "font": "Futura"
-        },
-        "fontSize": 26,
-        "height": "100%",
-        "text": "Augustus Head",
-        "textAlign": "left",
-        "type": "3d",
-        "verticalTextAlign": "center",
-        "width": "85%",
-        "paddingLeft": "",
-        "paddingRight": ""
-      }
-    },
-    "1a33ca49-49c4-4940-bd76-4573f5d228c4": {
-      "id": "1a33ca49-49c4-4940-bd76-4573f5d228c4",
-      "position": [
-        -0.323,
-        -8.30911321920827,
-        1
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "313555d2-6c72-4ff0-8b1c-ba4d4420ae80",
-      "components": {
-        "731f0949-e7cc-4643-83ee-8b8d839ab472": {
-          "id": "731f0949-e7cc-4643-83ee-8b8d839ab472",
-          "name": "toggle-menu",
-          "parameters": {
-            "menu": {
-              "type": "entity",
-              "id": "4fd2a11b-f0d5-48c8-a344-60e75154153a"
-            },
-            "isVisible": false
-          }
-        }
-      },
-      "name": "Icon",
-      "ui": {
-        "width": "10%",
-        "height": 15,
-        "image": {
-          "type": "asset",
-          "asset": "assets/menu.png"
-        },
-        "backgroundOpacity": 1,
-        "backgroundSize": "contain"
-      },
-      "order": 13.425429970936722
-    },
-    "757a3e96-99eb-49ee-a543-0c98a6fb30b4": {
-      "id": "757a3e96-99eb-49ee-a543-0c98a6fb30b4",
-      "position": [
-        0,
-        -4.586706441297672,
-        0
-      ],
-      "name": "Menu1",
-      "instanceData": {
-        "instanceOf": "4fd2a11b-f0d5-48c8-a344-60e75154153a",
-        "deletions": {},
-        "children": {
-          "6ec470c8-3800-467d-af3f-4995089d7374": {
-            "id": "6ec470c8-3800-467d-af3f-4995089d7374",
-            "deletions": {
-              "disabled": true
-            },
-            "ui": {
-              "flexDirection": "column",
-              "width": "55%",
-              "height": "100%",
-              "type": "3d",
-              "background": "#b69754",
-              "backgroundOpacity": 1,
-              "paddingTop": "2%",
-              "paddingBottom": "2%",
-              "paddingLeft": "2%",
-              "paddingRight": "2%",
-              "alignItems": "center",
-              "justifyContent": "flex-start",
-              "gap": "2%",
-              "borderRadiusTopLeft": 0,
-              "borderRadiusTopRight": "25",
-              "borderRadiusBottomLeft": 0,
-              "borderRadiusBottomRight": "25"
-            }
-          },
-          "1b9d446b-d6bf-4d4a-9c0a-df23b97a0d3d": {
-            "id": "1b9d446b-d6bf-4d4a-9c0a-df23b97a0d3d",
-            "deletions": {
-              "disabled": true
-            }
-          },
-          "f3223de9-6f00-4ae2-afe0-c2cd2ae24cd1": {
-            "id": "f3223de9-6f00-4ae2-afe0-c2cd2ae24cd1",
-            "deletions": {
-              "disabled": true
-            }
-          }
-        }
-      },
-      "parentId": "d08b9882-d9d6-4514-81de-60f8ac847278",
-      "components": {},
-      "order": 0.007721438206637288,
-      "disabled": true,
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "hidden": false,
-      "ui": {
-        "flexDirection": "row",
-        "width": "100%",
-        "height": 1098,
-        "type": "3d",
-        "background": "#ffffff",
-        "backgroundOpacity": 0,
-        "position": "absolute",
-        "top": "",
-        "left": "",
-        "bottom": "",
-        "right": "",
-        "alignItems": "center",
-        "justifyContent": "flex-start"
-      }
-    },
-    "af8150d6-d24b-44c8-be70-88944b41ace6": {
-      "id": "af8150d6-d24b-44c8-be70-88944b41ace6",
-      "position": [
-        0,
-        -8.30911321920827,
-        1
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "53573e72-8653-4522-badd-b3f963321b7b",
-      "components": {},
-      "ui": {
-        "width": "100%",
-        "height": "13%",
-        "text": "Artifact Name",
-        "color": "#000000",
-        "fontSize": 20,
-        "type": "3d",
-        "font": {
-          "type": "font",
-          "font": "Futura"
-        },
-        "textAlign": "left",
-        "verticalTextAlign": "center"
-      },
-      "name": "Artifact Name",
-      "order": 14.946877269968443,
-      "hidden": false
-    },
-    "e9a108c9-ed62-4f08-8874-ebc75f5f58c9": {
-      "components": {},
-      "geometry": null,
-      "id": "e9a108c9-ed62-4f08-8874-ebc75f5f58c9",
-      "material": null,
-      "name": "Description Space 2",
-      "order": -0.2707761019364429,
-      "parentId": "d08b9882-d9d6-4514-81de-60f8ac847278",
-      "position": [
-        0,
-        3.7224067779105976,
-        -1
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "borderColor": "#dedede",
-        "borderWidth": 1,
-        "alignItems": "center",
-        "background": "#ffffff",
-        "backgroundOpacity": 0.5,
-        "backgroundSize": "stretch",
-        "flexDirection": "column",
-        "flexWrap": "nowrap",
-        "height": "30%",
-        "justifyContent": "flex-start",
-        "type": "overlay",
-        "width": "90%",
-        "paddingTop": "1%",
-        "paddingBottom": "1%",
-        "borderRadius": 25,
-        "paddingLeft": "3%",
-        "paddingRight": "3%"
-      }
-    },
-    "25e60c63-2102-4fc2-aea3-b098360ab778": {
-      "components": {
-        "9e227978-6139-4672-89b6-5d9c4d1d094f": {
-          "id": "9e227978-6139-4672-89b6-5d9c4d1d094f",
-          "name": "TextWrap",
-          "parameters": {}
-        },
-        "8112dcbd-9e45-47f8-b637-d77db3262e34": {
-          "id": "8112dcbd-9e45-47f8-b637-d77db3262e34",
-          "name": "toggle-menu",
-          "parameters": {
-            "menu": {
-              "type": "entity",
-              "id": "757a3e96-99eb-49ee-a543-0c98a6fb30b4"
-            }
-          }
-        }
-      },
-      "geometry": null,
-      "id": "25e60c63-2102-4fc2-aea3-b098360ab778",
-      "material": null,
-      "name": "Artifact Description",
-      "order": 17.867536463300112,
-      "parentId": "e9a108c9-ed62-4f08-8874-ebc75f5f58c9",
-      "position": [
-        0,
-        -2.636128043192243,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "color": "#000000",
-        "font": {
-          "type": "font",
-          "font": "Futura"
-        },
-        "fontSize": 16,
-        "height": "85%",
-        "text": "Ut ex magna commodo pariatur nostrud anim sint non pariatur aliquip ad labore. Cupidatat aute sit ut ex Lorem exercitation laboris elit magna commodo consectetur et. Qui deserunt exercitation ad labore consequat pariatur voluptate irure est in commodo minim irure adipisicing. Eiusmod reprehenderit excepteur incididunt culpa ad. Irure labore amet Ut ex magna commodo pariatur nostrud anim sint non pariatur aliquip ad labore. Cupidatat aute sit ut ex Lorem exercitation laboris elit magna commodo consectetur et. Qui deserunt exercitation ad labore consequat pariatur voluptate irure est in commodo minim irure adipisicing. Eiusmod reprehenderit excepteur incididunt culpa ad. Irure labore amet ",
-        "textAlign": "center",
-        "type": "3d",
-        "verticalTextAlign": "start",
-        "width": "100%"
-      }
-    },
-    "e448c0af-8f46-4c07-bb5f-4c2f7474ce19": {
-      "id": "e448c0af-8f46-4c07-bb5f-4c2f7474ce19",
-      "position": [
-        0,
-        -8.30911321920827,
-        1
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "e9a108c9-ed62-4f08-8874-ebc75f5f58c9",
-      "components": {},
-      "ui": {
-        "width": "100%",
-        "height": "13%",
-        "text": "Artifact Description",
-        "color": "#000000",
-        "fontSize": 20,
-        "type": "3d",
-        "font": {
-          "type": "font",
-          "font": "Futura"
-        },
-        "textAlign": "left",
-        "verticalTextAlign": "center"
-      },
-      "name": "Description Title",
-      "order": 14.946877269968443
-    },
-    "13b159b8-a45b-4235-a6ef-37818066b329": {
-      "id": "13b159b8-a45b-4235-a6ef-37818066b329",
-      "position": [
-        0,
-        -8.30911321920827,
-        1
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "53573e72-8653-4522-badd-b3f963321b7b",
-      "components": {},
-      "ui": {
-        "flexDirection": "column",
-        "width": "100%",
-        "height": "25%",
-        "type": "3d",
-        "background": "#ffffff",
-        "backgroundOpacity": 0.5,
-        "paddingTop": 0,
-        "paddingBottom": 0,
-        "margin": "",
-        "marginTop": "1%",
-        "marginBottom": "1%"
-      },
-      "name": "Attributes Space",
-      "order": 15.847756803375107
-    },
-    "ff841d65-9592-4572-a032-24fc07e78b12": {
-      "id": "ff841d65-9592-4572-a032-24fc07e78b12",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "843e316e-bf04-4079-88fe-a5cb25f21c1d",
-      "components": {},
-      "ui": {
-        "flexDirection": "column",
-        "width": "50%",
-        "height": "50%",
-        "type": "3d",
-        "background": "#ffffff",
-        "backgroundOpacity": 0,
-        "alignItems": "center",
-        "justifyContent": "center"
-      },
-      "name": "Frame",
-      "order": 8.720604635656429
-    },
-    "843e316e-bf04-4079-88fe-a5cb25f21c1d": {
-      "id": "843e316e-bf04-4079-88fe-a5cb25f21c1d",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "13b159b8-a45b-4235-a6ef-37818066b329",
-      "components": {},
-      "ui": {
-        "flexDirection": "row",
-        "width": "90%",
-        "height": "50%",
-        "type": "3d",
-        "background": "#ffffff",
-        "backgroundOpacity": 0,
-        "alignItems": "center",
-        "justifyContent": "center"
-      },
-      "name": "Row 1",
-      "order": 7.707219298594632
-    },
-    "3ce36039-a0ff-4467-bbaf-927ce5714136": {
-      "id": "3ce36039-a0ff-4467-bbaf-927ce5714136",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "13b159b8-a45b-4235-a6ef-37818066b329",
-      "components": {},
-      "ui": {
-        "flexDirection": "row",
-        "width": "90%",
-        "height": "50%",
-        "type": "3d",
-        "background": "#ffffff",
-        "backgroundOpacity": 0,
-        "alignItems": "center",
-        "justifyContent": "flex-start"
-      },
-      "name": "Row 2",
-      "order": 7.97036005247015
-    },
-    "0cc07036-5a5f-46ea-8f91-0e738ba387be": {
-      "id": "0cc07036-5a5f-46ea-8f91-0e738ba387be",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "ff841d65-9592-4572-a032-24fc07e78b12",
-      "components": {},
-      "ui": {
-        "width": "90%",
-        "height": "50%",
-        "text": "Material\n",
-        "color": "#737373",
-        "fontSize": 12,
-        "type": "3d",
-        "verticalTextAlign": "start",
-        "textAlign": "left"
-      },
-      "name": "Text",
-      "order": 6.751118245647747
-    },
-    "dd322a91-dc75-4583-80df-36540fc14f8a": {
-      "id": "dd322a91-dc75-4583-80df-36540fc14f8a",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "ff841d65-9592-4572-a032-24fc07e78b12",
-      "components": {},
-      "ui": {
-        "width": "90%",
-        "height": "50%",
-        "text": "Terracotta",
-        "color": "#000000",
-        "fontSize": 12,
-        "type": "3d",
-        "textAlign": "left"
-      },
-      "name": "Text",
-      "order": 7.8801221752636055
-    },
-    "12b6b6bb-8d46-4a02-aa20-d42746b5d2bd": {
-      "id": "12b6b6bb-8d46-4a02-aa20-d42746b5d2bd",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "843e316e-bf04-4079-88fe-a5cb25f21c1d",
-      "components": {},
-      "ui": {
-        "flexDirection": "column",
-        "width": "50%",
-        "height": "50%",
-        "type": "3d",
-        "background": "#ffffff",
-        "backgroundOpacity": 0,
-        "alignItems": "center",
-        "justifyContent": "center"
-      },
-      "name": "Frame (2)",
-      "order": 10.493552725621578
-    },
-    "e7003d42-555a-4cda-a619-896bddf47aae": {
-      "id": "e7003d42-555a-4cda-a619-896bddf47aae",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "12b6b6bb-8d46-4a02-aa20-d42746b5d2bd",
-      "components": {},
-      "ui": {
-        "width": "90%",
-        "height": "50%",
-        "text": "Era",
-        "color": "#737373",
-        "fontSize": 12,
-        "type": "3d",
-        "textAlign": "left"
-      },
-      "name": "Text (2)",
-      "order": 6.751118245647747
-    },
-    "bac9693f-ec1c-4e4a-8530-120d71590925": {
-      "id": "bac9693f-ec1c-4e4a-8530-120d71590925",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "12b6b6bb-8d46-4a02-aa20-d42746b5d2bd",
-      "components": {},
-      "ui": {
-        "width": "90%",
-        "height": "50%",
-        "text": "Imperial Period",
-        "color": "#000000",
-        "fontSize": 12,
-        "type": "3d",
-        "textAlign": "left"
-      },
-      "name": "Text (3)",
-      "order": 7.8801221752636055
-    },
-    "fe6dd914-d4c4-4d6d-bf1a-7e70b56f42bc": {
-      "id": "fe6dd914-d4c4-4d6d-bf1a-7e70b56f42bc",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "3ce36039-a0ff-4467-bbaf-927ce5714136",
-      "components": {},
-      "ui": {
-        "flexDirection": "column",
-        "width": "50%",
-        "height": "50%",
-        "type": "3d",
-        "background": "#ffffff",
-        "backgroundOpacity": 0,
-        "alignItems": "center",
-        "justifyContent": "center"
-      },
-      "name": "Frame (3)",
-      "order": 10.111493628687995
-    },
-    "b0fe0b40-e5cd-4153-ac7a-94788fe268b0": {
-      "id": "b0fe0b40-e5cd-4153-ac7a-94788fe268b0",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "fe6dd914-d4c4-4d6d-bf1a-7e70b56f42bc",
-      "components": {},
-      "ui": {
-        "width": "90%",
-        "height": "50%",
-        "text": "Region",
-        "color": "#737373",
-        "fontSize": 12,
-        "type": "3d",
-        "textAlign": "left"
-      },
-      "name": "Text (4)",
-      "order": 6.751118245647747
-    },
-    "8a579d12-28c3-497d-9c52-6835db55743a": {
-      "id": "8a579d12-28c3-497d-9c52-6835db55743a",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "fe6dd914-d4c4-4d6d-bf1a-7e70b56f42bc",
-      "components": {},
-      "ui": {
-        "width": "90%",
-        "height": "50%",
-        "text": "Ancient Rome",
-        "color": "#000000",
-        "fontSize": 12,
-        "type": "3d",
-        "textAlign": "left"
-      },
-      "name": "Text (5)",
-      "order": 7.8801221752636055
-    },
-    "2496a1c8-96b2-4176-bf4e-f291a02b5f7c": {
-      "id": "2496a1c8-96b2-4176-bf4e-f291a02b5f7c",
-      "position": [
-        0,
-        -8.30911321920827,
-        1
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "53573e72-8653-4522-badd-b3f963321b7b",
-      "components": {},
-      "ui": {
-        "width": "100%",
-        "height": "7%",
-        "text": "Callityche's Collection",
-        "color": "#7d7d7d",
-        "fontSize": 12,
-        "type": "3d",
-        "textAlign": "left"
-      },
-      "name": "Text",
-      "order": 15.593440467317194
-    },
-    "4208a708-084b-4319-bad2-edfbbfb30453": {
-      "components": {},
-      "geometry": null,
-      "id": "4208a708-084b-4319-bad2-edfbbfb30453",
-      "material": null,
-      "name": "Description Space 3",
-      "order": -0.1883495498078777,
-      "parentId": "d08b9882-d9d6-4514-81de-60f8ac847278",
-      "position": [
-        0,
-        3.7224067779105976,
-        -1
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "borderColor": "#fee685",
-        "borderWidth": 1,
-        "alignItems": "center",
-        "background": "#fffbeb",
-        "backgroundOpacity": 0.5,
-        "backgroundSize": "stretch",
-        "flexDirection": "column",
-        "flexWrap": "nowrap",
-        "height": "10%",
-        "justifyContent": "flex-start",
-        "type": "overlay",
-        "width": "90%",
-        "paddingTop": "2%",
-        "paddingBottom": "2%",
-        "borderRadius": 25,
-        "paddingLeft": "3%",
-        "paddingRight": "3%"
-      }
-    },
-    "7b8da56c-cac1-4853-bba7-db458bec826d": {
-      "components": {
-        "9e227978-6139-4672-89b6-5d9c4d1d094f": {
-          "id": "9e227978-6139-4672-89b6-5d9c4d1d094f",
-          "name": "TextWrap",
-          "parameters": {}
-        },
-        "8112dcbd-9e45-47f8-b637-d77db3262e34": {
-          "id": "8112dcbd-9e45-47f8-b637-d77db3262e34",
-          "name": "toggle-menu",
-          "parameters": {
-            "menu": {
-              "type": "entity",
-              "id": "757a3e96-99eb-49ee-a543-0c98a6fb30b4"
-            }
-          }
-        }
-      },
-      "geometry": null,
-      "id": "7b8da56c-cac1-4853-bba7-db458bec826d",
-      "material": null,
-      "name": "Artifact Description (1)",
-      "order": 17.867536463300112,
-      "parentId": "4208a708-084b-4319-bad2-edfbbfb30453",
-      "position": [
-        0,
-        -2.636128043192243,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "flexDirection": "row",
-        "color": "#000000",
-        "font": {
-          "type": "font",
-          "font": "Baskerville"
-        },
-        "fontSize": 12,
-        "height": "75%",
-        "text": "Black-figure pottery was a revolutionary technique where figures were painted in black slip and details were incised before firing. This technique flourished in Athens from the 7th to 5th centuries BCE.",
-        "textAlign": "left",
-        "type": "3d",
-        "verticalTextAlign": "start",
-        "width": "100%",
-        "margin": "",
-        "marginTop": "1%",
-        "marginBottom": "1%"
-      }
-    },
-    "0d8fcf88-dfe8-4c7c-914c-3b77ef17903d": {
-      "id": "0d8fcf88-dfe8-4c7c-914c-3b77ef17903d",
-      "position": [
-        0,
-        -8.30911321920827,
-        1
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "4208a708-084b-4319-bad2-edfbbfb30453",
-      "components": {},
-      "ui": {
-        "width": "100%",
-        "height": "25%",
-        "text": "Did You Know?",
-        "color": "#000000",
-        "fontSize": 14,
-        "type": "3d",
-        "font": {
-          "type": "font",
-          "font": "Futura"
-        },
-        "textAlign": "left",
-        "verticalTextAlign": "center"
-      },
-      "name": "Description Title (1)",
-      "order": 14.946877269968443
-    },
-    "cce6beed-4f2e-4755-b0ff-21f6cad45f49": {
-      "id": "cce6beed-4f2e-4755-b0ff-21f6cad45f49",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "db6abc19-2f03-4427-9b50-31e5343d2a42",
-      "components": {},
-      "ui": {
-        "type": "3d",
-        "width": "90%",
-        "height": "90%",
-        "image": {
-          "type": "asset",
-          "asset": "assets/menu-images/Augustus-cutout.png"
-        },
-        "backgroundOpacity": 1,
-        "backgroundSize": "contain"
-      },
-      "name": "Artifact_Image",
-      "order": -0.29875181976182974,
-      "hidden": false
-    },
-    "e556a10e-19b3-420a-90dd-e792c02cd0c7": {
-      "components": {},
-      "geometry": null,
-      "id": "e556a10e-19b3-420a-90dd-e792c02cd0c7",
-      "material": null,
-      "name": "Description Space 4",
-      "order": -0.06915480897949233,
-      "parentId": "d08b9882-d9d6-4514-81de-60f8ac847278",
-      "position": [
-        0,
-        3.7224067779105976,
-        -1
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "borderColor": "#b9f8cf",
-        "borderWidth": 1,
-        "alignItems": "center",
-        "background": "#f0fdf4",
-        "backgroundOpacity": 0.5,
-        "backgroundSize": "stretch",
-        "flexDirection": "column",
-        "flexWrap": "nowrap",
-        "height": "10%",
-        "justifyContent": "flex-start",
-        "type": "overlay",
-        "width": "90%",
-        "paddingTop": "2%",
-        "paddingBottom": "2%",
-        "borderRadius": 25,
-        "paddingLeft": "3%",
-        "paddingRight": "3%"
-      }
-    },
-    "aa464aec-52d1-4690-b073-7ecd4cdce250": {
-      "components": {
-        "9e227978-6139-4672-89b6-5d9c4d1d094f": {
-          "id": "9e227978-6139-4672-89b6-5d9c4d1d094f",
-          "name": "TextWrap",
-          "parameters": {}
-        },
-        "8112dcbd-9e45-47f8-b637-d77db3262e34": {
-          "id": "8112dcbd-9e45-47f8-b637-d77db3262e34",
-          "name": "toggle-menu",
-          "parameters": {
-            "menu": {
-              "type": "entity",
-              "id": "757a3e96-99eb-49ee-a543-0c98a6fb30b4"
-            }
-          }
-        }
-      },
-      "geometry": null,
-      "id": "aa464aec-52d1-4690-b073-7ecd4cdce250",
-      "material": null,
-      "name": "Artifact Description (2)",
-      "order": 17.867536463300112,
-      "parentId": "e556a10e-19b3-420a-90dd-e792c02cd0c7",
-      "position": [
-        0,
-        -2.636128043192243,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "ui": {
-        "flexDirection": "row",
-        "color": "#000000",
-        "font": {
-          "type": "font",
-          "font": "Baskerville"
-        },
-        "fontSize": 12,
-        "height": "75%",
-        "text": "The Classical Period (450-323 BCE) represents the height of Greek artistic achievement, coinciding with the Age of Pericles and the construction of the Parthenon.",
-        "textAlign": "left",
-        "type": "3d",
-        "verticalTextAlign": "start",
-        "width": "100%",
-        "margin": "",
-        "marginTop": "1%",
-        "marginBottom": "1%"
-      }
-    },
-    "1a6a759e-886a-45f1-b33f-29574c3d3eb1": {
-      "id": "1a6a759e-886a-45f1-b33f-29574c3d3eb1",
-      "position": [
-        0,
-        -8.30911321920827,
-        1
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "e556a10e-19b3-420a-90dd-e792c02cd0c7",
-      "components": {},
-      "ui": {
-        "width": "100%",
-        "height": "25%",
-        "text": "Historical Context",
-        "color": "#000000",
-        "fontSize": 14,
-        "type": "3d",
-        "font": {
-          "type": "font",
-          "font": "Futura"
-        },
-        "textAlign": "left",
-        "verticalTextAlign": "center"
-      },
-      "name": "Description Title (2)",
-      "order": 14.946877269968443
+      "name": "Tip4",
+      "order": 5.779471316662683
     }
   },
   "runtimeVersion": {
