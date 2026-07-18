@@ -12,6 +12,7 @@
     "module": "Preserve",
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
+    "jsx": "react",
     "outDir": "dist",
     "paths": {
       "@8thwall/ecs": ["external/runtime/runtime.d.ts"]

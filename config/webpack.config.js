@@ -9,7 +9,7 @@ const distPath = path.join(rootPath, 'dist')
 const srcPath = path.join(rootPath, 'src')
 
 const makeTsLoader = () => ({
-  test: /\.ts$/,
+  test: /\.(ts|tsx|js|jsx)$/,
   loader: 'ts-loader',
   exclude: /node_modules/,
 })
@@ -47,6 +47,16 @@ const config = {
           noErrorOnMissing: true,
         },
         {
+          from: path.join(srcPath, 'overlay.css'),
+          to: path.join(distPath, 'overlay.css'),
+          noErrorOnMissing: true,
+        },
+        {
+          from: path.join(srcPath, 'ReactApp.css'),
+          to: path.join(distPath, 'ReactApp.css'),
+          noErrorOnMissing: true,
+        },
+        {
           from: path.join(rootPath, 'image-targets'),
           to: path.join(distPath, 'image-targets'),
           noErrorOnMissing: true,
@@ -57,7 +67,7 @@ const config = {
       srcDir: srcPath,
     }),
   ],
-  resolve: {extensions: ['.ts', '.js']},
+  resolve: {extensions: ['.ts', '.tsx', '.js', '.jsx']},
   module: {
     rules: [
       makeTsLoader(),
@@ -85,7 +95,7 @@ const config = {
         errors: true,
       },
     },
-    allowedHosts: ['.ngrok-free.dev']
+    allowedHosts: 'all'
   },
 }
 

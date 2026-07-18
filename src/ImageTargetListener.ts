@@ -1,7 +1,7 @@
 import * as ecs from '@8thwall/ecs'
 
 ecs.registerComponent({
-  name: 'listen-image-target',
+  name: 'ImageTargetListener',
 
   schema: {
     hideOnDetect: ecs.eid,

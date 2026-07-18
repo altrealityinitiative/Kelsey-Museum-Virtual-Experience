@@ -1,7 +1,7 @@
 const path = require('path')
 const VirtualModulesPlugin = require('webpack-virtual-modules')
 
-const isCodeFile = file => file.endsWith('.ts') || file.endsWith('.js')
+const isCodeFile = file => file.endsWith('.ts') || file.endsWith('.tsx') || file.endsWith('.js') || file.endsWith('.jsx')
 const IGNORED_FOLDERS = ['assets', '.dependencies']
 
 const SCENE_INIT_CONTENT = `

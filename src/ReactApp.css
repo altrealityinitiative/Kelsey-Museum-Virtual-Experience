@@ -1,0 +1,229 @@
+/* React SPA Styles */
+:root {
+  --primary: #2563eb;
+  --bg-color: #f8fafc;
+  --card-bg: #ffffff;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+}
+
+#react-root {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* Let touches pass to AR by default */
+  z-index: 2000;
+}
+
+.page-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-color);
+  pointer-events: auto; /* Capture touches when page is open */
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.fade-in {
+  animation: fadeIn 0.25s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: var(--card-bg);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary);
+  cursor: pointer;
+  padding: 8px;
+}
+
+.nav-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.hero-section {
+  height: 30vh;
+  background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-icon {
+  font-size: 100px;
+  filter: drop-shadow(0 10px 15px rgba(0,0,0,0.1));
+}
+
+.content-section {
+  padding: 24px;
+  background: var(--card-bg);
+  flex: 1;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  margin-top: -24px;
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.tag {
+  background: #f1f5f9;
+  color: var(--text-muted);
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0 0 16px 0;
+  color: var(--text-main);
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.stat-box {
+  background: #f8fafc;
+  padding: 16px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: 1px solid #e2e8f0;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.stat-value {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.action-btn {
+  width: 100%;
+  padding: 16px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.3);
+}
+
+.floating-collection-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(8px);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 999px;
+  font-weight: 700;
+  color: var(--text-main);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+/* Pokedex Grid */
+.collection-content {
+  padding: 24px;
+}
+
+.collection-subtitle {
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.grid-item {
+  background: var(--card-bg);
+  border-radius: 20px;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  border: 2px solid transparent;
+}
+
+.grid-item.locked {
+  background: #f1f5f9;
+  opacity: 0.7;
+  filter: grayscale(100%);
+}
+
+.grid-item.unlocked {
+  border-color: #e0e7ff;
+}
+
+.item-icon {
+  font-size: 48px;
+}
+
+.item-name {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: var(--text-main);
+}
