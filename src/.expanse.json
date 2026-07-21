@@ -866,6 +866,521 @@
         37.5,
         37.5
       ]
+    },
+    "ced95208-a148-4469-a958-2308178fe07b": {
+      "id": "ced95208-a148-4469-a958-2308178fe07b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "442d8bc9-8269-4e9b-811b-faedf363b929",
+      "components": {
+        "0dd6f6e4-3968-4784-88a9-12017fd2e09b": {
+          "id": "0dd6f6e4-3968-4784-88a9-12017fd2e09b",
+          "name": "ModelRotateControls",
+          "parameters": {}
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Augustus_OriginFixed.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Augustus_OriginFixed.glb",
+      "order": 1.495422015282693
+    },
+    "e4c74941-ce2f-494a-be93-a1ac7333b6d6": {
+      "id": "e4c74941-ce2f-494a-be93-a1ac7333b6d6",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "442d8bc9-8269-4e9b-811b-faedf363b929",
+      "components": {},
+      "light": {
+        "type": "directional"
+      },
+      "name": "Directional Light",
+      "order": 2.9736506272133347
+    },
+    "3a885832-8a50-490d-8890-6cfb88211fe2": {
+      "id": "3a885832-8a50-490d-8890-6cfb88211fe2",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "442d8bc9-8269-4e9b-811b-faedf363b929",
+      "components": {},
+      "light": {
+        "type": "ambient"
+      },
+      "name": "Ambient Light",
+      "order": 4.469601864719593
+    },
+    "9cb73956-10e7-4321-85da-a6f6d9c2a93d": {
+      "id": "9cb73956-10e7-4321-85da-a6f6d9c2a93d",
+      "position": [
+        0,
+        -0.045395380460889534,
+        0.41921377947809557
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        -6.123233995736766e-17
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "442d8bc9-8269-4e9b-811b-faedf363b929",
+      "components": {},
+      "name": "Camera",
+      "camera": {
+        "type": "perspective",
+        "nearClip": 0.1
+      },
+      "order": 6.308729493354394
+    },
+    "f2d9889b-271b-4494-b1eb-a592282f2c94": {
+      "id": "f2d9889b-271b-4494-b1eb-a592282f2c94",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "442d8bc9-8269-4e9b-811b-faedf363b929",
+      "components": {},
+      "ui": {
+        "flexDirection": "column",
+        "width": "100%",
+        "height": "100%",
+        "type": "overlay",
+        "background": "#faf4d8",
+        "backgroundOpacity": 0,
+        "ignoreRaycast": true,
+        "alignItems": "center",
+        "justifyContent": "flex-start",
+        "gap": 13
+      },
+      "name": "Frame",
+      "order": 7.838135026473803
+    },
+    "3fa7a599-cb31-4800-abf5-77f51bdf4253": {
+      "id": "3fa7a599-cb31-4800-abf5-77f51bdf4253",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "f2d9889b-271b-4494-b1eb-a592282f2c94",
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": "90%",
+        "height": "100%",
+        "type": "3d",
+        "background": "#ffffff",
+        "backgroundOpacity": 0,
+        "alignItems": "flex-end",
+        "justifyContent": "center",
+        "gap": 30
+      },
+      "name": "Horizontal Container",
+      "order": 9.827330006668655
+    },
+    "e5843607-7f38-4003-bb9f-3cfeb7b899a7": {
+      "id": "e5843607-7f38-4003-bb9f-3cfeb7b899a7",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "3fa7a599-cb31-4800-abf5-77f51bdf4253",
+      "components": {
+        "2cd58e67-328a-4241-a2b7-125bf10ec925": {
+          "id": "2cd58e67-328a-4241-a2b7-125bf10ec925",
+          "name": "SetRotationButton",
+          "parameters": {}
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#f1b974",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "margin": "",
+        "marginTop": "10%",
+        "marginBottom": "10%"
+      },
+      "name": "Button",
+      "order": 1.9418652697282053
+    },
+    "b5bd8f96-025c-4c30-b051-78ff552a4c0f": {
+      "id": "b5bd8f96-025c-4c30-b051-78ff552a4c0f",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "e5843607-7f38-4003-bb9f-3cfeb7b899a7",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Button",
+        "color": "#ffffff",
+        "fontSize": 16
+      },
+      "order": 1.0781123965855206
+    },
+    "b65ec03a-5679-4b3d-b287-065c06c56b79": {
+      "id": "b65ec03a-5679-4b3d-b287-065c06c56b79",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "81f72069-21e7-4efd-afd9-d3e67743fbb3": {
+          "id": "81f72069-21e7-4efd-afd9-d3e67743fbb3",
+          "name": "SetRotationButton",
+          "parameters": {}
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#f1b974",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "margin": "",
+        "marginTop": "10%",
+        "marginBottom": "10%"
+      },
+      "name": "Button (1)",
+      "order": 3.882444812840433,
+      "parentId": "3fa7a599-cb31-4800-abf5-77f51bdf4253"
+    },
+    "06f2e42f-1da2-47f2-896a-305e04c7c76e": {
+      "id": "06f2e42f-1da2-47f2-896a-305e04c7c76e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "b65ec03a-5679-4b3d-b287-065c06c56b79",
+      "components": {},
+      "name": "Text (1)",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Button",
+        "color": "#ffffff",
+        "fontSize": 16
+      },
+      "order": 2
+    },
+    "884ea9fc-56bd-4495-af07-78a70ba00383": {
+      "id": "884ea9fc-56bd-4495-af07-78a70ba00383",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "739744f5-98de-4b41-b7c2-4b862a386cb9": {
+          "id": "739744f5-98de-4b41-b7c2-4b862a386cb9",
+          "name": "SetRotationButton",
+          "parameters": {}
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#f1b974",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "margin": "",
+        "marginTop": "10%",
+        "marginBottom": "10%"
+      },
+      "name": "Button (2)",
+      "order": 5.667977001378297,
+      "parentId": "3fa7a599-cb31-4800-abf5-77f51bdf4253"
+    },
+    "e1a09621-ca84-4689-8158-7c887ee6f147": {
+      "id": "e1a09621-ca84-4689-8158-7c887ee6f147",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "884ea9fc-56bd-4495-af07-78a70ba00383",
+      "components": {},
+      "name": "Text (2)",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Button",
+        "color": "#ffffff",
+        "fontSize": 16
+      },
+      "order": 2
+    },
+    "0285c21f-1a44-49fd-b224-046d7c4af3ac": {
+      "id": "0285c21f-1a44-49fd-b224-046d7c4af3ac",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "ecac3b29-2c3a-4f82-950f-9179dd41fff7": {
+          "id": "ecac3b29-2c3a-4f82-950f-9179dd41fff7",
+          "name": "SetRotationButton",
+          "parameters": {}
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#f1b974",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "paddingTop": "",
+        "paddingBottom": "",
+        "margin": "",
+        "marginTop": "10%",
+        "marginBottom": "10%"
+      },
+      "name": "Button (3)",
+      "order": 7.392400075287567,
+      "parentId": "3fa7a599-cb31-4800-abf5-77f51bdf4253"
+    },
+    "b83a3a7d-1cf0-4f99-a0f0-784d0ec50e83": {
+      "id": "b83a3a7d-1cf0-4f99-a0f0-784d0ec50e83",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "0285c21f-1a44-49fd-b224-046d7c4af3ac",
+      "components": {},
+      "name": "Text (3)",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Button",
+        "color": "#ffffff",
+        "fontSize": 16
+      },
+      "order": 2
     }
   },
   "runtimeVersion": {
@@ -889,6 +1404,38 @@
           "#0F0E1A"
         ]
       }
+    },
+    "38d3d45a-3e7a-492f-adf7-07d1073272d0": {
+      "activeCamera": "8e30ffdb-5735-45f3-b777-106d0e168d77",
+      "id": "38d3d45a-3e7a-492f-adf7-07d1073272d0",
+      "name": "Exhibit-0869Inscription"
+    },
+    "442d8bc9-8269-4e9b-811b-faedf363b929": {
+      "activeCamera": "9cb73956-10e7-4321-85da-a6f6d9c2a93d",
+      "id": "442d8bc9-8269-4e9b-811b-faedf363b929",
+      "name": "Exhibit-Augustus",
+      "sky": {
+        "type": "gradient",
+        "colors": [
+          "#faf4d8",
+          "#7f4b0b"
+        ]
+      }
+    },
+    "728386e5-ec26-4c62-9457-661038d1b808": {
+      "activeCamera": "5d2cbfd8-e471-4fcf-99eb-138ddf79720e",
+      "id": "728386e5-ec26-4c62-9457-661038d1b808",
+      "name": "Exhibit-Jackal"
+    },
+    "cf55949b-2558-48a0-ac5e-c32e6c00399c": {
+      "activeCamera": "6ac353ef-222c-4ea5-9ba1-7e481b5b27f1",
+      "id": "cf55949b-2558-48a0-ac5e-c32e6c00399c",
+      "name": "Exhibit-Inscription"
+    },
+    "fb9c470b-e947-46d5-aa7f-63a1b3496a78": {
+      "activeCamera": "564478f3-d3db-4acd-8f27-afccfc5747eb",
+      "id": "fb9c470b-e947-46d5-aa7f-63a1b3496a78",
+      "name": "Exhibit-Philip"
     }
   }
 }

@@ -183,7 +183,7 @@ const SidebarMenu = ({ isOpen, onClose, onNavigate }: any) => {
   );
 };
 
-const ArtifactDetailPage = ({ modelId, onBack, onMenuToggle }: any) => {
+const ArtifactDetailPage = ({ modelId, onBack, onMenuToggle, onViewExhibit }: any) => {
   const data = (ARTIFACTS as any)[modelId] || ARTIFACTS["Augustus"];
   const character = CHARACTERS[data.characterId];
 
@@ -241,7 +241,7 @@ const ArtifactDetailPage = ({ modelId, onBack, onMenuToggle }: any) => {
         </div>
 
         <div className="viewer-section">
-          <div className="image-container">
+          <div className="image-container" onClick={onViewExhibit} style={{ cursor: "pointer" }}>
             {data.thumbnail ? 
               <img src={data.thumbnail} alt={data.name} style={{ width: "100%", height: "100%", objectFit: "contain", borderRadius: "16px" }} /> :
               <div style={{ fontSize: "120px", display: "flex", justifyContent: "center", alignItems: "center", height: "100%" }}>{data.image}</div>
@@ -512,6 +512,42 @@ const CharactersPage = ({ onMenuToggle, onContinue, onSelectCharacter }: any) =>
   );
 };
 
+const getExhibitSpaceName = (modelId: string) => {
+  if (modelId === 'Augustus') return 'Exhibit-Augustus';
+  if (modelId === 'Jackal') return 'Exhibit-Jackal';
+  if (modelId === 'Inscription') return 'Exhibit-Inscription';
+  if (modelId === 'Coin') return 'Exhibit-0869Inscription';
+  return 'Exhibit-Augustus';
+};
+
+const ExhibitPage = ({ modelId, onBack, onMenuToggle }: any) => {
+  useEffect(() => {
+    const spaceName = getExhibitSpaceName(modelId);
+    if ((window as any).load8thWallSpace) {
+      (window as any).load8thWallSpace(spaceName);
+    }
+    
+    return () => {
+      // Return to camera space when leaving exhibit
+      if ((window as any).load8thWallSpace) {
+        (window as any).load8thWallSpace('AR Camera Page');
+      }
+    };
+  }, [modelId]);
+
+  return (
+    <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', pointerEvents: 'none', zIndex: 1000 }}>
+      <button className="menu-btn exhibit-menu-btn" onClick={onMenuToggle} style={{ position: 'absolute', top: '24px', left: '20px', background: 'white', padding: '8px', borderRadius: '12px', pointerEvents: 'auto', border: 'none', boxShadow: '0 2px 10px rgba(0,0,0,0.1)', cursor: 'pointer' }}>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#78350f" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      
+      <button className="exhibit-back-btn" onClick={onBack} style={{ position: 'absolute', top: '24px', right: '20px', background: 'white', padding: '10px 16px', borderRadius: '24px', fontWeight: 'bold', border: 'none', cursor: 'pointer', boxShadow: '0 2px 10px rgba(0,0,0,0.1)', pointerEvents: 'auto', color: '#78350f' }}>
+        ← Back
+      </button>
+    </div>
+  );
+};
+
 const App = () => {
   // 'camera', 'detail', 'collection', 'characters', 'character_detail'
   const [currentView, setCurrentView] = useState("camera");
@@ -556,7 +592,22 @@ const App = () => {
         </>
       )}
 
-      {currentView === "detail" && <ArtifactDetailPage modelId={activeModel} onBack={() => setCurrentView("camera")} onMenuToggle={() => setIsMenuOpen(true)} />}
+      {currentView === "detail" && (
+        <ArtifactDetailPage 
+          modelId={activeModel} 
+          onBack={() => setCurrentView("camera")} 
+          onMenuToggle={() => setIsMenuOpen(true)} 
+          onViewExhibit={() => setCurrentView("exhibit")} 
+        />
+      )}
+
+      {currentView === "exhibit" && (
+        <ExhibitPage 
+          modelId={activeModel} 
+          onBack={() => setCurrentView("detail")} 
+          onMenuToggle={() => setIsMenuOpen(true)} 
+        />
+      )}
 
       {currentView === "collection" && (
         <PokedexPage

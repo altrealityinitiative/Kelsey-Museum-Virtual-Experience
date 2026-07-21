@@ -18,6 +18,11 @@ ecs.registerComponent({
   add: (world, component) => {
     const changeScene = setScene(world, component)
     world.events.addListener(component.eid, ecs.input.SCREEN_TOUCH_START, changeScene)
+
+    // Expose space loading to global window so React can trigger it
+    ;(window as any).load8thWallSpace = (spaceName: string) => {
+      world.spaces.loadSpace(spaceName)
+    }
   },
 
 })
