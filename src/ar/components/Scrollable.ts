@@ -2,7 +2,6 @@
 // This component will appear as a custom component in the editor.
 
 import * as ecs from "@8thwall/ecs"; // This is how you access the ecs library.
-import { maxHeaderSize } from "node:http";
 
 ecs.registerComponent({
   name: "Scrollable",

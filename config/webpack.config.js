@@ -47,12 +47,12 @@ const config = {
           noErrorOnMissing: true,
         },
         {
-          from: path.join(srcPath, 'overlay.css'),
+          from: path.join(srcPath, 'styles/overlay.css'),
           to: path.join(distPath, 'overlay.css'),
           noErrorOnMissing: true,
         },
         {
-          from: path.join(srcPath, 'ReactApp.css'),
+          from: path.join(srcPath, 'styles/ReactApp.css'),
           to: path.join(distPath, 'ReactApp.css'),
           noErrorOnMissing: true,
         },
