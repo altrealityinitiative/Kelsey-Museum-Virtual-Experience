@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" role="img" aria-labelledby="title desc">
+<title id="title">Ancient Rome: regional orientation</title><desc id="desc">Schematic Mediterranean map highlighting Ancient Rome. Not to scale; no excavation site or historical borders are represented.</desc>
+<rect width="600" height="320" fill="#dceff0"/><path d="M0 0h600v143l-63-7-50 17-39-10-38-21-42 5-37-18-30-27-51-21-71 12-26 50-32 9-7-23-66 6L0 101zM0 186l70-21 81 8 63 20 65-12 57 5 50-14 39 5 51-8 25 33 48 11 51-5v112H0z" fill="#e2cda8"/>
+<path d="M268 68l23 24-2 24 17 20-6 16-20-22-9-23-18-18z" fill="#a43a11"/><circle cx="278" cy="106" r="5" fill="#fff"/><text x="195" y="100">Rome / Italy</text>
+<g font-family="sans-serif" font-size="16" fill="#26363a"><text x="220" y="167">Mediterranean Sea</text><text x="78" y="247">North Africa</text><text x="60" y="46">Europe</text><text x="478" y="86">Near East</text><text x="20" y="305" font-size="12">Schematic regional guide · not to scale · no findspot implied</text></g></svg>

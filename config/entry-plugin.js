@@ -7,7 +7,14 @@ import scene from './.expanse.json'
 delete scene.history
 delete scene.historyVersion
 
-window.ecs.application.init(scene)
+let initialization
+window.initializeMuseumScene = () => {
+  if (!initialization) {
+    initialization = Promise.resolve().then(() => window.ecs.application.init(scene))
+      .catch(error => { initialization = undefined; throw error })
+  }
+  return initialization
+}
 
 if (module.hot) {
   const isInline = window.location.href.includes('liveSyncMode=inline')
@@ -20,8 +27,13 @@ if (module.hot) {
       delete updatedScene.history
       delete updatedScene.historyVersion
 
-      window.ecs.application.getScene().updateBaseObjects(updatedScene.objects)
-      window.ecs.application.getScene().updateDebug(updatedScene)
+      if (initialization) {
+        window.ecs.application.getScene().updateBaseObjects(updatedScene.objects)
+        window.ecs.application.getScene().updateDebug(updatedScene)
+      } else {
+        scene.objects = updatedScene.objects
+        scene.spaces = updatedScene.spaces
+      }
     }
 
   module.hot.accept('./.expanse.json', handler)
