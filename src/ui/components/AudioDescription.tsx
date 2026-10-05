@@ -14,9 +14,10 @@ export function AudioDescription({text, stop}: {text: string; stop: boolean}) {
     const utterance = new SpeechSynthesisUtterance(text); utterance.lang = "en-US";
     utterance.onboundary = e => {if (generation.current === token && e.name === "word") setPosition(e.charIndex);};
     utterance.onend = () => {if (generation.current === token) {setPlaying(false); setPosition(null);}};
-    utterance.onerror = () => {if (generation.current === token) {setError("Audio is unavailable. You can read the description below."); setPlaying(false);}};
+    const failed = () => {if (generation.current === token) {setError("Audio is unavailable. You can read the description below."); setPlaying(false); setPosition(null);}};
+    utterance.onerror = failed;
     setError(""); setPosition(null); setPlaying(true);
-    speechSynthesis.cancel(); speechSynthesis.speak(utterance);
+    try {speechSynthesis.cancel(); speechSynthesis.speak(utterance);} catch {failed();}
   };
   let offset = 0;
   return <section><div className="section-heading"><h2>Artifact Description</h2><button disabled={!supported} aria-pressed={playing} onClick={play}>{playing ? "Stop audio" : "Listen"}</button></div>

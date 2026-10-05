@@ -24,15 +24,19 @@ export const App = () => {
   const {destination, overlay} = visit;
   const main = useRef<HTMLElement>(null);
   const scroll = useRef<Record<string, number>>({});
+  const acceptingScan = useRef(false);
   const routeKey = JSON.stringify(destination);
+  useLayoutEffect(() => {acceptingScan.current = destination.page === "camera" && !overlay;}, [destination, overlay]);
   useEffect(() => {
     try {localStorage.setItem(STORAGE_KEY, JSON.stringify(progress)); setStorageWarning(false);} catch {setStorageWarning(true);}
   }, [progress]);
   useEffect(() => {
     const handleClick = (event: CustomEvent<{targetScene: string}>) => {
-      if (destination.page !== "camera" || overlay) return;
+      if (!acceptingScan.current) return;
       const id = scannedArtifact(event.detail?.targetScene);
       if (!id) return;
+      // Multiple ECS touch callbacks can arrive before React commits navigation.
+      acceptingScan.current = false;
       setProgress(previous => discover(previous, id));
       navigate({page: "artifact", id});
     };
@@ -43,7 +47,6 @@ export const App = () => {
     const node = main.current;
     node.scrollTop = scroll.current[routeKey] || 0;
     node.focus({preventScroll: true});
-    return () => {scroll.current[routeKey] = node.scrollTop;};
   }, [routeKey]);
   useEffect(() => {
     if (overlay !== "viewer") return;
@@ -63,7 +66,7 @@ export const App = () => {
   const detailId = destination.page === "artifact" ? destination.id : null;
   return <div className={`visitor-app ${progress.largeText ? "large-text" : ""} ${progress.highContrast ? "high-contrast" : ""} ${destination.page === "camera" ? "scanning" : ""}`}>
     <header className="visitor-header"><button aria-label="Open navigation menu" onClick={() => open("menu")}>☰</button><span className="brand">Kelsey Museum</span><div className="accessibility-controls"><button aria-label="Enlarge text" aria-pressed={progress.largeText} onClick={() => setProgress(previous => ({...previous, largeText: !previous.largeText}))}>Aa</button><button aria-label="Toggle high contrast" aria-pressed={progress.highContrast} onClick={() => setProgress(previous => ({...previous, highContrast: !previous.highContrast}))}>◐</button></div>{visit.depth > 0 && <button aria-label="Back" onClick={back}>←</button>}</header>
-    <main ref={main} tabIndex={-1} className="visitor-main" aria-label="Museum guide"><div className="visitor-content">
+    <main ref={main} tabIndex={-1} className="visitor-main" aria-label="Museum guide" onScroll={event => {scroll.current[routeKey] = event.currentTarget.scrollTop;}}><div className="visitor-content">
       {storageWarning && <p role="status" className="tip-box">This browser cannot save your progress. It will remain available until this page closes.</p>}
       {destination.page === "characters" && <Characters progress={progress} onSelect={select}/>}
       {destination.page === "character" && <CharacterDetail id={destination.id} progress={progress} onOpen={artifact} onScan={scan}/>}

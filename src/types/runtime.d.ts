@@ -8,8 +8,8 @@ declare const XR8: {
   pause: () => void;
   resume: () => void;
   isPaused: () => boolean;
-  run: (options: {canvas: HTMLCanvasElement}) => Promise<void>;
-  addCameraPipelineModule: (module: {name: string; onStart?: () => void; onCameraStatusChange?: (event: {status: string}) => void; onException?: (error: unknown) => void}) => void;
+  run: (options: {canvas: HTMLCanvasElement} & Record<string, unknown>) => Promise<void>;
+  addCameraPipelineModule: (module: {name: string; onStart?: () => void; onResume?: () => void; onRunConfigure?: (event: {config: Record<string, unknown>}) => void; onCameraStatusChange?: (event: {status: string; reason?: string}) => void; onException?: (error: unknown) => void}) => void;
   XrController: {
     configure: (options: { imageTargetData: unknown[] }) => void;
   };

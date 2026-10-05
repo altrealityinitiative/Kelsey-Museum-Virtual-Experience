@@ -20,7 +20,7 @@ export function ArtifactViewer({id, expanded, onExpand, onClose}: {id: ArtifactK
   useEffect(() => {
     const viewer = ref.current; if (!viewer) return;
     const loaded = () => {clearTimeout(timer); setStatus("ready");};
-    const failed = () => setStatus("error");
+    const failed = () => {clearTimeout(timer); setStatus("error");};
     viewer.addEventListener("load", loaded); viewer.addEventListener("error", failed);
     const timer = setTimeout(failed, 45000);
     if (viewer.loaded) loaded();
@@ -31,14 +31,23 @@ export function ArtifactViewer({id, expanded, onExpand, onClose}: {id: ArtifactK
     const previous = document.activeElement as HTMLElement;
     const shell = document.querySelector(".visitor-header") as HTMLElement;
     if (shell) shell.inert = true;
-    const buttons = () => Array.from(container.current.querySelectorAll<HTMLElement>("button:not(:disabled), [tabindex='0']"));
-    buttons()[0]?.focus();
+    const controls = () => {
+      const elements = Array.from(container.current.querySelectorAll<HTMLElement>("button:not(:disabled), [tabindex='0']"));
+      // The interactive model surface lives inside the custom element's shadow root.
+      const modelInput = ref.current?.shadowRoot?.querySelector<HTMLElement>(".userInput[tabindex='0']");
+      if (modelInput) elements.splice(expanded ? 1 : 0, 0, modelInput);
+      return elements;
+    };
+    controls()[0]?.focus();
     const keys = (e: KeyboardEvent) => {
       if (e.key === "Escape") {e.preventDefault(); onClose();}
       if (e.key === "Tab") {
         // Contain focus explicitly, including the model-viewer's shadow-root controls.
-        const list = buttons(); const index = list.indexOf(document.activeElement as HTMLElement);
-        e.preventDefault(); list[(index + (e.shiftKey ? -1 : 1) + list.length) % list.length]?.focus();
+        const list = controls();
+        const active = ref.current?.shadowRoot?.activeElement || document.activeElement;
+        const index = list.indexOf(active as HTMLElement);
+        const next = index < 0 ? (e.shiftKey ? list.length - 1 : 0) : (index + (e.shiftKey ? -1 : 1) + list.length) % list.length;
+        e.preventDefault(); list[next]?.focus();
       }
     };
     container.current.addEventListener("keydown", keys);
