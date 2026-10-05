@@ -86,13 +86,25 @@
 .visitor-app.scanning {background:transparent; pointer-events:none;}
 .scanning .visitor-header {pointer-events:auto;}
 .scanning .visitor-main,.scanning .visitor-content,.scanner-ui {pointer-events:none;}
-.scanner-ui {position:absolute; inset:90px 16px 24px; display:flex; align-items:flex-end; justify-content:center;}
-.scan-instructions {pointer-events:auto; max-width:580px; padding:18px 24px; background:var(--paper); border:1px solid var(--border); border-radius:18px; box-shadow:0 8px 30px #0003;}
-.scan-instructions h1 {font-size:1.4em;}
-.scan-instructions p {font-size:.85em;}
+.scanning .visitor-main {position:relative; overflow:hidden;}
+.scanning .visitor-content {height:100%; padding:0;}
+.scanner-ui {position:absolute; inset:0; display:flex; align-items:center; justify-content:center; padding:24px 24px 72px;}
+.visitor-app .scan-help {position:absolute; bottom:max(16px,env(safe-area-inset-bottom)); left:max(16px,env(safe-area-inset-left)); width:44px; height:44px; padding:0; border-radius:50%; font-weight:700; font-size:1.2em; pointer-events:auto; box-shadow:0 2px 12px #0002;}
+.scan-guide {display:flex; flex-direction:column; align-items:center; gap:18px; max-width:100%; max-height:100%;}
+.visitor-app .scan-caption {font-size:.9em; font-weight:500; line-height:1.5; letter-spacing:0; margin:0; max-width:24em; padding:8px 14px; border-radius:12px; text-align:center; background:#111b; color:#fff;}
+.scan-frame {position:relative; width:min(68vw,280px,44dvh); aspect-ratio:1; flex-shrink:0;}
+.scan-corner {position:absolute; width:40px; height:40px; border:3px solid #fff; filter:drop-shadow(0 1px 3px #0008);}
+.scan-corner.top-left {top:0;left:0;border-right:0;border-bottom:0;border-top-left-radius:18px;}
+.scan-corner.top-right {top:0;right:0;border-left:0;border-bottom:0;border-top-right-radius:18px;}
+.scan-corner.bottom-left {bottom:0;left:0;border-right:0;border-top:0;border-bottom-left-radius:18px;}
+.scan-corner.bottom-right {bottom:0;right:0;border-left:0;border-top:0;border-bottom-right-radius:18px;}
+.visitor-app .scan-status {font-size:.8em; margin:0; padding:6px 12px; border-radius:10px; background:#111b; color:#fff; text-align:center; max-width:24em;}
+.scan-error {pointer-events:auto; width:min(480px,100%); max-height:100%; padding:24px; background:var(--paper); color:var(--ink); border:1px solid var(--border); border-radius:18px; overflow:auto;}
+.scan-error h1 {font-size:1.4em; letter-spacing:0;}
 .visitor-app.large-text {font-size:20px;}
 .visitor-app.high-contrast {--surface:#000;--paper:#111;--ink:#fff;--muted:#eee;--accent:#ffda7b;--border:#fff;}
 .high-contrast .museum-card,.high-contrast .continue-banner,.high-contrast .tip-box,.high-contrast .fact-card,.high-contrast .model-frame,.high-contrast .card-link img {background:var(--paper); color:var(--ink);}
 .high-contrast .character-card button,.high-contrast button[aria-pressed=true],.high-contrast .step-number {background:#ffda7b;color:#000;}
 @media(max-width:640px) {.visitor-header{padding:10px 12px;gap:6px}.brand{font-size:1em}.visitor-header button{padding:.4em .6em}.visitor-content{padding:26px 16px 40px}.museum-card{padding:20px}.continue-banner,.character-biography{flex-direction:column;align-items:stretch}.character-biography img{width:100%;height:240px}.about-grid{grid-template-columns:1fr}.artifact-properties{grid-template-columns:1fr;gap:0}.model-frame{height:300px}.tutorial-step{gap:14px}.visitor-dialog{padding:20px}.page-intro{text-align:left}.large-text .brand{display:none}.large-text .accessibility-controls{margin-left:auto}}
+@media(max-height:500px) {.scanner-ui{padding:12px 72px}.scan-guide{gap:10px}.scan-frame{width:min(40vw,160px,max(48px,calc(100dvh - 260px)))}.visitor-app .scan-caption{font-size:.8em}.visitor-app .scan-status{font-size:.7em}}
 @media(prefers-reduced-motion:reduce) {.visitor-app *{scroll-behavior:auto!important;animation:none!important;transition:none!important}}

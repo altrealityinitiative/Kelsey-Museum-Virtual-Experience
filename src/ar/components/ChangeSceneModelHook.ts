@@ -1,10 +1,10 @@
 import * as ecs from "@8thwall/ecs";
 
-const setScene = (world, component) => (e) => {
+const setScene = (targetScene: string) => () => {
   // Instead of loading the old 8th Wall Studio UI spaces, dispatch an event for React to intercept
   window.dispatchEvent(
     new CustomEvent("AR_MODEL_CLICKED", {
-      detail: { targetScene: component.schema.targetScene },
+      detail: { targetScene },
     }),
   );
 };
@@ -18,7 +18,8 @@ ecs.registerComponent({
   data: {},
 
   add: (world, component) => {
-    const changeScene = setScene(world, component);
+    // ECS reuses this cursor for other entities; retain the string, not the cursor.
+    const changeScene = setScene(component.schema.targetScene);
     world.events.addListener(
       component.eid,
       ecs.input.SCREEN_TOUCH_START,

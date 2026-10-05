@@ -2,6 +2,8 @@
   "entrySpaceId": "20220416-071d-4dcf-b78f-26f25d2e77ba",
   "objects": {
     "11db7428-caa9-48b0-99bf-2f3d85b3f98f": {
+      "disabled": true,
+      "hidden": true,
       "components": {
         "20d13b8c-85d4-4fe9-9249-eacb05559176": {
           "id": "20d13b8c-85d4-4fe9-9249-eacb05559176",

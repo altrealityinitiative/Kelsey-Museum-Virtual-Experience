@@ -55,6 +55,13 @@ export function ArtifactViewer({id, expanded, onExpand, onClose}: {id: ArtifactK
     return () => {node.removeEventListener("keydown", keys); if (shell) shell.inert = false; if (previous?.isConnected) previous.focus();};
   }, [expanded]);
   const orbit = (delta: number) => {const viewer = ref.current; if (!viewer) return; const camera = viewer.getCameraOrbit(); viewer.cameraOrbit = `${camera.theta + delta}rad ${camera.phi}rad ${camera.radius}m`;};
+  const zoom = (inward: boolean) => {
+    const viewer = ref.current; if (!viewer) return;
+    const camera = viewer.getCameraOrbit();
+    // Update camera distance directly; zoom() synthesizes wheel input.
+    const radius = inward ? camera.radius * .85 : camera.radius / .85;
+    viewer.cameraOrbit = `${camera.theta}rad ${camera.phi}rad ${radius}m`;
+  };
   return <div ref={container} className={`artifact-viewer ${expanded ? "viewer-expanded" : ""}`} role={expanded ? "dialog" : "group"} aria-modal={expanded || undefined} aria-label={`${artifact.name} 3D viewer`}>
     {expanded && <button className="collapse-viewer" onClick={onClose}>Close expanded view</button>}
     <div className="model-frame">
@@ -65,6 +72,6 @@ export function ArtifactViewer({id, expanded, onExpand, onClose}: {id: ArtifactK
       }) : <img src={artifact.thumbnail} alt={artifact.name}/>}
     </div>
     <div className="viewer-status" role="status">{status === "loading" ? "Loading 3D model…" : status === "error" ? <>3D view could not load. The artifact image is still available. <button onClick={() => {setStatus("loading"); setAttempt(value => value + 1);}}>Retry 3D model</button></> : "Drag to rotate · Pinch or use buttons to zoom"}</div>
-    <div className="button-row viewer-buttons"><button disabled={status !== "ready"} aria-label="Zoom out" onClick={() => ref.current?.zoom(-1)}>−</button><button disabled={status !== "ready"} aria-label="Rotate left" onClick={() => orbit(-Math.PI / 6)}>↶</button><button disabled={status !== "ready"} onClick={() => {ref.current.cameraOrbit = experience.orbit; ref.current.cameraTarget = "auto auto auto"; ref.current.fieldOfView = "auto";}}>Reset</button><button disabled={status !== "ready"} aria-label="Rotate right" onClick={() => orbit(Math.PI / 6)}>↷</button><button disabled={status !== "ready"} aria-label="Zoom in" onClick={() => ref.current?.zoom(1)}>+</button>{!expanded && <button onClick={onExpand}>Expand</button>}</div>
+    <div className="button-row viewer-buttons"><button disabled={status !== "ready"} aria-label="Zoom out" onClick={() => zoom(false)}>−</button><button disabled={status !== "ready"} aria-label="Rotate left" onClick={() => orbit(-Math.PI / 6)}>↶</button><button disabled={status !== "ready"} onClick={() => {ref.current.cameraOrbit = experience.orbit; ref.current.cameraTarget = "auto auto auto"; ref.current.fieldOfView = "auto";}}>Reset</button><button disabled={status !== "ready"} aria-label="Rotate right" onClick={() => orbit(Math.PI / 6)}>↷</button><button disabled={status !== "ready"} aria-label="Zoom in" onClick={() => zoom(true)}>+</button>{!expanded && <button onClick={onExpand}>Expand</button>}</div>
   </div>;
 }
